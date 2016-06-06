@@ -281,7 +281,7 @@ Clone the git repositories for litecoin and Gitian and then checkout the litecoi
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/litecoin-project/litecoin.git
+git clone https://github.com/genavarov/litecoin.git
 cd litecoin
 git checkout v${VERSION}
 cd ..
@@ -337,7 +337,7 @@ Output from `gbuild` will look something like
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/litecoin-project/litecoin
+    From https://github.com/genavarov/litecoin
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up

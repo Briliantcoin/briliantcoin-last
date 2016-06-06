@@ -24,8 +24,8 @@ Build-Depends: debhelper,
  python
 Standards-Version: 3.9.2
 Homepage: https://www.litecoin.org/
-Vcs-Git: git://github.com/litecoin-project/litecoin.git
-Vcs-Browser: https://github.com/litecoin-project/litecoin
+Vcs-Git: git://github.com/genavarov/litecoin.git
+Vcs-Browser: https://github.com/genavarov/litecoin
 
 Package: litecoind
 Architecture: any
