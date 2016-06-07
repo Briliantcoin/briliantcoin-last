@@ -77,7 +77,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
         boost::assign::map_list_of
-        ( 0, uint256("3650e7f70909fb5fc20ebb5935ec2ea44bb0595f086fd2a85951d722055e1068"))
+        ( 0, uint256("0x3650e7f70909fb5fc20ebb5935ec2ea44bb0595f086fd2a85951d722055e1068"))
         ;
 static const Checkpoints::CCheckpointData dataRegtest = {
         &mapCheckpointsRegtest,
@@ -183,7 +183,7 @@ public:
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        vAlertPubKey = ParseHex("04e4a7385f52576fd135a549d1d64d02c05bf1ae1d519dfe27618a84eda85535e52339bd3f4b93f1f8939597a3cd99d309f4c579576838b929d364e278ffb49b57");
+        vAlertPubKey = ParseHex("041fd79edcedf0e60cd1b418cbd0bb1c8c4cb253127601cdc11d3ab6f012f3903d4bf6d31dddadfb4fe712a8e958a495091f47f67d08d0d9e5a368ce21b861f4bf");
         nDefaultPort = 19333;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -203,6 +203,7 @@ public:
         vSeeds.clear();
 		vSeeds.push_back(CDNSSeedData("192.168.1.103", "192.168.1.107"));
 
+		
         base58Prefixes[PUBKEY_ADDRESS] = list_of(111);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
         base58Prefixes[SECRET_KEY]     = list_of(239);
