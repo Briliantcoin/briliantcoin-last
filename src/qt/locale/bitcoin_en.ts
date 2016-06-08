@@ -1708,7 +1708,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../litecoinunits.cpp" line="+194"/>
+        <location filename="../bitcoinunits.cpp" line="+194"/>
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
