@@ -60,10 +60,11 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 		( 256, uint256("0x45f6c5a841bf0a8c5c0248dcd805e42a73a095d87919f4c3c68633f9e060d510"))
 		( 512, uint256("0xcfa68ca897f5a363bdd3413d106658acffea850cfd6c66c3edb2333cb10730a3"))
 		( 1024, uint256("0xeade7ff5993738934a05c381ebcef19065bdcbc01543ddaad13ad7691c0fb4c9"))
+		( 2048, uint256("0xb2dcbf8e530ed8934b2cdd21c95f801ea473e70225463940b4634e5c8232fd35"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1465236366, // * UNIX timestamp of last checkpoint block
+        1465871653, // * UNIX timestamp of last checkpoint block b2dcbf8e530ed8934b2cdd21c95f801ea473e70225463940b4634e5c8232fd35
         0,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         5500.0     // * estimated number of transactions per day after checkpoint
@@ -108,7 +109,7 @@ public:
         vAlertPubKey = ParseHex("04e4a7385f52576fd135a549d1d64d02c05bf1ae1d519dfe27618a84eda85535e52339bd3f4b93f1f8939597a3cd99d309f4c579576838b929d364e278ffb49b57");
         nDefaultPort = 9333;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
-        nSubsidyHalvingInterval = 840000;
+        nSubsidyHalvingInterval = 840;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
