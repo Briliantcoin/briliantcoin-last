@@ -1242,9 +1242,9 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
 
 
 // miner's coin base reward based on nBits
-int64 GetProofOfWorkReward(unsigned int nHeight)
+CAmount GetProofOfWorkReward(unsigned int nHeight)
 {
-        int64 nSubsidy = 5000 * COIN;
+        CAmount nSubsidy = 5000 * COIN;
 
 		if (nHeight < 2101)
 			nSubsidy = 5000 * COIN; // 10,500000 coins
