@@ -1,6 +1,6 @@
 [Protocol]
-exec=litecoin-qt '%u'
-protocol=litecoin
+exec=lamacoin-qt '%u'
+protocol=lamacoin
 input=none
 output=none
 helper=true

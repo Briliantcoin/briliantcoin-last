@@ -1,12 +1,12 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/test/test_litecoin
-src/qt/test/test_litecoin-qt
+src/lamacoin
+src/lamacoind
+src/lamacoin-cli
+src/lamacoin-tx
+src/test/test_lamacoin
+src/qt/test/test_lamacoin-qt
 
 # autoreconf
 Makefile.in
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
-Litecoin-Qt.app
+lamacoin-qt
+Lamacoin-Qt.app
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+lamacoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp
