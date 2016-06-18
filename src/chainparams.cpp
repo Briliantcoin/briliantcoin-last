@@ -61,14 +61,16 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 		( 32, uint256("0x22c03da069072d8214d7d5617088605a2645671a7d69e2a8914dc59ee1449c9a"))
 		( 64, uint256("0xa32b7960e35ae2f9ef83a8b7507bc3fffc6959ef27c46ed4ebdbabf9e661375d"))
 		( 128, uint256("0x172d100cf86135d03da12936d3174b68beba7752bf208ee5eacfd44012cd066e"))
-		//( 256, uint256("0x45f6c5a841bf0a8c5c0248dcd805e42a73a095d87919f4c3c68633f9e060d510"))
-		//( 512, uint256("0xcfa68ca897f5a363bdd3413d106658acffea850cfd6c66c3edb2333cb10730a3"))
-		//( 1024, uint256("0xeade7ff5993738934a05c381ebcef19065bdcbc01543ddaad13ad7691c0fb4c9"))
-		//( 2048, uint256("0xb2dcbf8e530ed8934b2cdd21c95f801ea473e70225463940b4634e5c8232fd35"))
+		( 256, uint256("0xa83edd96dff905aab89680cf376d990f442bdc132df9b7d46f07046544f277c5"))
+		( 320, uint256("0xac3f4a4848c822e38eeb4d833b1302d44a91089179a996efbb9ea50336cb3487"))
+		( 256, uint256("0xa83edd96dff905aab89680cf376d990f442bdc132df9b7d46f07046544f277c5"))
+		( 512, uint256("0x01886cc19b158c46472c83829058c6e35f965f18aa5c1df66810f883e6aeb45f"))
+		( 640, uint256("0xe231c11c65df42ace83345c0aa13d87f73399c853dbdbf93f868399e06b263c1"))
+		( 700, uint256("0x23e1e416dfb233c4271dfd05b1c7c078099a6ec0dc36fbfa5a22014da157a340"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1466072160, // * UNIX timestamp of last checkpoint block b2dcbf8e530ed8934b2cdd21c95f801ea473e70225463940b4634e5c8232fd35
+        1466126642, // * UNIX timestamp of last checkpoint block b2dcbf8e530ed8934b2cdd21c95f801ea473e70225463940b4634e5c8232fd35
         0,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         5500.0     // * estimated number of transactions per day after checkpoint
@@ -193,7 +195,8 @@ public:
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        vAlertPubKey = ParseHex("045413a69945feab5cd832b1a499202d17baabd4792df7da55251f022103054691bb6b9fa59599f47578c6889203196d15e2d522d5c6ac7a17563e1a504e8a1a29");
+		vAlertPubKey = ParseHex("04c012eb4585bffc0c400b4dc498d18cfddd814eb5185b807883f63b74172e2e743473923b667108daf5d3d1e2e7f1cdc49fdba36a60d87a202e42aa04780c5a8e");
+        //vAlertPubKey = ParseHex("045413a69945feab5cd832b1a499202d17baabd4792df7da55251f022103054691bb6b9fa59599f47578c6889203196d15e2d522d5c6ac7a17563e1a504e8a1a29");
         nDefaultPort = 19333;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
