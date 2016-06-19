@@ -1241,14 +1241,12 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
 }
 
 
-CAmount GetBlockValue(int nHeight, const CAmount& nFees)
+// miner's coin base reward based on nBits
+CAmount GetProofOfWorkReward(unsigned int nHeight)
 {
-    CAmount nSubsidy = 5000 * COIN; //const
-	//const int nHeight = pindexPrev->nHeight + 1;
-	//GetProofOfWorkReward(pindexPrev->nHeight+1);
-	//CAmount nSubsidy = GetProofOfWorkReward(nHeight);
-	
-			if (nHeight < 2101)
+        CAmount nSubsidy = 5000 * COIN;
+
+		if (nHeight < 2101)
 			nSubsidy = 5000 * COIN; // 10,500000 coins
 		else if (nHeight < 4201)
 			nSubsidy = 2500 * COIN; // 5,250000 coins
@@ -1272,6 +1270,18 @@ CAmount GetBlockValue(int nHeight, const CAmount& nFees)
 			nSubsidy = 50 * COIN; // 50/2 coins
 		else if (nHeight > 840000)
 			nSubsidy = 50 * COIN; // 0.5% coins per year POW Inflation
+
+    	return nSubsidy;
+}
+
+CAmount GetBlockValue(int nHeight, const CAmount& nFees)
+{
+    //CAmount nSubsidy = 5000 * COIN; //const
+	//const int nHeight = pindexPrev->nHeight + 1;
+	//GetProofOfWorkReward(pindexPrev->nHeight+1);
+	//CAmount nSubsidy = GetProofOfWorkReward(nHeight);
+	
+
 	
     int halvings = nHeight / Params().SubsidyHalvingInterval();
 
