@@ -55,9 +55,6 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         ( 0, uint256("0xd77cb63a40042d73a83142383c7872c123cda7253db1d9c0effc8a029ca857b2"))
-        ( 8, uint256("0x8b1a062ac3af6d6711e1a62f633bca62487ed46b393bca893573f00ca62cd56a"))
-        ( 16, uint256("0xf9f20eb91a0ea3e5e7196a1fc55d63667aca9c00cf739d2a27a84375fc70a7df"))
-        ( 32, uint256("0x22c03da069072d8214d7d5617088605a2645671a7d69e2a8914dc59ee1449c9a"))
         ( 64, uint256("0xa32b7960e35ae2f9ef83a8b7507bc3fffc6959ef27c46ed4ebdbabf9e661375d"))
         ( 128, uint256("0x172d100cf86135d03da12936d3174b68beba7752bf208ee5eacfd44012cd066e"))
         ( 256, uint256("0xa83edd96dff905aab89680cf376d990f442bdc132df9b7d46f07046544f277c5"))
@@ -111,7 +108,7 @@ public:
         vAlertPubKey = ParseHex("043014c67b78f95c8964ba4f10bc83ce6dbee8d6afeb0570552e2f7562f83a5ae6cc937900545ab5c30a84565315d55107d5269e816c50e4080ca89dc2cc64e9c2");
         nDefaultPort = 9333;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
-        nSubsidyHalvingInterval = 210000;
+        nSubsidyHalvingInterval = 840000;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
