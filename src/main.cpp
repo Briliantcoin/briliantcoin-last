@@ -1279,9 +1279,7 @@ CAmount GetBlockValue(int nHeight, const CAmount& nFees)
     //CAmount nSubsidy = 5000 * COIN; //const
 	//const int nHeight = pindexPrev->nHeight + 1;
 	//GetProofOfWorkReward(pindexPrev->nHeight+1);
-	//CAmount nSubsidy = GetProofOfWorkReward(nHeight);
-	
-
+	CAmount nSubsidy = GetProofOfWorkReward(nHeight);
 	
     int halvings = nHeight / Params().SubsidyHalvingInterval();
 
