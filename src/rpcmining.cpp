@@ -808,6 +808,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
 		//}
 		//GetAdjustedTime and chainActive.Height()+1
 		unsigned int nHeightMaxNext = ((chainActive.Tip()->GetBlockTime() - Params().GenesisBlock().GetBlockTime() + Params().TargetSpacing())/Params().TargetSpacing());
+		//if (chainActive.Height() > 100){
 		if (chainActive.Height()+1 > nHeightMaxNext) {
 			
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Timeout: Invalid over hight limit next block, unable to create new block! wait 10 min...");
@@ -815,6 +816,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
 		MilliSleep(600000);
 		    
         }
+		//}else{}
 		//GetAdjustedTime  int64_t nNow = GetAdjustedTime();
 		unsigned int nHeightMaxnTime = ((GetAdjustedTime() - Params().GenesisBlock().GetBlockTime() + Params().TargetSpacing())/Params().TargetSpacing());
 		if (chainActive.Height()+1 > nHeightMaxnTime) {

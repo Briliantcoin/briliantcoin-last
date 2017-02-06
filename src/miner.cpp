@@ -741,6 +741,7 @@ void static BitcoinMiner(CWallet *pwallet)
 			}
 			//GetAdjustedTime and chainActive.Height()+1
 			unsigned int nHeightMaxNext = ((chainActive.Tip()->GetBlockTime() - Params().GenesisBlock().GetBlockTime() + Params().TargetSpacing())/Params().TargetSpacing());
+			if (chainActive.Height() > 100){
 			if (chainActive.Height()+1 > nHeightMaxNext) {
                 // Mark block as in flight already
                 LogPrintf("Timeout in LibracoinMiner : Invalid time: %s over hight limit next block (%s), unable to create new block ! wait 5 min...\n", GetAdjustedTime(), chainActive.Height()+1);
@@ -748,6 +749,7 @@ void static BitcoinMiner(CWallet *pwallet)
 				MilliSleep(300000);
 						 
             }
+			}else{}
 			//GetAdjustedTime
 			unsigned int nHeightMaxnTime = ((GetAdjustedTime() - Params().GenesisBlock().GetBlockTime() + Params().TargetSpacing())/Params().TargetSpacing());
 			if (chainActive.Height()+1 > nHeightMaxnTime) {
