@@ -478,14 +478,7 @@ void static BitcoinMiner(CWallet *pwallet)
 				int64_t nNowBack = GetAdjustedTime() - nNowCent; 
 		//LogPrintf("Testing 0 in LibracoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
 			
-			//if ((chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()) { //not need time for generate
-                //Timeout again after new block - speed up if late
-				//LogPrintf("Testing 6 in LibracoinMiner : Res Central time: %s over limit: (%s), Last -NowBack time create new block.\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack);
-				//int64_t nNowSleep = GetAdjustedTime() - (chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack);
-				//LogPrintf("Timeout in LibracoinMiner (Test) : Now time: %s over hight limit active block (%s), unable to create new block ! wait...\n", GetAdjustedTime(), chainActive.Height());
-				//LogPrintf("Timeout in LibracoinMiner (Test) : Now time: %s ! Invalid time. Sync and set the current time! wait %s sec...\n", GetAdjustedTime(), nNowSleep);
-				//MilliSleep(nNowSleep*1000);
-			//}
+			
 			//unsigned int nHeightNext = pindexPrev->nHeight+1; //chainActive.Height()+1;
 			//if (chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() > GetAdjustedTime()) { //not time for generate
 			if (((chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() > GetAdjustedTime()) && ((chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime())) || ((chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime())) { //not time for generate
@@ -520,31 +513,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						else
 						{	
-							if (nValue > nSubsidyMin*8){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:25 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 12 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(88000);
-							}
-							else if (nValue > nSubsidyMin*4){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:30 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 10 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(90000);
-							}
-							else if (nValue > nSubsidyMin*2){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:35 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 5 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(95000);
-							}
-							else
-							{
-					        LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:40 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							MilliSleep(100000);
-							}
 						}
 						
 					}//End Check amount
@@ -580,31 +549,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						else
 						{	
-							if (nValue > nSubsidyMin*8){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:30 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 12 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(90000);
-							}
-							else if (nValue > nSubsidyMin*4){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:34 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 8 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(94000);
-							}
-							else if (nValue > nSubsidyMin*2){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:38 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 4 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(98000);
-							}
-							else
-							{
-					        LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:42 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(102000);
-							}
+							MilliSleep(100000);
 						}
 						
 					}//End Check amount
@@ -640,31 +585,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						else
 						{	
-					        if (nValue > nSubsidyMin*8){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:40 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 15 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(100000);
-							}
-							else if (nValue > nSubsidyMin*4){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 10 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(105000);
-							}
-							else if (nValue > nSubsidyMin*2){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:50 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 5 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(110000);
-							}
-							else
-							{
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:55 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(115000);
-							}
+					        MilliSleep(110000);
 						}
 						
 					}//End Check amount
@@ -700,31 +621,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						else
 						{	
-					        if (nValue > nSubsidyMin*8){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:50 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 15 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(110000);
-							}
-							else if (nValue > nSubsidyMin*4){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:55 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 10 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(115000);
-							}
-							else if (nValue > nSubsidyMin*2){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 5 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(120000);
-							}
-							else
-							{
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:05 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(125000);
-							}
+					        MilliSleep(120000);
 						}
 						
 					}//End Check amount
@@ -760,31 +657,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						else
 						{	
-					        if (nValue > nSubsidyMin*8){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:12 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 6 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(132000);
-							}
-							else if (nValue > nSubsidyMin*4){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:14 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 4 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(134000);
-							}
-							else if (nValue > nSubsidyMin*2){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:16 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 2 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(136000);
-							}
-							else
-							{
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:18 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(138000);
-							}
+					        MilliSleep(130000);
 						}
 						
 					}//End Check amount
@@ -820,31 +693,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						else
 						{	
-					        if (nValue > nSubsidyMin*8){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:16 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 6 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(136000);
-							}
-							else if (nValue > nSubsidyMin*4){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:18 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 4 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(138000);
-							}
-							else if (nValue > nSubsidyMin*2){
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
-							//return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 2 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(140000);
-							}
-							else
-							{
-							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:22 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(142000);
-							}
+					        MilliSleep(135000);
 						}
 						
 					}//End Check amount
@@ -881,10 +730,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						else
 						{	
-					        LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:30 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							MilliSleep(150000);
+					        MilliSleep(145000);
 						}
 						
 					}//End Check amount
