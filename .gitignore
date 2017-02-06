@@ -1,12 +1,12 @@
 *.tar.gz
 
 *.exe
-src/libracoin
-src/libracoind
-src/libracoin-cli
-src/libracoin-tx
-src/test/test_libracoin
-src/qt/test/test_libracoin-qt
+src/lavrovcoin
+src/lavrovcoind
+src/lavrovcoin-cli
+src/lavrovcoin-tx
+src/test/test_lavrovcoin
+src/qt/test/test_lavrovcoin-qt
 
 # autoreconf
 Makefile.in
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-libracoin-qt
-Libracoin-Qt.app
+lavrovcoin-qt
+Lavrovcoin-Qt.app
 
 # Unit-tests
 Makefile.test
-libracoin-qt_test
+lavrovcoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp

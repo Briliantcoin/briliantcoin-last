@@ -8,21 +8,21 @@
 #   CXX                         C++ Compiler path
 #   PLATFORM_LDFLAGS            Linker flags
 #   PLATFORM_LIBS               Libraries flags
-#   PLATFORM_SHARED_EXT         Extension for shared libraries
-#   PLATFORM_SHARED_LDFLAGS     Flags for building shared library
+#   PLATFORM_SHARED_EXT         Extension for shared lavrovcories
+#   PLATFORM_SHARED_LDFLAGS     Flags for building shared lavrovcory
 #                               This flag is embedded just before the name
-#                               of the shared library without intervening spaces
-#   PLATFORM_SHARED_CFLAGS      Flags for compiling objects for shared library
+#                               of the shared lavrovcory without intervening spaces
+#   PLATFORM_SHARED_CFLAGS      Flags for compiling objects for shared lavrovcory
 #   PLATFORM_CCFLAGS            C compiler flags
 #   PLATFORM_CXXFLAGS           C++ compiler flags.  Will contain:
 #   PLATFORM_SHARED_VERSIONED   Set to 'true' if platform supports versioned
-#                               shared libraries, empty otherwise.
+#                               shared lavrovcories, empty otherwise.
 #
 # The PLATFORM_CCFLAGS and PLATFORM_CXXFLAGS might include the following:
 #
 #       -DLEVELDB_ATOMIC_PRESENT     if <atomic> is present
 #       -DLEVELDB_PLATFORM_POSIX     for Posix-based platforms
-#       -DSNAPPY                     if the Snappy library is present
+#       -DSNAPPY                     if the Snappy lavrovcory is present
 #
 
 OUTPUT=$1
@@ -131,7 +131,7 @@ case "$TARGET_OS" in
     OS_ANDROID_CROSSCOMPILE)
         PLATFORM=OS_ANDROID
         COMMON_FLAGS="$MEMCMP_FLAG -D_REENTRANT -DOS_ANDROID -DLEVELDB_PLATFORM_POSIX"
-        PLATFORM_LDFLAGS=""  # All pthread features are in the Android C library
+        PLATFORM_LDFLAGS=""  # All pthread features are in the Android C lavrovcory
         PORT_FILE=port/port_posix.cc
         CROSS_COMPILE=true
         ;;

@@ -60,11 +60,11 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += libracoind
+  bin_PROGRAMS += lavrovcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += libracoin-cli libracoin-tx
+  bin_PROGRAMS += lavrovcoin-cli lavrovcoin-tx
 endif
 
 .PHONY: FORCE
@@ -201,7 +201,7 @@ libbitcoin_wallet_a_SOURCES = \
   walletdb.cpp \
   $(BITCOIN_CORE_H)
 
-# crypto primitives library
+# crypto primitives lavrovcory
 crypto_libbitcoin_crypto_a_CPPFLAGS = $(BITCOIN_CONFIG_INCLUDES)
 crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha1.cpp \
@@ -222,7 +222,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sha1.h \
   crypto/ripemd160.h
 
-# univalue JSON library
+# univalue JSON lavrovcory
 univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue.cpp \
   univalue/univalue_read.cpp \
@@ -259,7 +259,7 @@ libbitcoin_common_a_SOURCES = \
   $(BITCOIN_CORE_H)
 
 # util: shared between all executables.
-# This library *must* be included to make sure that the glibc
+# This lavrovcory *must* be included to make sure that the glibc
 # backward-compatibility objects and their sanity checks are linked.
 libbitcoin_util_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_util_a_SOURCES = \
@@ -292,8 +292,8 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# libracoind binary #
-libracoind_LDADD = \
+# lavrovcoind binary #
+lavrovcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -304,35 +304,35 @@ libracoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_WALLET
-libracoind_LDADD += libbitcoin_wallet.a
+lavrovcoind_LDADD += libbitcoin_wallet.a
 endif
-libracoind_SOURCES = bitcoind.cpp
+lavrovcoind_SOURCES = bitcoind.cpp
 #
 
 if TARGET_WINDOWS
-libracoind_SOURCES += bitcoind-res.rc
+lavrovcoind_SOURCES += bitcoind-res.rc
 endif
 
-libracoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-libracoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-libracoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+lavrovcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+lavrovcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+lavrovcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 # bitcoin-cli binary #
-libracoin_cli_LDADD = \
+lavrovcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-libracoin_cli_SOURCES = \
+lavrovcoin_cli_SOURCES = \
   bitcoin-cli.cpp
 
-libracoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+lavrovcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
 # bitcoin-tx binary #
-libracoin_tx_LDADD = \
+lavrovcoin_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -341,15 +341,15 @@ libracoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-libracoin_tx_SOURCES = bitcoin-tx.cpp
-libracoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+lavrovcoin_tx_SOURCES = bitcoin-tx.cpp
+lavrovcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-libracoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+lavrovcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-libracoin_cli_SOURCES += bitcoin-cli-res.rc
+lavrovcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
-libracoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+lavrovcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

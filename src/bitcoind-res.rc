@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Libracoin"
-            VALUE "FileDescription",    "Libracoind (OSS daemon/client for Libracoin)"
+            VALUE "CompanyName",        "Lavrovcoin"
+            VALUE "FileDescription",    "Lavrovcoind (OSS daemon/client for Lavrovcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "libracoind"
+            VALUE "InternalName",       "lavrovcoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "libracoind.exe"
-            VALUE "ProductName",        "Libracoind"
+            VALUE "OriginalFilename",   "lavrovcoind.exe"
+            VALUE "ProductName",        "Lavrovcoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

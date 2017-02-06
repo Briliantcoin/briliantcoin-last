@@ -62,12 +62,12 @@
         <translation>آدرس های دریافت کننده</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>این‌ها نشانی‌های Libracoin شما برای ارسال وجود هستند. همیشه قبل از ارسال سکه‌ها، نشانی دریافت‌کننده و مقدار ارسالی را بررسی کنید.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>این‌ها نشانی‌های Lavrovcoin شما برای ارسال وجود هستند. همیشه قبل از ارسال سکه‌ها، نشانی دریافت‌کننده و مقدار ارسالی را بررسی کنید.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>این‌ها نشانی‌های Libracoin شما برای دریافت وجوه هستند. توصیه می‌شود یک نشانی دریافت جدید برای هر تبادل استفاده کنید.</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>این‌ها نشانی‌های Lavrovcoin شما برای دریافت وجوه هستند. توصیه می‌شود یک نشانی دریافت جدید برای هر تبادل استفاده کنید.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -180,8 +180,8 @@
         <translation>رمز جدید کیف پول خود را وارد کنید.&lt;br/&gt;از رمز عبوری استفاده کنید که&lt;b&gt; حداقل 10  کاراکتر تصادفی &lt;/b&gt; و یا &lt;b&gt; حداقل 8 حرف داشته باشد.&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کردن کیف پول‌تان نمی‌تواند به طور کامل Libracoin‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که احتمالاً رایانهٔ شما را آلوده می‌کنند، محافظت نماید.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کردن کیف پول‌تان نمی‌تواند به طور کامل Lavrovcoin‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که احتمالاً رایانهٔ شما را آلوده می‌کنند، محافظت نماید.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,12 +295,12 @@
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>ارسال وجه به نشانی Libracoin</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>ارسال وجه به نشانی Lavrovcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>تغییر و اصلاح تنظیمات پیکربندی Libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>تغییر و اصلاح تنظیمات پیکربندی Lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,8 +323,8 @@
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,8 +339,8 @@
         <translation>&amp;دریافت</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>نمایش اطلاعات در مورد Libracoin</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>نمایش اطلاعات در مورد Lavrovcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,12 +355,12 @@
         <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
-        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Libracoin خود امضا کنید</translation>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Lavrovcoin خود امضا کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Libracoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Lavrovcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,12 +379,12 @@
         <translation>نوارابزار برگه‌ها</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation> هسته Libracoin </translation>
+        <source>Lavrovcoin Core</source>
+        <translation> هسته Lavrovcoin </translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>درباره هسته ی Libracoin</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>درباره هسته ی Lavrovcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -395,8 +395,8 @@
         <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n ارتباط فعال با شبکهٔ Libracoin</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n ارتباط فعال با شبکهٔ Lavrovcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -660,8 +660,8 @@ Address: %4
         <translation>نشانی وارد شده «%1» در حال حاضر در دفترچه وجود دارد.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>نشانی وارد شده «%1» یک نشانی معتبر Libracoin نیست.</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>نشانی وارد شده «%1» یک نشانی معتبر Lavrovcoin نیست.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -698,16 +698,16 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation> هسته Libracoin </translation>
+        <source>Lavrovcoin Core</source>
+        <translation> هسته Lavrovcoin </translation>
     </message>
     <message>
         <source>version</source>
         <translation>نسخه</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>درباره هسته ی Libracoin</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>درباره هسته ی Lavrovcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -749,11 +749,11 @@ Address: %4
         <translation>خوش‌آمدید</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>به هسته Libracoin خوش آمدید.</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>به هسته Lavrovcoin خوش آمدید.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Libracoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Lavrovcoin Core will store its data.</source>
         <translation>از آنجایی که این اولین اجرای برنامه است، شما می‌توانید مسیر ذخیرهٔ داده‌ها را انتخاب کنید.</translation>
     </message>
     <message>
@@ -765,8 +765,8 @@ Address: %4
         <translation>استفاده از یک مسیر سفارشی:</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation> هسته Libracoin </translation>
+        <source>Lavrovcoin Core</source>
+        <translation> هسته Lavrovcoin </translation>
     </message>
     <message>
         <source>Error</source>
@@ -787,12 +787,12 @@ Address: %4
         <translation>&amp;عمومی</translation>
     </message>
     <message>
-        <source>Automatically start Libracoin after logging in to the system.</source>
-        <translation>اجرای خودکار Libracoin در زمان ورود به سیستم.</translation>
+        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <translation>اجرای خودکار Lavrovcoin در زمان ورود به سیستم.</translation>
     </message>
     <message>
-        <source>&amp;Start Libracoin on system login</source>
-        <translation>&amp;اجرای Libracoin با ورود به سیستم</translation>
+        <source>&amp;Start Lavrovcoin on system login</source>
+        <translation>&amp;اجرای Lavrovcoin با ورود به سیستم</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -811,8 +811,8 @@ Address: %4
         <translation>استخراج</translation>
     </message>
     <message>
-        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>باز کردن خودکار درگاه شبکهٔ Libracoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>باز کردن خودکار درگاه شبکهٔ Lavrovcoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -859,8 +859,8 @@ Address: %4
         <translation>زبان &amp;رابط کاربری:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Libracoin.</source>
-        <translation>زبان رابط کاربر می‌تواند در این‌جا تنظیم شود. تنظیمات بعد از ظروع مجدد Libracoin اعمال خواهد شد.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
+        <translation>زبان رابط کاربر می‌تواند در این‌جا تنظیم شود. تنظیمات بعد از ظروع مجدد Lavrovcoin اعمال خواهد شد.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -906,8 +906,8 @@ Address: %4
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Libracoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Lavrovcoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -969,8 +969,8 @@ Address: %4
         <translation>خطای درخواست پرداخت</translation>
     </message>
     <message>
-        <source>Cannot start libracoin: click-to-pay handler</source>
-        <translation>نمی‌توان Libracoin را اجرا کرد: کنترل‌کنندهٔ کلیک-و-پرداخت</translation>
+        <source>Cannot start lavrovcoin: click-to-pay handler</source>
+        <translation>نمی‌توان Lavrovcoin را اجرا کرد: کنترل‌کنندهٔ کلیک-و-پرداخت</translation>
     </message>
     </context>
 <context>
@@ -1085,16 +1085,16 @@ Address: %4
         <translation>فایلِ لاگِ اشکال زدایی</translation>
     </message>
     <message>
-        <source>Open the Libracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>فایلِ لاگِ اشکال زدایی Libracoin  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
+        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>فایلِ لاگِ اشکال زدایی Lavrovcoin  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>پاکسازی کنسول</translation>
     </message>
     <message>
-        <source>Welcome to the Libracoin RPC console.</source>
-        <translation>به کنسور RPC Libracoin خوش آمدید.</translation>
+        <source>Welcome to the Lavrovcoin RPC console.</source>
+        <translation>به کنسور RPC Lavrovcoin خوش آمدید.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1316,8 +1316,8 @@ Address: %4
         <translation>این یک پرداخت عادی است</translation>
     </message>
     <message>
-        <source>The Libracoin address to send the payment to</source>
-        <translation>نشانی Libracoin برای ارسال پرداخت به آن</translation>
+        <source>The Lavrovcoin address to send the payment to</source>
+        <translation>نشانی Lavrovcoin برای ارسال پرداخت به آن</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1358,8 +1358,8 @@ Address: %4
         <translation>برای احراز اینکه پیام‌ها از جانب شما هستند، می‌توانید آن‌ها را با نشانی خودتان امضا کنید. مراقب باشید چیزی که بدان اطمینان ندارید را امضا نکنید زیرا حملات فیشینگ ممکن است بخواهند از.پیامی با امضای شما سوءاستفاده کنند. تنها مواردی را که حاوی اطلاعات دقیق و قابل قبول برای شما هستند امضا کنید.</translation>
     </message>
     <message>
-        <source>The Libracoin address to sign the message with</source>
-        <translation>نشانی Libracoin برای امضاء پیغام با آن</translation>
+        <source>The Lavrovcoin address to sign the message with</source>
+        <translation>نشانی Lavrovcoin برای امضاء پیغام با آن</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1390,7 +1390,7 @@ Address: %4
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Libracoin address</source>
+        <source>Sign the message to prove you own this Lavrovcoin address</source>
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
@@ -1414,12 +1414,12 @@ Address: %4
         <translation>برای شناسایی پیام، نشانیِ امضا کننده و متن پیام را وارد کنید. (مطمئن شوید که فاصله‌ها، تب‌ها و خطوط را عیناً کپی می‌کنید.) مراقب باشید در امضا چیزی بیشتر از آنچه در پیام می‌بینید وجود نداشته باشد تا فریب دزدان اینترنتی و حملات از نوع MITM را نخورید.</translation>
     </message>
     <message>
-        <source>The Libracoin address the message was signed with</source>
-        <translation>نشانی Libracoin که پیغام با آن امضاء شده</translation>
+        <source>The Lavrovcoin address the message was signed with</source>
+        <translation>نشانی Lavrovcoin که پیغام با آن امضاء شده</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Libracoin address</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Libracoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify the message to ensure it was signed with the specified Lavrovcoin address</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Lavrovcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1485,8 +1485,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation> هسته Libracoin </translation>
+        <source>Lavrovcoin Core</source>
+        <translation> هسته Lavrovcoin </translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -1991,8 +1991,8 @@ Address: %4
         <translation>در حال بازبینی کیف پول...</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Libracoin Core will not work properly.</source>
-        <translation>هشدار: تاریخ و ساعت کامپیوتر خود را بررسی کنید. اگر ساعت درست نباشد هسته Libracoin به درستی کار نخواهد کرد.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Lavrovcoin Core will not work properly.</source>
+        <translation>هشدار: تاریخ و ساعت کامپیوتر خود را بررسی کنید. اگر ساعت درست نباشد هسته Lavrovcoin به درستی کار نخواهد کرد.</translation>
     </message>
     <message>
         <source>Information</source>

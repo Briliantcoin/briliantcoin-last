@@ -140,8 +140,8 @@
         <translation>Billetera codificada</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus libracoins de ser robados por malware que infecte su computador</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus lavrovcoins de ser robados por malware que infecte su computador</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -235,20 +235,20 @@
         <translation>Abrir y url...</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>cliente libracoin core</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>cliente lavrovcoin core</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Enviar monedas a una dirección libracoin</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Enviar monedas a una dirección lavrovcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>Modifica las opciones de configuración de libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>Modifica las opciones de configuración de lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -267,8 +267,8 @@
         <translation>Abre consola de depuración y diagnóstico</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -287,7 +287,7 @@
         <translation>&amp;Mostrar/Ocultar</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -307,12 +307,12 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>libracoin core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>lavrovcoin core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n conexión activa hacia la red Libracoin</numerusform><numerusform>%n conexiones activas hacia la red Libracoin</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red Lavrovcoin</numerusform><numerusform>%n conexiones activas hacia la red Lavrovcoin</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -467,8 +467,8 @@ Dirección: %4</translation>
         <translation>La dirección introducida "%1" ya esta guardada en la libreta de direcciones.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Libracoin valida.</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Lavrovcoin valida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -489,8 +489,8 @@ Dirección: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>libracoin core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>lavrovcoin core</translation>
     </message>
     <message>
         <source>version</source>
@@ -517,8 +517,8 @@ Dirección: %4</translation>
         <translation>bienvenido</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>libracoin core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>lavrovcoin core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -543,12 +543,12 @@ Dirección: %4</translation>
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Automatically start Libracoin after logging in to the system.</source>
-        <translation>Inicia Libracoin automáticamente despues de encender el computador</translation>
+        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <translation>Inicia Lavrovcoin automáticamente despues de encender el computador</translation>
     </message>
     <message>
-        <source>&amp;Start Libracoin on system login</source>
-        <translation>&amp;Inicia Libracoin al iniciar el sistema</translation>
+        <source>&amp;Start Lavrovcoin on system login</source>
+        <translation>&amp;Inicia Lavrovcoin al iniciar el sistema</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -563,8 +563,8 @@ Dirección: %4</translation>
         <translation>experto</translation>
     </message>
     <message>
-        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente Libracoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente Lavrovcoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -952,7 +952,7 @@ Dirección: %4</translation>
         <translation>Firma</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Libracoin address</source>
+        <source>Sign the message to prove you own this Lavrovcoin address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -977,7 +977,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Por favor, revise la dirección Libracoin e inténtelo denuevo</translation>
+        <translation>Por favor, revise la dirección Lavrovcoin e inténtelo denuevo</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -999,8 +999,8 @@ Dirección: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>libracoin core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>lavrovcoin core</translation>
     </message>
     <message>
         <source>[testnet]</source>

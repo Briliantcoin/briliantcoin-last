@@ -66,12 +66,12 @@
         <translation>Ricevaj adresoj</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Jen viaj Libracoin-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Jen viaj Lavrovcoin-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Jen viaj Libracoin adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Jen viaj Lavrovcoin adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -184,8 +184,8 @@
         <translation>La monujo estas ĉifrita</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +291,8 @@
         <translation>Malfermi &amp;URI-on...</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>kliento de Libracoin-kerno</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>kliento de Lavrovcoin-kerno</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -303,12 +303,12 @@
         <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Sendi monon al Libracoin-adreso</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Sendi monon al Lavrovcoin-adreso</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>Modifi agordaĵojn por Libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>Modifi agordaĵojn por Lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Kontroli mesaĝon...</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Ricevi</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>Vidigi informon pri Libracoin Kerno</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>Vidigi informon pri Lavrovcoin Kerno</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Ĉifri la privatajn ŝlosilojn de via monujo</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per via Libracoin-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <translation>Subskribi mesaĝojn per via Lavrovcoin-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Libracoin-adresoj</translation>
+        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Lavrovcoin-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,16 +387,16 @@
         <translation>Langeto-breto</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Kerno de Libracoin</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Kerno de Lavrovcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and libracoin: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso libracoin:)</translation>
+        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso lavrovcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>&amp;Pri la Libracoin Kerno</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>&amp;Pri la Lavrovcoin Kerno</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,16 +407,16 @@
         <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
     </message>
     <message>
-        <source>Open a libracoin: URI or payment request</source>
-        <translation>Malfermi libracoin:-URI-on aŭ pagpeton</translation>
+        <source>Open a lavrovcoin: URI or payment request</source>
+        <translation>Malfermi lavrovcoin:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandliniaj agordaĵoj</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n aktiva konekto al la Libracoin reto</numerusform><numerusform>%n aktivaj konektoj al la Libracoin reto</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n aktiva konekto al la Lavrovcoin reto</numerusform><numerusform>%n aktivaj konektoj al la Lavrovcoin reto</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -764,8 +764,8 @@ Adreso: %4
         <translation>La adreso enigita "%1" jam ekzistas en la adresaro.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>La adreso enigita "%1" ne estas valida Libracoin-adreso.</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>La adreso enigita "%1" ne estas valida Lavrovcoin-adreso.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -802,16 +802,16 @@ Adreso: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Kerno de Libracoin</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Kerno de Lavrovcoin</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versio</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>Pri la Libracoin Kerno</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>Pri la Lavrovcoin Kerno</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -853,16 +853,16 @@ Adreso: %4
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>Bonvenon al la Libracoin kerno, Libracoin Core.</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>Bonvenon al la Lavrovcoin kerno, Lavrovcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Libracoin Core will store its data.</source>
-        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie Libracoin Core stokos siajn datumojn.</translation>
+        <source>As this is the first time the program is launched, you can choose where Lavrovcoin Core will store its data.</source>
+        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie Lavrovcoin Core stokos siajn datumojn.</translation>
     </message>
     <message>
-        <source>Libracoin Core will download and store a copy of the Libracoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Libracoin Core elŝutos kaj konservos kopion de la Libracoin blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
+        <source>Lavrovcoin Core will download and store a copy of the Lavrovcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Lavrovcoin Core elŝutos kaj konservos kopion de la Lavrovcoin blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -873,8 +873,8 @@ Adreso: %4
         <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Kerno de Libracoin</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Kerno de Lavrovcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -915,12 +915,12 @@ Adreso: %4
         <translation>Ĉ&amp;efa</translation>
     </message>
     <message>
-        <source>Automatically start Libracoin after logging in to the system.</source>
-        <translation>Aŭtomate lanĉi Libracoin post ensaluto al la sistemo.</translation>
+        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <translation>Aŭtomate lanĉi Lavrovcoin post ensaluto al la sistemo.</translation>
     </message>
     <message>
-        <source>&amp;Start Libracoin on system login</source>
-        <translation>&amp;Lanĉi Libracoin tuj post ensaluto al la sistemo</translation>
+        <source>&amp;Start Lavrovcoin on system login</source>
+        <translation>&amp;Lanĉi Lavrovcoin tuj post ensaluto al la sistemo</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -947,8 +947,8 @@ Adreso: %4
         <translation>Fakulo</translation>
     </message>
     <message>
-        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Libracoin. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi la kursilan pordon por Lavrovcoin. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -995,8 +995,8 @@ Adreso: %4
         <translation>&amp;Lingvo de la fasado:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Libracoin.</source>
-        <translation>Vi povas elekti la lingvon uzata en la aplikaĵo ĉi tie. Tiu ekefikos nur post relanĉo de Libracoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
+        <translation>Vi povas elekti la lingvon uzata en la aplikaĵo ĉi tie. Tiu ekefikos nur post relanĉo de Lavrovcoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1004,7 +1004,7 @@ Adreso: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elekti la defaŭltan manieron por montri Libracoin sumojn en la interfaco, kaj kiam vi sendos libracoins.</translation>
+        <translation>Elekti la defaŭltan manieron por montri Lavrovcoin sumojn en la interfaco, kaj kiam vi sendos lavrovcoins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1042,8 +1042,8 @@ Adreso: %4
         <translation>Formularo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la Libracoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la Lavrovcoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1093,7 +1093,7 @@ Adreso: %4
         <translation>Eraro dum pagopeto</translation>
     </message>
     <message>
-        <source>Cannot start libracoin: click-to-pay handler</source>
+        <source>Cannot start lavrovcoin: click-to-pay handler</source>
         <translation>Ne eblas lanĉi la ilon 'klaki-por-pagi'</translation>
     </message>
     <message>
@@ -1257,16 +1257,16 @@ Adreso: %4
         <translation>Sencimiga protokoldosiero</translation>
     </message>
     <message>
-        <source>Open the Libracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Malfermi la sencimiga protokoldosiero de Libracoin el la aktuala dosierujo por datumoj. Tio eble daŭros plurajn sekundojn por granda protokoldosiero.</translation>
+        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Malfermi la sencimiga protokoldosiero de Lavrovcoin el la aktuala dosierujo por datumoj. Tio eble daŭros plurajn sekundojn por granda protokoldosiero.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Malplenigi konzolon</translation>
     </message>
     <message>
-        <source>Welcome to the Libracoin RPC console.</source>
-        <translation>Bonvenon al la RPC-konzolo de Libracoin.</translation>
+        <source>Welcome to the Lavrovcoin RPC console.</source>
+        <translation>Bonvenon al la RPC-konzolo de Lavrovcoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1510,7 +1510,7 @@ Adreso: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Konfirmi sendon de libracoin</translation>
+        <translation>Konfirmi sendon de lavrovcoin</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1573,8 +1573,8 @@ Adreso: %4
         <translation>Kreo de transakcio fiaskis!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Libracoin address</source>
-        <translation>Averto: Nevalida Libracoin-adreso</translation>
+        <source>Warning: Invalid Lavrovcoin address</source>
+        <translation>Averto: Nevalida Lavrovcoin-adreso</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1702,8 +1702,8 @@ Adreso: %4
         <translation>Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Libracoin address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Libracoin-adreso</translation>
+        <source>Sign the message to prove you own this Lavrovcoin address</source>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Lavrovcoin-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1726,8 +1726,8 @@ Adreso: %4
         <translation>Enmeti la subskriban adreson, la mesaĝon (kune kun ĉiu linisalto, spaceto, taboj, ktp. precize) kaj la subskribon ĉi sube por kontroli la mesaĝon. Atentu, ke vi ne komprenu per la subskribo pli ol la enhavo de la mesaĝo mem, por eviti homo-en-la-mezo-atakon.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Libracoin address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Libracoin-adreso</translation>
+        <source>Verify the message to ensure it was signed with the specified Lavrovcoin address</source>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Lavrovcoin-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1793,8 +1793,8 @@ Adreso: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Kerno de Libracoin</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Kerno de Lavrovcoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2178,7 +2178,7 @@ Adreso: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Libracoin</translation>
+        <translation>Sendi Lavrovcoin</translation>
     </message>
 </context>
 <context>

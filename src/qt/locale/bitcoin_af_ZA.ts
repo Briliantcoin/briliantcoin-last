@@ -143,8 +143,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>

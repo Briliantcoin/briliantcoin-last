@@ -82,7 +82,7 @@
 
 // Work around clang compilation problem in Boost 1.46:
 // /usr/include/boost/program_options/detail/config_file.hpp:163:17: error: call to function 'to_internal' that is neither visible in the template definition nor found by argument-dependent lookup
-// See also: http://stackoverflow.com/questions/10020179/compilation-fail-in-boost-librairies-program-options
+// See also: http://stackoverflow.com/questions/10020179/compilation-fail-in-boost-lavrovcoiries-program-options
 //           http://clang.debian.net/status.php?version=3.0&key=CANNOT_FIND_FUNCTION
 namespace boost {
 
@@ -106,7 +106,7 @@ bool fLogTimestamps = false;
 bool fLogIPs = false;
 volatile bool fReopenDebugLog = false;
 
-/** Init OpenSSL library multithreading support */
+/** Init OpenSSL lavrovcory multithreading support */
 static CCriticalSection** ppmutexOpenSSL;
 void locking_callback(int mode, int i, const char* file, int line)
 {
@@ -123,7 +123,7 @@ class CInit
 public:
     CInit()
     {
-        // Init OpenSSL library multithreading support
+        // Init OpenSSL lavrovcory multithreading support
         ppmutexOpenSSL = (CCriticalSection**)OPENSSL_malloc(CRYPTO_num_locks() * sizeof(CCriticalSection*));
         for (int i = 0; i < CRYPTO_num_locks(); i++)
             ppmutexOpenSSL[i] = new CCriticalSection();
@@ -148,7 +148,7 @@ public:
     {
         // Securely erase the memory used by the PRNG
         RAND_cleanup();
-        // Shutdown OpenSSL library multithreading support
+        // Shutdown OpenSSL lavrovcory multithreading support
         CRYPTO_set_locking_callback(NULL);
         for (int i = 0; i < CRYPTO_num_locks(); i++)
             delete ppmutexOpenSSL[i];
@@ -360,7 +360,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "libracoin";
+    const char* pszModule = "lavrovcoin";
 #endif
     if (pex)
         return strprintf(
@@ -381,13 +381,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Libracoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Libracoin
-    // Mac: ~/Library/Application Support/Libracoin
-    // Unix: ~/.libracoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Lavrovcoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Lavrovcoin
+    // Mac: ~/Library/Application Support/Lavrovcoin
+    // Unix: ~/.lavrovcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Libracoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Lavrovcoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -399,10 +399,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Libracoin";
+    return pathRet / "Lavrovcoin";
 #else
     // Unix
-    return pathRet / ".libracoin";
+    return pathRet / ".lavrovcoin";
 #endif
 #endif
 }
@@ -449,7 +449,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "libracoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "lavrovcoin.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -461,14 +461,14 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good())
-        return; // No libracoin.conf file is OK
+        return; // No lavrovcoin.conf file is OK
 
     set<string> setOptions;
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override libracoin.conf
+        // Don't overwrite existing settings so command line settings override lavrovcoin.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -485,7 +485,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "libracoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "lavrovcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

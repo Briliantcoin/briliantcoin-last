@@ -24,11 +24,11 @@ Release Process
 
 ###perform Gitian builds
 
- From a directory containing the libracoin source, gitian-builder and gitian.sigs.ltc
+ From a directory containing the lavrovcoin source, gitian-builder and gitian.sigs.ltc
   
     export SIGNER=(your Gitian key, ie wtogami, coblee, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./libracoin
+	pushd ./lavrovcoin
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -49,29 +49,29 @@ Release Process
 
   By default, Gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
-	make -C ../libracoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../lavrovcoin/depends download SOURCES_PATH=`pwd`/cache/common
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Libracoin Core for Linux, Windows, and OS X:
+###Build Lavrovcoin Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit libracoin=v${VERSION} ../libracoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../libracoin/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/libracoin-*.tar.gz build/out/src/libracoin-*.tar.gz ../
-	./bin/gbuild --commit libracoin=v${VERSION} ../libracoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../libracoin/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/libracoin-*.zip build/out/libracoin-*.exe ../
-	./bin/gbuild --commit libracoin=v${VERSION} ../libracoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../libracoin/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/libracoin-*-unsigned.tar.gz inputs/libracoin-osx-unsigned.tar.gz
-	mv build/out/libracoin-*.tar.gz build/out/libracoin-*.dmg ../
+	./bin/gbuild --commit lavrovcoin=v${VERSION} ../lavrovcoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../lavrovcoin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/lavrovcoin-*.tar.gz build/out/src/lavrovcoin-*.tar.gz ../
+	./bin/gbuild --commit lavrovcoin=v${VERSION} ../lavrovcoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../lavrovcoin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/lavrovcoin-*.zip build/out/lavrovcoin-*.exe ../
+	./bin/gbuild --commit lavrovcoin=v${VERSION} ../lavrovcoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../lavrovcoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/lavrovcoin-*-unsigned.tar.gz inputs/lavrovcoin-osx-unsigned.tar.gz
+	mv build/out/lavrovcoin-*.tar.gz build/out/lavrovcoin-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (libracoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit binaries dist tarballs (libracoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit installers and dist zips (libracoin-${VERSION}-win[32|64]-setup.exe, libracoin-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer (libracoin-${VERSION}-osx-unsigned.dmg)
+  1. source tarball (lavrovcoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (lavrovcoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (lavrovcoin-${VERSION}-win[32|64]-setup.exe, lavrovcoin-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer (lavrovcoin-${VERSION}-osx-unsigned.dmg)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your Gitian key)/
 
 ###Next steps:
@@ -95,9 +95,9 @@ Commit your signature to gitian.sigs:
 	pushd ./gitian-builder
 	# Fetch the signature as instructed by Warren/Coblee
 	cp signature.tar.gz inputs/
-	./bin/gbuild -i ../libracoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../libracoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/libracoin-osx-signed.dmg ../libracoin-${VERSION}-osx.dmg
+	./bin/gbuild -i ../lavrovcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../lavrovcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/lavrovcoin-osx-signed.dmg ../lavrovcoin-${VERSION}-osx.dmg
 	popd
 
 Commit your signature for the signed OS X binary:
@@ -126,17 +126,17 @@ rm SHA256SUMS
 ```
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 
-- Update libracoin.org version
+- Update lavrovcoin.org version
 
 - Announce the release:
 
-  - Release sticky on libracointalk: https://libracointalk.org/index.php?board=1.0
+  - Release sticky on lavrovcointalk: https://lavrovcointalk.org/index.php?board=1.0
 
-  - libracoin-development mailing list
+  - lavrovcoin-development mailing list
 
-  - Update title of #libracoin on Freenode IRC
+  - Update title of #lavrovcoin on Freenode IRC
 
-  - Optionally reddit /r/libracoin, ... but this will usually sort out itself
+  - Optionally reddit /r/lavrovcoin, ... but this will usually sort out itself
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

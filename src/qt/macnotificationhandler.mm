@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.libracoin.Libracoin-Qt";
+        return @"org.lavrovcoin.Lavrovcoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

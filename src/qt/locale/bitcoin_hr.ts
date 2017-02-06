@@ -66,12 +66,12 @@
         <translation>Adresa za primanje</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Libracoin adrese za slanje uplate. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše Lavrovcoin adrese za slanje uplate. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su vaše Libracoin adrese za primanje isplate. Preporučamo da koristite novu primateljsku adresu za svaku transakciju.</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su vaše Lavrovcoin adrese za primanje isplate. Preporučamo da koristite novu primateljsku adresu za svaku transakciju.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Unesite novu lozinku za novčanik. &lt;br/&gt;Molimo Vas da koristite zaporku od &lt;b&gt;deset ili više slučajnih znakova&lt;/b&gt;, ili &lt;b&gt;osam ili više riječi.&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše libracoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše lavrovcoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>Libracoin Core klijent</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>Lavrovcoin Core klijent</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Slanje novca na libracoin adresu</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Slanje novca na lavrovcoin adresu</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>Promijeni postavke konfiguracije za libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>Promijeni postavke konfiguracije za lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>&amp;Potvrdite poruku...</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>Pri&amp;miti</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>Prikaži informacije o Libracoin Coreu</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>Prikaži informacije o Lavrovcoin Coreu</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Šifriraj privatne ključeve koji pripadaju tvom novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
-        <translation>Potpiši poruke svojim Libracoin adresama kako bi dokazao da si njihov vlasnik</translation>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <translation>Potpiši poruke svojim Lavrovcoin adresama kako bi dokazao da si njihov vlasnik</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
-        <translation>Provjerite porkue kako bi se uvjerili da su potpisane navedenim Libracoin adresama</translation>
+        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <translation>Provjerite porkue kako bi se uvjerili da su potpisane navedenim Lavrovcoin adresama</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Jezgra</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Jezgra</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and libracoin: URIs)</source>
-        <translation>Zatraži uplate (Stvara QR kodove i libracoin: URIje)</translation>
+        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
+        <translation>Zatraži uplate (Stvara QR kodove i lavrovcoin: URIje)</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>&amp;O Libracoin Jezgri</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>&amp;O Lavrovcoin Jezgri</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje isplate</translation>
     </message>
     <message>
-        <source>Open a libracoin: URI or payment request</source>
-        <translation>Otvori libracoin: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a lavrovcoin: URI or payment request</source>
+        <translation>Otvori lavrovcoin: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message>
-        <source>Show the Libracoin Core help message to get a list with possible Libracoin command-line options</source>
+        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
         <translation>Ispis svih opcija naredbene linije programa sa kratkim opisom</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n aktivna veza na Libracoin mrežu</numerusform><numerusform>%n aktivne veze na Libracoin mrežu</numerusform><numerusform>%n aktivnih veza na Libracoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n aktivna veza na Lavrovcoin mrežu</numerusform><numerusform>%n aktivne veze na Lavrovcoin mrežu</numerusform><numerusform>%n aktivnih veza na Lavrovcoin mrežu</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -641,7 +641,7 @@ Adresa:%4
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Libracoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>Lavrovcoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -668,8 +668,8 @@ Adresa:%4
         <translation>Upisana adresa "%1" je već u adresaru.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>Upisana adresa "%1" nije valjana libracoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>Upisana adresa "%1" nije valjana lavrovcoin adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -698,8 +698,8 @@ Adresa:%4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Jezgra</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Jezgra</translation>
     </message>
     <message>
         <source>version</source>
@@ -710,8 +710,8 @@ Adresa:%4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>O Libracoin Jezrgu</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>O Lavrovcoin Jezrgu</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -741,12 +741,12 @@ Adresa:%4
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>Dobrodošli u programu Libracoin Core.</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>Dobrodošli u programu Lavrovcoin Core.</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Jezgra</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Jezgra</translation>
     </message>
     <message>
         <source>Error</source>
@@ -787,12 +787,12 @@ Adresa:%4
         <translation>&amp;Glavno</translation>
     </message>
     <message>
-        <source>Automatically start Libracoin after logging in to the system.</source>
-        <translation>Automatski pokreni Libracoin kad se uključi računalo</translation>
+        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <translation>Automatski pokreni Lavrovcoin kad se uključi računalo</translation>
     </message>
     <message>
-        <source>&amp;Start Libracoin on system login</source>
-        <translation>&amp;Pokreni Libracoin kod pokretanja sustava</translation>
+        <source>&amp;Start Lavrovcoin on system login</source>
+        <translation>&amp;Pokreni Lavrovcoin kod pokretanja sustava</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -835,8 +835,8 @@ Adresa:%4
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Libracoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Lavrovcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -888,7 +888,7 @@ Adresa:%4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio libracoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio lavrovcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -914,8 +914,8 @@ Adresa:%4
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Libracoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Lavrovcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1049,8 +1049,8 @@ Adresa:%4
         <translation>Očisti konzolu</translation>
     </message>
     <message>
-        <source>Welcome to the Libracoin RPC console.</source>
-        <translation>Dobrodošli u Libracoin RPC konzolu.</translation>
+        <source>Welcome to the Lavrovcoin RPC console.</source>
+        <translation>Dobrodošli u Lavrovcoin RPC konzolu.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1365,8 +1365,8 @@ Adresa:%4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Jezgra</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Jezgra</translation>
     </message>
     <message>
         <source>[testnet]</source>

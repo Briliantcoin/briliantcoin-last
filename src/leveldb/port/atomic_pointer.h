@@ -46,7 +46,7 @@ namespace port {
 // Windows on x86
 #if defined(OS_WIN) && defined(COMPILER_MSVC) && defined(ARCH_CPU_X86_FAMILY)
 // windows.h already provides a MemoryBarrier(void) macro
-// http://msdn.microsoft.com/en-us/library/ms684208(v=vs.85).aspx
+// http://msdn.microsoft.com/en-us/lavrovcory/ms684208(v=vs.85).aspx
 #define LEVELDB_HAVE_MEMORY_BARRIER
 
 // Mac OS

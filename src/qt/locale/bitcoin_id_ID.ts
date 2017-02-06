@@ -62,11 +62,11 @@
         <translation>Alamat-alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Libracoin.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Lavrovcoin.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Alamat-alamat Anda supaya menerima pembayaran. Dianjurkan agar Anda menggunakan alamat menerima yang baru untuk setiap transaksi.</translation>
     </message>
     <message>
@@ -172,8 +172,8 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi libracoin Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi lavrovcoin Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -275,8 +275,8 @@
         <translation>Buka &amp;URI</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>Client Libracoin Inti</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>Client Lavrovcoin Inti</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -287,12 +287,12 @@
         <translation>Mengindex ulang block di harddisk...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Kirim koin ke alamat Libracoin</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Kirim koin ke alamat Lavrovcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>Ubah pilihan konfigurasi untuk Libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>Ubah pilihan konfigurasi untuk Lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -315,8 +315,8 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Menerima</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>Tampilkan informasi tentang Libracoin Inti</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>Tampilkan informasi tentang Lavrovcoin Inti</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -347,12 +347,12 @@
         <translation>Mengenkripsi kunci-kunci pribadi yang dipunyai dompetmu</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
-        <translation>Tandalah pesanan dengan alamat-alamat Libracoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <translation>Tandalah pesanan dengan alamat-alamat Lavrovcoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
-        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Libracoin yang terperinci</translation>
+        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Lavrovcoin yang terperinci</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -371,16 +371,16 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and libracoin: URIs)</source>
-        <translation>Permintaan pembayaran (membangkitkan kode QR dan libracoin: URIs)</translation>
+        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
+        <translation>Permintaan pembayaran (membangkitkan kode QR dan lavrovcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>&amp;Mengenai Libracoin Core</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>&amp;Mengenai Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -391,20 +391,20 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a libracoin: URI or payment request</source>
-        <translation>Buka URI libracoin: atau permintaan pembayaran</translation>
+        <source>Open a lavrovcoin: URI or payment request</source>
+        <translation>Buka URI lavrovcoin: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Show the Libracoin Core help message to get a list with possible Libracoin command-line options</source>
-        <translation>Tampilkan pesan bantuan Libracoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Libracoin</translation>
+        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
+        <translation>Tampilkan pesan bantuan Lavrovcoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Lavrovcoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n hubungan aktif ke jaringan Libracoin</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n hubungan aktif ke jaringan Lavrovcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -740,8 +740,8 @@ Alamat: %4
         <translation>Alamat yang dimasukkan "%1" sudah ada di dalam buku alamat.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukan alamat Libracoin yang benar.</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukan alamat Lavrovcoin yang benar.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -778,16 +778,16 @@ Alamat: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versi</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>Mengenai Libracoin Core</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>Mengenai Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -821,8 +821,8 @@ Alamat: %4
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>Selamat Datang ke Libracoin Core</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>Selamat Datang ke Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -833,8 +833,8 @@ Alamat: %4
         <translation>Menggunakan direktori data yang dipilih Anda:</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -879,12 +879,12 @@ Alamat: %4
         <translation>&amp;Utama</translation>
     </message>
     <message>
-        <source>Automatically start Libracoin after logging in to the system.</source>
-        <translation>Menyalakan Libracoin secara otomatis setelah masuk ke dalam sistem.</translation>
+        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <translation>Menyalakan Lavrovcoin secara otomatis setelah masuk ke dalam sistem.</translation>
     </message>
     <message>
-        <source>&amp;Start Libracoin on system login</source>
-        <translation>&amp;Menyalakan Libracoin pada login sistem</translation>
+        <source>&amp;Start Lavrovcoin on system login</source>
+        <translation>&amp;Menyalakan Lavrovcoin pada login sistem</translation>
     </message>
     <message>
         <source>MB</source>
@@ -935,8 +935,8 @@ Alamat: %4
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Libracoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client Lavrovcoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -983,8 +983,8 @@ Alamat: %4
         <translation>&amp;Bahasa Antarmuka Pengguna:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Libracoin.</source>
-        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi Libracoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
+        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi Lavrovcoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1042,8 +1042,8 @@ Alamat: %4
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Libracoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Lavrovcoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1257,16 +1257,16 @@ Alamat: %4
         <translation>Berkas catatan debug</translation>
     </message>
     <message>
-        <source>Open the Libracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Buka berkas catatan debug Libracoin dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
+        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Buka berkas catatan debug Lavrovcoin dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Bersihkan konsol</translation>
     </message>
     <message>
-        <source>Welcome to the Libracoin RPC console.</source>
-        <translation>Selamat datang ke konsol RPC Libracoin.</translation>
+        <source>Welcome to the Lavrovcoin RPC console.</source>
+        <translation>Selamat datang ke konsol RPC Lavrovcoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1605,8 +1605,8 @@ Alamat: %4
         <translation>Gagal: Transaksi ditolak. Ini mungkin terjadi jika beberapa dari koin dalam dompet Anda telah digunakan, seperti ketika Anda menggunakan salinan wallet.dat dan beberapa koin telah dibelanjakan dalam salinan tersebut tetapi disini tidak tertandai sebagai terpakai.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Libracoin address</source>
-        <translation>Awas: Alamat Libracoin tidak sah</translation>
+        <source>Warning: Invalid Lavrovcoin address</source>
+        <translation>Awas: Alamat Lavrovcoin tidak sah</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1691,8 +1691,8 @@ Alamat: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Libracoin Core is shutting down...</source>
-        <translation>Libracoin Core sementara dimatikan...</translation>
+        <source>Lavrovcoin Core is shutting down...</source>
+        <translation>Lavrovcoin Core sementara dimatikan...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1738,8 +1738,8 @@ Alamat: %4
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Libracoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Libracoin ini</translation>
+        <source>Sign the message to prove you own this Lavrovcoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Lavrovcoin ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1817,8 +1817,8 @@ Alamat: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2303,8 +2303,8 @@ Alamat: %4
         <translation>Jalankan perintah ketika perubahan transaksi dompet (%s di cmd digantikan oleh TxID)</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Libracoin Core is probably already running.</source>
-        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Libracoin Core sudah mulai.</translation>
+        <source>Unable to bind to %s on this computer. Lavrovcoin Core is probably already running.</source>
+        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Lavrovcoin Core sudah mulai.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2427,8 +2427,8 @@ Alamat: %4
         <translation>Impor blok dari eksternal berkas blk000???.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Libracoin Core is probably already running.</source>
-        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Libracoin Core sudah mulai.</translation>
+        <source>Cannot obtain a lock on data directory %s. Lavrovcoin Core is probably already running.</source>
+        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Lavrovcoin Core sudah mulai.</translation>
     </message>
     <message>
         <source>Information</source>

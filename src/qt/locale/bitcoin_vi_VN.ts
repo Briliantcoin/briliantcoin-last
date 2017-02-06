@@ -167,12 +167,12 @@
         <translation>Mở &amp;URI...</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>Libracoin Core client</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>Lavrovcoin Core client</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -207,12 +207,12 @@
         <translation>Trợ &amp;giúp</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>&amp;Về Libracoin Core</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>&amp;Về Lavrovcoin Core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -374,16 +374,16 @@ Loại: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>version</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>Về Libracoin Core</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>Về Lavrovcoin Core</translation>
     </message>
     </context>
 <context>
@@ -393,8 +393,8 @@ Loại: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -593,8 +593,8 @@ Loại: %3
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     </context>
 <context>

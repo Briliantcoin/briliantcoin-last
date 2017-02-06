@@ -169,7 +169,7 @@ public:
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
 
-        // Libracoin: Mainnet v2 enforced as of block 710k
+        // Lavrovcoin: Mainnet v2 enforced as of block 710k
         nEnforceV2AfterHeight = 710000;
     }
 
@@ -254,7 +254,7 @@ public:
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false; //true
 
-        // Libracoin: Testnet v2 enforced as of block 400k
+        // Lavrovcoin: Testnet v2 enforced as of block 400k
         nEnforceV2AfterHeight = 710000;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -304,7 +304,7 @@ public:
         fMineBlocksOnDemand = true;
         fTestnetToBeDeprecatedFieldRPC = false;
 
-        // Libracoin: v2 enforced using Bitcoin's supermajority rule
+        // Lavrovcoin: v2 enforced using Bitcoin's supermajority rule
         nEnforceV2AfterHeight = -1;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -332,7 +332,7 @@ public:
         fAllowMinDifficultyBlocks = false;
         fMineBlocksOnDemand = true;
 
-        // Libracoin: v2 enforced using Bitcoin's supermajority rule
+        // Lavrovcoin: v2 enforced using Bitcoin's supermajority rule
         nEnforceV2AfterHeight = -1;
     }
 

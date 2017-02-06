@@ -25,24 +25,24 @@ The torrent client installed will recognize the download of the torrent file. Sa
 
 ![Fig2](img/bootstrap2.png)
 
-### Download the Blockchain from the LibracoinNode Project
+### Download the Blockchain from the LavrovcoinNode Project
 
-The Libracoin node project provides multiple and regulaly updated direct-link downloads. Copies of bootstrap.dat can be downloaded directly from servers provided by LibracoinNode, or be downloaded from a randomly selected server. All copies of boootstrap are updated at the maximum of every six months.
+The Lavrovcoin node project provides multiple and regulaly updated direct-link downloads. Copies of bootstrap.dat can be downloaded directly from servers provided by LavrovcoinNode, or be downloaded from a randomly selected server. All copies of boootstrap are updated at the maximum of every six months.
 
 **Copies of Bootstrap from a specific server**
 
-* [http://mango.libracoinnode.org/bootstrap.dat](http://mango.libracoinnode.org/bootstrap.dat)
-* [http://apple.libracoinnode.org/bootstrap.dat](http://apple.libracoinnode.org/bootstrap.dat)
+* [http://mango.lavrovcoinnode.org/bootstrap.dat](http://mango.lavrovcoinnode.org/bootstrap.dat)
+* [http://apple.lavrovcoinnode.org/bootstrap.dat](http://apple.lavrovcoinnode.org/bootstrap.dat)
 
 **Randomly selected dopy of Bootstrap**
 
 This could be useful for use in scripts.
 
-* [http://bootstrap.libracoinnode.org/bootstrap.dat](http://bootstrap.libracoinnode.org/bootstrap.dat)
+* [http://bootstrap.lavrovcoinnode.org/bootstrap.dat](http://bootstrap.lavrovcoinnode.org/bootstrap.dat)
 	
 **Example usage in a (bash) Terminal**
 
-	wget http://bootstrap.libracoinnode.org/bootstrap.dat       //downloads bootstrap into current directory
+	wget http://bootstrap.lavrovcoinnode.org/bootstrap.dat       //downloads bootstrap into current directory
 
 ### Importing the Blockchain
 Exit the Bitcoin client software if you have it running. Be sure not to have an actively used wallet in use. We are going to copy the download of the blockchain to the Bitcoin client data directory. You should run the client software at least once so it can generate the data directory. Copy the downloaded bootstrap.dat file into the Bitcoin data folder.

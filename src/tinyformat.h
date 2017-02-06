@@ -28,7 +28,7 @@
 //------------------------------------------------------------------------------
 // Tinyformat: A minimal type safe printf replacement
 //
-// tinyformat.h is a type safe printf replacement library in a single C++
+// tinyformat.h is a type safe printf replacement lavrovcory in a single C++
 // header file.  Design goals include:
 //
 // * Type safety and extensibility for user defined types.
@@ -315,7 +315,7 @@ TINYFORMAT_DEFINE_FORMATVALUE_CHAR(unsigned char)
 
 //------------------------------------------------------------------------------
 // Tools for emulating variadic templates in C++98.  The basic idea here is
-// stolen from the boost preprocessor metaprogramming library and cut down to
+// stolen from the boost preprocessor metaprogramming lavrovcory and cut down to
 // be just general enough for what we need.
 
 #define TINYFORMAT_ARGTYPES(n) TINYFORMAT_ARGTYPES_ ## n

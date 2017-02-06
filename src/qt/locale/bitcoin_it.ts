@@ -47,11 +47,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Scegli l'indirizzo a cui inviare libracoin</translation>
+        <translation>Scegli l'indirizzo a cui inviare lavrovcoin</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Scegli l'indirizzo con cui ricevere libracoin</translation>
+        <translation>Scegli l'indirizzo con cui ricevere lavrovcoin</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -66,12 +66,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questo è un elenco di indirizzi Libracoin a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare libracoin.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questo è un elenco di indirizzi Lavrovcoin a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare lavrovcoin.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi Libracoin che puoi usare per ricevere pagamenti. Si raccomanda di generare un nuovo indirizzo per ogni transazione.</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi Lavrovcoin che puoi usare per ricevere pagamenti. Si raccomanda di generare un nuovo indirizzo per ogni transazione.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Inserisci la nuova passphrase per il portamonete.&lt;br/&gt;Si consiglia di utilizzare &lt;b&gt;almeno dieci caratteri casuali&lt;/b&gt; oppure &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin si chiuderà per portare a termine il processo di cifratura. Ricorda che cifrare il tuo portamonete non può fornire una protezione totale contro i furti causati da infezioni malware.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin si chiuderà per portare a termine il processo di cifratura. Ricorda che cifrare il tuo portamonete non può fornire una protezione totale contro i furti causati da infezioni malware.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Apri &amp;URI...</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>Libracoin Core client</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>Lavrovcoin Core client</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Re-indicizzazione blocchi su disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Invia fondi ad un indirizzo Libracoin</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Invia fondi ad un indirizzo Lavrovcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>Modifica opzioni di configurazione per Libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>Modifica opzioni di configurazione per Lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>&amp;Ricevi</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>Mostra le informazioni su Libracoin Core</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>Mostra le informazioni su Lavrovcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Cifra le chiavi private che appartengono al tuo portamonete</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
-        <translation>Firma messaggi con i tuoi indirizzi Libracoin per dimostrarne il possesso</translation>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <translation>Firma messaggi con i tuoi indirizzi Lavrovcoin per dimostrarne il possesso</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
-        <translation>Verifica che i messaggi siano stati firmati con gli indirizzi Libracoin specificati</translation>
+        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <translation>Verifica che i messaggi siano stati firmati con gli indirizzi Lavrovcoin specificati</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Barra degli strumenti</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and libracoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e libracoin: URI)</translation>
+        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e lavrovcoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>&amp;Informazioni su Libracoin Core</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>&amp;Informazioni su Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Mostra la lista degli indirizzi di ricezione utilizzati</translation>
     </message>
     <message>
-        <source>Open a libracoin: URI or payment request</source>
-        <translation>Apri un libracoin: URI o una richiesta di pagamento</translation>
+        <source>Open a lavrovcoin: URI or payment request</source>
+        <translation>Apri un lavrovcoin: URI o una richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opzioni della riga di &amp;comando</translation>
     </message>
     <message>
-        <source>Show the Libracoin Core help message to get a list with possible Libracoin command-line options</source>
-        <translation>Mostra il messaggio di aiuto di Libracoin Core per ottenere la lista delle opzioni della riga di comando valide.</translation>
+        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
+        <translation>Mostra il messaggio di aiuto di Lavrovcoin Core per ottenere la lista delle opzioni della riga di comando valide.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n connessione attiva alla rete Libracoin</numerusform><numerusform>%n connessioni alla rete Libracoin attive</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n connessione attiva alla rete Lavrovcoin</numerusform><numerusform>%n connessioni alla rete Lavrovcoin attive</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -789,8 +789,8 @@ Indirizzo: %4
         <translation>L'indirizzo "%1" è già presente in rubrica.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>L'indirizzo "%1" non è un indirizzo libracoin valido.</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>L'indirizzo "%1" non è un indirizzo lavrovcoin valido.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -827,8 +827,8 @@ Indirizzo: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -839,8 +839,8 @@ Indirizzo: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>Informazioni su Libracoin Core</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>Informazioni su Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -886,16 +886,16 @@ Indirizzo: %4
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>Benvenuti su Libracoin Core.</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>Benvenuti su Lavrovcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Libracoin Core will store its data.</source>
-        <translation>Visto che questa è la prima volta che il programma viene lanciato, puoi scegliere dove Libracoin Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where Lavrovcoin Core will store its data.</source>
+        <translation>Visto che questa è la prima volta che il programma viene lanciato, puoi scegliere dove Lavrovcoin Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>Libracoin Core will download and store a copy of the Libracoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Libracoin Core scaricherà e salverà una copia della block chain di Libracoin. Il portamonete ed almeno %1GB di dati saranno salvati in questa cartella. Si ricorda che lo spazio occupato andrà ad aumentare nel tempo.</translation>
+        <source>Lavrovcoin Core will download and store a copy of the Lavrovcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Lavrovcoin Core scaricherà e salverà una copia della block chain di Lavrovcoin. Il portamonete ed almeno %1GB di dati saranno salvati in questa cartella. Si ricorda che lo spazio occupato andrà ad aumentare nel tempo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -906,8 +906,8 @@ Indirizzo: %4
         <translation>Usa una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -952,12 +952,12 @@ Indirizzo: %4
         <translation>&amp;Principale</translation>
     </message>
     <message>
-        <source>Automatically start Libracoin after logging in to the system.</source>
-        <translation>Avvia automaticamente Libracoin una volta effettuato l'accesso al sistema.</translation>
+        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <translation>Avvia automaticamente Lavrovcoin una volta effettuato l'accesso al sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Libracoin on system login</source>
-        <translation>&amp;Avvia Libracoin all'accesso al sistema</translation>
+        <source>&amp;Start Lavrovcoin on system login</source>
+        <translation>&amp;Avvia Lavrovcoin all'accesso al sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1033,16 +1033,16 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Spendi resti non confermati</translation>
     </message>
     <message>
-        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client Libracoin sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
+        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta del client Lavrovcoin sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mappa le porte tramite &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Libracoin network through a SOCKS5 proxy.</source>
-        <translation>Connessione alla rete Libracoin attraverso un proxy SOCKS5.</translation>
+        <source>Connect to the Lavrovcoin network through a SOCKS5 proxy.</source>
+        <translation>Connessione alla rete Lavrovcoin attraverso un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1089,8 +1089,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Lingua Interfaccia Utente:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Libracoin.</source>
-        <translation>La lingua dell'interfaccia utente può essere impostata qui. L'impostazione avrà effetto dopo il riavvio di Libracoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
+        <translation>La lingua dell'interfaccia utente può essere impostata qui. L'impostazione avrà effetto dopo il riavvio di Lavrovcoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1098,7 +1098,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di libracoin.</translation>
+        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di lavrovcoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1148,8 +1148,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete Libracoin una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete Lavrovcoin una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1255,16 +1255,16 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Errore di richiesta di pagamento</translation>
     </message>
     <message>
-        <source>Cannot start libracoin: click-to-pay handler</source>
-        <translation>Impossibile avviare libracoin: gestore click-to-pay</translation>
+        <source>Cannot start lavrovcoin: click-to-pay handler</source>
+        <translation>Impossibile avviare lavrovcoin: gestore click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL di recupero della Richiesta di pagamento non valido: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Libracoin address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l'URI! I parametri URI o l'indirizzo Libracoin potrebbero non essere corretti.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Lavrovcoin address or malformed URI parameters.</source>
+        <translation>Impossibile interpretare l'URI! I parametri URI o l'indirizzo Lavrovcoin potrebbero non essere corretti.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1333,8 +1333,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Importo</translation>
     </message>
     <message>
-        <source>Enter a Libracoin address (e.g. %1)</source>
-        <translation>Inserisci un indirizzo Libracoin (ad es. %1)</translation>
+        <source>Enter a Lavrovcoin address (e.g. %1)</source>
+        <translation>Inserisci un indirizzo Lavrovcoin (ad es. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1559,16 +1559,16 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>File log del Debug</translation>
     </message>
     <message>
-        <source>Open the Libracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Apri il file log del debug di Libracoin dalla cartella dati attuale. Può richiedere alcuni secondi per file di log di grandi dimensioni.</translation>
+        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Apri il file log del debug di Lavrovcoin dalla cartella dati attuale. Può richiedere alcuni secondi per file di log di grandi dimensioni.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Cancella console</translation>
     </message>
     <message>
-        <source>Welcome to the Libracoin RPC console.</source>
-        <translation>Benvenuto nella console RPC di Libracoin.</translation>
+        <source>Welcome to the Lavrovcoin RPC console.</source>
+        <translation>Benvenuto nella console RPC di Lavrovcoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1642,8 +1642,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>R&amp;iusa un indirizzo di ricezione (non raccomandato)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Libracoin network.</source>
-        <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Libracoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lavrovcoin network.</source>
+        <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Lavrovcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1792,7 +1792,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Libracoin</translation>
+        <translation>Invia Lavrovcoin</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1879,7 +1879,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>somma almeno</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for libracoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for lavrovcoin transactions than the network can process.</source>
         <translation>Non vi è alcuna controindicazione a pagare la commissione minima, a patto che il volume delle transazioni sia inferiore allo spazio disponibile nei blocchi. Occorre comunque essere consapevoli che ciò potrebbe impedire la conferma delle transazioni nel caso in cui la rete risultasse satura.</translation>
     </message>
     <message>
@@ -1952,7 +1952,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Conferma l'invio di libracoin</translation>
+        <translation>Conferma l'invio di lavrovcoin</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2008,7 +2008,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Rilevato un indirizzo duplicato. È possibile inviare libracoin una sola volta a ciascun indirizzo durante un'operazione di invio.</translation>
+        <translation>Rilevato un indirizzo duplicato. È possibile inviare lavrovcoin una sola volta a ciascun indirizzo durante un'operazione di invio.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -2016,7 +2016,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>La transazione è stata respinta! Questo può accadere se alcuni libracoin nel tuo portamonete sono già stati spesi, come nel caso in cui tu avessi utilizzato una copia del file wallet.dat per spendere libracoin e questi non fossero stati considerati come spesi dal portamonete corrente.</translation>
+        <translation>La transazione è stata respinta! Questo può accadere se alcuni lavrovcoin nel tuo portamonete sono già stati spesi, come nel caso in cui tu avessi utilizzato una copia del file wallet.dat per spendere lavrovcoin e questi non fossero stati considerati come spesi dal portamonete corrente.</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an insanely high fee.</source>
@@ -2031,8 +2031,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Inizio delle conferme stimato entro %1 blocchi.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Libracoin address</source>
-        <translation>Attenzione: Indirizzo Libracoin non valido</translation>
+        <source>Warning: Invalid Lavrovcoin address</source>
+        <translation>Attenzione: Indirizzo Lavrovcoin non valido</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2082,8 +2082,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Questo è un normale pagamento.</translation>
     </message>
     <message>
-        <source>The Libracoin address to send the payment to</source>
-        <translation>L'indirizzo Libracoin a cui vuoi inviare il pagamento</translation>
+        <source>The Lavrovcoin address to send the payment to</source>
+        <translation>L'indirizzo Lavrovcoin a cui vuoi inviare il pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2114,8 +2114,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Inserisci un'etichetta per questo indirizzo per aggiungerlo alla lista degli indirizzi utilizzati</translation>
     </message>
     <message>
-        <source>A message that was attached to the libracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Libracoin network.</source>
-        <translation>Messaggio incluso nel libracoin URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Libracoin.</translation>
+        <source>A message that was attached to the lavrovcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lavrovcoin network.</source>
+        <translation>Messaggio incluso nel lavrovcoin URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Lavrovcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2133,8 +2133,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Libracoin Core is shutting down...</source>
-        <translation>Arresto di Libracoin Core in corso...</translation>
+        <source>Lavrovcoin Core is shutting down...</source>
+        <translation>Arresto di Lavrovcoin Core in corso...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2156,8 +2156,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Puoi firmare messaggi con i tuoi indirizzi in modo da dimostrarne il possesso. Presta attenzione a non firmare dichiarazioni vaghe, attacchi di phishing potrebbero cercare di spingerti ad apporre la tua firma su di esse. Firma solo dichiarazioni completamente dettagliate e delle quali condividi in pieno il contenuto.</translation>
     </message>
     <message>
-        <source>The Libracoin address to sign the message with</source>
-        <translation>L'indirizzo Libracoin da utilizzare per firmare il messaggio</translation>
+        <source>The Lavrovcoin address to sign the message with</source>
+        <translation>L'indirizzo Lavrovcoin da utilizzare per firmare il messaggio</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2188,8 +2188,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Libracoin address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Libracoin</translation>
+        <source>Sign the message to prove you own this Lavrovcoin address</source>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Lavrovcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2212,11 +2212,11 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Inserisci l'indirizzo del firmatario, il messaggio (assicurandoti di copiare esattamente anche i ritorni a capo, gli spazi, le tabulazioni, etc..) e la firma qui sotto, per verificare il messaggio. Presta attenzione a non vedere nella sola firma più di quanto non sia riportato nel messaggio stesso, in modo da evitare di cadere vittima di attacchi di tipo man-in-the-middle.</translation>
     </message>
     <message>
-        <source>The Libracoin address the message was signed with</source>
-        <translation>L'indirizzo Libracoin con cui è stato contrassegnato il messaggio</translation>
+        <source>The Lavrovcoin address the message was signed with</source>
+        <translation>L'indirizzo Lavrovcoin con cui è stato contrassegnato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Libracoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Lavrovcoin address</source>
         <translation>Verifica il messaggio per accertare che sia stato firmato con l'indirizzo specificato</translation>
     </message>
     <message>
@@ -2241,7 +2241,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>L'indirizzo libracoin inserito non è associato a nessuna chiave.</translation>
+        <translation>L'indirizzo lavrovcoin inserito non è associato a nessuna chiave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -2283,8 +2283,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2414,7 +2414,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>È necessario attendere %1 blocchi prima che i libracoin generati possano essere spesi. Al momento della generazione questo blocco è stato trasmesso alla rete in modo da poter essere aggiunto alla block chain. Se l'inserimento avrà esito negativo lo stato del blocco sarà modificato in "non accettato" ed esso risulterà non spendibile. Ciò può verificarsi occasionalmente nel caso in cui un altro blocco sia stato generato entro pochi secondi dal tuo.</translation>
+        <translation>È necessario attendere %1 blocchi prima che i lavrovcoin generati possano essere spesi. Al momento della generazione questo blocco è stato trasmesso alla rete in modo da poter essere aggiunto alla block chain. Se l'inserimento avrà esito negativo lo stato del blocco sarà modificato in "non accettato" ed esso risulterà non spendibile. Ciò può verificarsi occasionalmente nel caso in cui un altro blocco sia stato generato entro pochi secondi dal tuo.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2732,7 +2732,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Libracoin</translation>
+        <translation>Invia Lavrovcoin</translation>
     </message>
 </context>
 <context>
@@ -2837,8 +2837,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Libracoin Core is probably already running.</source>
-        <translation>Impossibile associarsi a %s su questo computer. Probabilmente Libracoin Core è già in esecuzione.</translation>
+        <source>Unable to bind to %s on this computer. Lavrovcoin Core is probably already running.</source>
+        <translation>Impossibile associarsi a %s su questo computer. Probabilmente Lavrovcoin Core è già in esecuzione.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3017,8 +3017,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Resta in attesa di connessioni JSON-RPC sull'indirizzo indicato. Usa la notazione [host]:porta per IPv6. Questa opzione può essere specificata più volte (predefinito: associa a tutte le interfacce) </translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Libracoin Core is probably already running.</source>
-        <translation>Non è possibile ottenere un lock sulla cartella %s. Probabilmente Libracoin Core è già in esecuzione.</translation>
+        <source>Cannot obtain a lock on data directory %s. Lavrovcoin Core is probably already running.</source>
+        <translation>Non è possibile ottenere un lock sulla cartella %s. Probabilmente Lavrovcoin Core è già in esecuzione.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -3078,33 +3078,33 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Specifica il numero di thread per la generazione di libracoin, se abilitata (-1 = tutti i core, predefinito: %d)</translation>
+        <translation>Specifica il numero di thread per la generazione di lavrovcoin, se abilitata (-1 = tutti i core, predefinito: %d)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Questo prodotto include software sviluppato dal progetto OpenSSL per l'uso del Toolkit OpenSSL &lt;https://www.openssl.org/&gt;, software crittografico scritto da Eric Young e software UPnP scritto da Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use libracoind, or the -server option to Libracoin, you must set an rpcpassword in the configuration file:
+        <source>To use lavrovcoind, or the -server option to Lavrovcoin, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=libracoinrpc
+rpcuser=lavrovcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
 </source>
-        <translation>Per utilizzare libracoind o l'opzione -server in Libracoin Core è necessario specificare una rpcpassword nel file di configurazione:
+        <translation>Per utilizzare lavrovcoind o l'opzione -server in Lavrovcoin Core è necessario specificare una rpcpassword nel file di configurazione:
 %s
 Si raccomanda di utilizzare la seguente password casuale:
-rpcuser=libracoinrpc
+rpcuser=lavrovcoinrpc
 rpcpassword=%s
 (non è necessario ricordare questa password)
 Il nome utente e la password NON DEVONO corrispondere.
 Se il file non esiste si raccomanda di crearlo con permessi di lettura per il solo proprietario.
-Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche di eventuali problemi, ad es. alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
+Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche di eventuali problemi, ad es. alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3112,8 +3112,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Attenzione: -maxtxfee è impostato su un valore molto elevato. Tali commissioni potrebbero essere pagate anche in una singola transazione.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Libracoin Core will not work properly.</source>
-        <translation>Attenzione: Si prega di verificare che data ed ora del computer siano corrette! Una configurazione errata dell'orologio di sistema potrebbe impedire a Libracoin Core di funzionare regolarmente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Lavrovcoin Core will not work properly.</source>
+        <translation>Attenzione: Si prega di verificare che data ed ora del computer siano corrette! Una configurazione errata dell'orologio di sistema potrebbe impedire a Lavrovcoin Core di funzionare regolarmente.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3140,8 +3140,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Non è stato possibile riconoscere il valore %s di -rpcbind come indirizzo di rete</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Libracoin Core</source>
-        <translation>Errore durante il caricamento del file wallet.dat: il portamonete richiede una versione di Libracoin Core più recente</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Lavrovcoin Core</source>
+        <translation>Errore durante il caricamento del file wallet.dat: il portamonete richiede una versione di Lavrovcoin Core più recente</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3164,8 +3164,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Informazioni</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Libracoin Core is shutting down.</source>
-        <translation>Test di integrità iniziale fallito. Libracoin Core si arresterà.</translation>
+        <source>Initialization sanity check failed. Lavrovcoin Core is shutting down.</source>
+        <translation>Test di integrità iniziale fallito. Lavrovcoin Core si arresterà.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3200,8 +3200,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Opzioni trasmissione nodo:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Libracoin Wiki for SSL setup instructions)</source>
-        <translation>Opzioni RPC SSL: (consulta la Libracoin Wiki per le istruzioni relative alla configurazione SSL)</translation>
+        <source>RPC SSL options: (see the Lavrovcoin Wiki for SSL setup instructions)</source>
+        <translation>Opzioni RPC SSL: (consulta la Lavrovcoin Wiki per le istruzioni relative alla configurazione SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3272,8 +3272,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Nome utente per connessioni JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Libracoin Core to complete</source>
-        <translation>Il portamonete necessitava di essere riscritto: riavviare Libracoin Core per completare l'operazione</translation>
+        <source>Wallet needed to be rewritten: restart Lavrovcoin Core to complete</source>
+        <translation>Il portamonete necessitava di essere riscritto: riavviare Lavrovcoin Core per completare l'operazione</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3397,7 +3397,7 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Genera libracoin (predefinito: %u)</translation>
+        <translation>Genera lavrovcoin (predefinito: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>

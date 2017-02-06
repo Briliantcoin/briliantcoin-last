@@ -66,12 +66,12 @@
         <translation>адрасы Прымання</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тут знаходзяцца Libracoin-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Тут знаходзяцца Lavrovcoin-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Тут знаходзяцца Libracoin-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Тут знаходзяцца Lavrovcoin-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Увядзіце новы пароль для гаманца.&lt;br/&gt;Парольная фраза павинна складацца&lt;b&gt; не меньш чым з дзесяці сімвалаў&lt;/b&gt;, ці &lt;b&gt;больш чым з васьмі слоў&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Адчыниць &amp;URI...</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>Libracoin Core кліент</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>Lavrovcoin Core кліент</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Даслаць манеты на Libracoin-адрас</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Даслаць манеты на Lavrovcoin-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>Атрымаць</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>Паказаць інфармацыю аб Libracoin Core</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>Паказаць інфармацыю аб Lavrovcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
-        <translation>Падпісаць паведамленне з дапамогай Libracoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <translation>Падпісаць паведамленне з дапамогай Lavrovcoin-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
-        <translation>Спраўдзіць паведамленне з дапамогай Libracoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <translation>Спраўдзіць паведамленне з дапамогай Lavrovcoin-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -383,16 +383,16 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and libracoin: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для libracoin URI)</translation>
+        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для lavrovcoin URI)</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>Аб Libracoin Core</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>Аб Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -403,20 +403,20 @@
         <translation>Паказаць спіс адрасоў і метак для прымання</translation>
     </message>
     <message>
-        <source>Open a libracoin: URI or payment request</source>
-        <translation>Адкрыць libracoin: URI ці запыт плацяжу</translation>
+        <source>Open a lavrovcoin: URI or payment request</source>
+        <translation>Адкрыць lavrovcoin: URI ці запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Опцыі каманднага радка</translation>
     </message>
     <message>
-        <source>Show the Libracoin Core help message to get a list with possible Libracoin command-line options</source>
-        <translation>Паказваць даведку Libracoin Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
+        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
+        <translation>Паказваць даведку Lavrovcoin Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n актыўнае злучэнне з Libracoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Libracoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Libracoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Libracoin-сецівам</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n актыўнае злучэнне з Lavrovcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Lavrovcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Lavrovcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Lavrovcoin-сецівам</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -742,16 +742,16 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-біт)</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>Аб Libracoin Core</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>Аб Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -777,12 +777,12 @@ Address: %4
         <translation>Вітаем</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>Вітаем у Libracoin Core.</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>Вітаем у Lavrovcoin Core.</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1033,8 +1033,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>

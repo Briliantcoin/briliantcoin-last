@@ -3,9 +3,9 @@ libsecp256k1
 
 [![Build Status](https://travis-ci.org/bitcoin/secp256k1.svg?branch=master)](https://travis-ci.org/bitcoin/secp256k1)
 
-Optimized C library for EC operations on curve secp256k1.
+Optimized C lavrovcory for EC operations on curve secp256k1.
 
-This library is experimental, so use at your own risk.
+This lavrovcory is experimental, so use at your own risk.
 
 Features:
 * Low-level field and group operations on secp256k1.

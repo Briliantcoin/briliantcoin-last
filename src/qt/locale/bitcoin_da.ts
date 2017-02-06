@@ -47,11 +47,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Vælg adresse at sende libracoins til</translation>
+        <translation>Vælg adresse at sende lavrovcoins til</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Vælg adresse at modtage libracoins med</translation>
+        <translation>Vælg adresse at modtage lavrovcoins med</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -66,12 +66,12 @@
         <translation>Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Libracoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender libracoins.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine Lavrovcoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender lavrovcoins.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Libracoin-adresser til at modtage betalinger med. Det anbefales are bruge en ny modtagelsesadresse for hver transaktion.</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine Lavrovcoin-adresser til at modtage betalinger med. Det anbefales are bruge en ny modtagelsesadresse for hver transaktion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Indtast det nye kodeord til tegnebogen.&lt;br/&gt;Brug venligst et kodeord på &lt;b&gt;ti eller flere tilfældige tegn&lt;/b&gt; eller &lt;b&gt;otte eller flere ord&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine libracoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine lavrovcoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>&amp;Åbn URI …</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>Libracoin Core-klient</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>Lavrovcoin Core-klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Genindekserer blokke på disken …</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Send libracoins til en Libracoin-adresse</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Send lavrovcoins til en Lavrovcoin-adresse</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>Redigér konfigurationsindstillinger for Libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>Redigér konfigurationsindstillinger for Lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>&amp;Verificér besked …</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>&amp;Modtag</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>Vis oplysninger om Libracoin Core</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>Vis oplysninger om Lavrovcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Kryptér de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
-        <translation>Underskriv beskeder med dine Libracoin-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <translation>Underskriv beskeder med dine Lavrovcoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
-        <translation>Verificér beskeder for at sikre, at de er underskrevet med de angivne Libracoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <translation>Verificér beskeder for at sikre, at de er underskrevet med de angivne Lavrovcoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Faneværktøjslinje</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and libracoin: URIs)</source>
-        <translation>Anmod om betalinger (genererer QR-koder og "libracoin:"-URI'er)</translation>
+        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
+        <translation>Anmod om betalinger (genererer QR-koder og "lavrovcoin:"-URI'er)</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>&amp;Om Libracoin Core</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>&amp;Om Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Vis listen over brugte modtagelsesadresser og -mærkater</translation>
     </message>
     <message>
-        <source>Open a libracoin: URI or payment request</source>
-        <translation>Åbn en "libracoin:"-URI eller betalingsanmodning</translation>
+        <source>Open a lavrovcoin: URI or payment request</source>
+        <translation>Åbn en "lavrovcoin:"-URI eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Tilvalg for &amp;kommandolinje</translation>
     </message>
     <message>
-        <source>Show the Libracoin Core help message to get a list with possible Libracoin command-line options</source>
-        <translation>Vis Libracoin Core hjælpebesked for at få en liste over mulige tilvalg for Libracoin kommandolinje</translation>
+        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
+        <translation>Vis Lavrovcoin Core hjælpebesked for at få en liste over mulige tilvalg for Lavrovcoin kommandolinje</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til Libracoin-netværket</numerusform><numerusform>%n aktive forbindelser til Libracoin-netværket</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n aktiv forbindelse til Lavrovcoin-netværket</numerusform><numerusform>%n aktive forbindelser til Lavrovcoin-netværket</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -788,8 +788,8 @@ Adresse: %4
         <translation>Den indtastede adresse "%1" er allerede i adressebogen.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>Den indtastede adresse "%1" er ikke en gyldig Libracoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>Den indtastede adresse "%1" er ikke en gyldig Lavrovcoin-adresse.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -826,8 +826,8 @@ Adresse: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -838,8 +838,8 @@ Adresse: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>Om Libracoin Core</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>Om Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -885,16 +885,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>Velkommen til Libracoin Core.</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>Velkommen til Lavrovcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Libracoin Core will store its data.</source>
-        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor Libracoin Core skal gemme sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Lavrovcoin Core will store its data.</source>
+        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor Lavrovcoin Core skal gemme sin data.</translation>
     </message>
     <message>
-        <source>Libracoin Core will download and store a copy of the Libracoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Libracoin Core vil downloade og gemme et kopi af Libracoin-blokkæden. Mindst %1 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
+        <source>Lavrovcoin Core will download and store a copy of the Lavrovcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Lavrovcoin Core vil downloade og gemme et kopi af Lavrovcoin-blokkæden. Mindst %1 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -905,8 +905,8 @@ Adresse: %4
         <translation>Brug tilpasset mappe for data:</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -955,12 +955,12 @@ Adresse: %4
         <translation>&amp;Generelt</translation>
     </message>
     <message>
-        <source>Automatically start Libracoin after logging in to the system.</source>
-        <translation>Start Libracoin automatisk, når der logges ind på systemet.</translation>
+        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <translation>Start Lavrovcoin automatisk, når der logges ind på systemet.</translation>
     </message>
     <message>
-        <source>&amp;Start Libracoin on system login</source>
-        <translation>&amp;Start Libracoin ved systemlogin</translation>
+        <source>&amp;Start Lavrovcoin on system login</source>
+        <translation>&amp;Start Lavrovcoin ved systemlogin</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1035,16 +1035,16 @@ Adresse: %4
         <translation>&amp;Brug ubekræftede byttepenge</translation>
     </message>
     <message>
-        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn automatisk Libracoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
+        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn automatisk Lavrovcoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Konfigurér port vha. &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Libracoin network through a SOCKS5 proxy.</source>
-        <translation>Forbind til Libracoin-netværket gennem en SOCKS5-proxy.</translation>
+        <source>Connect to the Lavrovcoin network through a SOCKS5 proxy.</source>
+        <translation>Forbind til Lavrovcoin-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1091,8 +1091,8 @@ Adresse: %4
         <translation>&amp;Sprog for brugergrænseflade:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Libracoin.</source>
-        <translation>Sproget for brugergrænsefladen kan angives her. Denne indstilling træder først i kraft, når Libracoin genstartes.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
+        <translation>Sproget for brugergrænsefladen kan angives her. Denne indstilling træder først i kraft, når Lavrovcoin genstartes.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1100,7 +1100,7 @@ Adresse: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Vælg standard for underopdeling af enhed, som skal vises i brugergrænsefladen og ved afsendelse af libracoins.</translation>
+        <translation>Vælg standard for underopdeling af enhed, som skal vises i brugergrænsefladen og ved afsendelse af lavrovcoins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1150,8 +1150,8 @@ Adresse: %4
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Libracoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Lavrovcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1257,16 +1257,16 @@ Adresse: %4
         <translation>Fejl i betalingsanmodning</translation>
     </message>
     <message>
-        <source>Cannot start libracoin: click-to-pay handler</source>
-        <translation>Kan ikke starte libracoin: click-to-pay-håndtering</translation>
+        <source>Cannot start lavrovcoin: click-to-pay handler</source>
+        <translation>Kan ikke starte lavrovcoin: click-to-pay-håndtering</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Hentnings-URL for betalingsanmodning er ugyldig: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Libracoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Libracoin-adresse eller forkert udformede URL-parametre.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Lavrovcoin address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Lavrovcoin-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1335,8 +1335,8 @@ Adresse: %4
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Libracoin address (e.g. %1)</source>
-        <translation>Indtast en Libracoin-adresse (fx %1)</translation>
+        <source>Enter a Lavrovcoin address (e.g. %1)</source>
+        <translation>Indtast en Lavrovcoin-adresse (fx %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1561,16 +1561,16 @@ Adresse: %4
         <translation>Fejlsøgningslogfil</translation>
     </message>
     <message>
-        <source>Open the Libracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Libracoin-fejlsøgningslogfilen fra den nuværende datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
+        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Lavrovcoin-fejlsøgningslogfilen fra den nuværende datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Ryd konsol</translation>
     </message>
     <message>
-        <source>Welcome to the Libracoin RPC console.</source>
-        <translation>Velkommen til Libracoin RPC-konsollen.</translation>
+        <source>Welcome to the Lavrovcoin RPC console.</source>
+        <translation>Velkommen til Lavrovcoin RPC-konsollen.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1644,8 +1644,8 @@ Adresse: %4
         <translation>&amp;Genbrug en eksisterende modtagelsesadresse (anbefales ikke)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Libracoin network.</source>
-        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Libracoin-netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lavrovcoin network.</source>
+        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Lavrovcoin-netværket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1794,7 +1794,7 @@ Adresse: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send libracoins</translation>
+        <translation>Send lavrovcoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1881,8 +1881,8 @@ Adresse: %4
         <translation>total mindst</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for libracoin transactions than the network can process.</source>
-        <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter libracoin-transaktioner, end hvad netværket kan bearbejde.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for lavrovcoin transactions than the network can process.</source>
+        <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter lavrovcoin-transaktioner, end hvad netværket kan bearbejde.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1954,7 +1954,7 @@ Adresse: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bekræft afsendelse af libracoins</translation>
+        <translation>Bekræft afsendelse af lavrovcoins</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2022,7 +2022,7 @@ Adresse: %4
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Transaktionen blev afvist! Dette kan ske, hvis nogle af dine libracoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine libracoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
+        <translation>Transaktionen blev afvist! Dette kan ske, hvis nogle af dine lavrovcoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine lavrovcoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an insanely high fee.</source>
@@ -2037,8 +2037,8 @@ Adresse: %4
         <translation>Bekræftelse vurderes at begynde inden for %1 blok(ke).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Libracoin address</source>
-        <translation>Advarsel: Ugyldig Libracoin-adresse</translation>
+        <source>Warning: Invalid Lavrovcoin address</source>
+        <translation>Advarsel: Ugyldig Lavrovcoin-adresse</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2088,8 +2088,8 @@ Adresse: %4
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-        <source>The Libracoin address to send the payment to</source>
-        <translation>Libracoin-adresse, som betalingen skal sendes til</translation>
+        <source>The Lavrovcoin address to send the payment to</source>
+        <translation>Lavrovcoin-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2120,8 +2120,8 @@ Adresse: %4
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the libracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Libracoin network.</source>
-        <translation>En besked, som blev føjet til "bitcon:"-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Libracoin-netværket.</translation>
+        <source>A message that was attached to the lavrovcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lavrovcoin network.</source>
+        <translation>En besked, som blev føjet til "bitcon:"-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Lavrovcoin-netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2139,8 +2139,8 @@ Adresse: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Libracoin Core is shutting down...</source>
-        <translation>Libracoin Core lukker ned …</translation>
+        <source>Lavrovcoin Core is shutting down...</source>
+        <translation>Lavrovcoin Core lukker ned …</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2159,11 +2159,11 @@ Adresse: %4
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underskrive beskeder med dine Libracoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
+        <translation>Du kan underskrive beskeder med dine Lavrovcoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
     </message>
     <message>
-        <source>The Libracoin address to sign the message with</source>
-        <translation>Libracoin-adresse, som beskeden skal signeres med</translation>
+        <source>The Lavrovcoin address to sign the message with</source>
+        <translation>Lavrovcoin-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2194,8 +2194,8 @@ Adresse: %4
         <translation>Kopiér den nuværende underskrift til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Libracoin address</source>
-        <translation>Underskriv denne besked for at bevise, at Libracoin-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this Lavrovcoin address</source>
+        <translation>Underskriv denne besked for at bevise, at Lavrovcoin-adressen tilhører dig</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2218,12 +2218,12 @@ Adresse: %4
         <translation>Indtast herunder den underskrivende adresse, beskeden (inkludér linjeskift, mellemrum mv. nøjagtigt, som de fremgår) og underskriften for at verificere beskeden. Vær forsigtig med ikke at lægge mere i underskriften end besked selv, så du undgår at blive narret af et man-in-the-middle-angreb.</translation>
     </message>
     <message>
-        <source>The Libracoin address the message was signed with</source>
-        <translation>Libracoin-adressen, som beskeden blev signeret med</translation>
+        <source>The Lavrovcoin address the message was signed with</source>
+        <translation>Lavrovcoin-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Libracoin address</source>
-        <translation>Verificér beskeden for at sikre, at den er underskrevet med den angivne Libracoin-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified Lavrovcoin address</source>
+        <translation>Verificér beskeden for at sikre, at den er underskrevet med den angivne Lavrovcoin-adresse</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2289,8 +2289,8 @@ Adresse: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2420,7 +2420,7 @@ Adresse: %4
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Minede libracoins skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den udsendt til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til "ikke accepteret", og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
+        <translation>Minede lavrovcoins skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den udsendt til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til "ikke accepteret", og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2738,7 +2738,7 @@ Adresse: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send libracoins</translation>
+        <translation>Send lavrovcoins</translation>
     </message>
 </context>
 <context>
@@ -2843,8 +2843,8 @@ Adresse: %4
         <translation>Dette er en foreløbig testudgivelse - brug på eget ansvar - brug ikke til udvinding eller handelsprogrammer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Libracoin Core is probably already running.</source>
-        <translation>Ikke i stand til at tildele til %s på denne computer. Libracoin Core kører sansynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. Lavrovcoin Core is probably already running.</source>
+        <translation>Ikke i stand til at tildele til %s på denne computer. Lavrovcoin Core kører sansynligvis allerede.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3027,8 +3027,8 @@ Adresse: %4
         <translation>Tildel til den givne adresse for at lytte efter JSON-RPC-forbindelser. Brug [vært]:port-notation for IPv6. Denne valgmulighed kan angives flere gange (standard: tildel til alle grænseflader)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Libracoin Core is probably already running.</source>
-        <translation>Kan ikke opnå en lås på datamappe %s. Libracoin Core kører sansynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. Lavrovcoin Core is probably already running.</source>
+        <translation>Kan ikke opnå en lås på datamappe %s. Lavrovcoin Core kører sansynligvis allerede.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -3095,27 +3095,27 @@ Adresse: %4
         <translation>Dette produkt indeholder software, der er udviklet af OpenSSL-projektet for brug i OpenSSL-værktøjskassen &lt;https://www.openssl.org/&gt;, samt kryptografisk software, der er skrevet af Eric Young, samt UPnP-software, der er skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use libracoind, or the -server option to Libracoin, you must set an rpcpassword in the configuration file:
+        <source>To use lavrovcoind, or the -server option to Lavrovcoin, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=libracoinrpc
+rpcuser=lavrovcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
 </source>
-        <translation>For at bruge libracoind eller valgmuligheden -server i Libracoin skal du oprette et rpcpassword i konfigurationsfilen:
+        <translation>For at bruge lavrovcoind eller valgmuligheden -server i Lavrovcoin skal du oprette et rpcpassword i konfigurationsfilen:
 %s
 Det anbefales, at du bruger følgende tilfældige adgangskode:
-rpcuser=libracoinrpc
+rpcuser=lavrovcoinrpc
 rpcpassword=%s
 (du behøver ikke at huske adgangskoden)
 Brugernavnet og adgangskoden MÅ IKKE være det samme.
 Hvis filen ikke eksisterer, opret den da så kun ejeren har læserettigheder.
 Det anbefales også at sætte alertnotify, så du får besked omkring problemer;
-for eksempel: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
+for eksempel: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3123,8 +3123,8 @@ for eksempel: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
         <translation>Advarsel: -maxtxfee er sat meget højt! Så store gebyrer kan betales på en enkelt transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Libracoin Core will not work properly.</source>
-        <translation>Advarsel: Undersøg venligst at din computers dato og klokkeslet er korrekt indstillet! Hvis der er fejl i disse vil Libracoin Core ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Lavrovcoin Core will not work properly.</source>
+        <translation>Advarsel: Undersøg venligst at din computers dato og klokkeslet er korrekt indstillet! Hvis der er fejl i disse vil Lavrovcoin Core ikke fungere korrekt.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3151,8 +3151,8 @@ for eksempel: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
         <translation>Kunne ikke tolke -rpcbind-værdi %s som en netværksadresse</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Libracoin Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Libracoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Lavrovcoin Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3175,8 +3175,8 @@ for eksempel: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Libracoin Core is shutting down.</source>
-        <translation>Sundhedstjek under klargøring mislykkedes. Libracoin Core lukker ned.</translation>
+        <source>Initialization sanity check failed. Lavrovcoin Core is shutting down.</source>
+        <translation>Sundhedstjek under klargøring mislykkedes. Lavrovcoin Core lukker ned.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3211,8 +3211,8 @@ for eksempel: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
         <translation>Videresendelsesvalgmuligheder for knude:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Libracoin Wiki for SSL setup instructions)</source>
-        <translation>Tilvalg for RPC SSL: (se Libracoin Wiki for instruktioner i SSL-opstart)</translation>
+        <source>RPC SSL options: (see the Lavrovcoin Wiki for SSL setup instructions)</source>
+        <translation>Tilvalg for RPC SSL: (se Lavrovcoin Wiki for instruktioner i SSL-opstart)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3287,8 +3287,8 @@ for eksempel: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
         <translation>Brugernavn til JSON-RPC-forbindelser</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Libracoin Core to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Libracoin Core for at gennemføre</translation>
+        <source>Wallet needed to be rewritten: restart Lavrovcoin Core to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Lavrovcoin Core for at gennemføre</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3412,7 +3412,7 @@ for eksempel: alertnotify=echo %%s | mail -s "Libracoin Alert" admin@foo.com
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Generér libracoins (standard: %u)</translation>
+        <translation>Generér lavrovcoins (standard: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>

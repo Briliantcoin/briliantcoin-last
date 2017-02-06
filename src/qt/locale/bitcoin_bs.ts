@@ -11,12 +11,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Jezrga</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -34,15 +34,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Jezrga</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Jezrga</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Jezrga</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -109,8 +109,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Jezrga</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Jezrga</translation>
     </message>
     </context>
 <context>

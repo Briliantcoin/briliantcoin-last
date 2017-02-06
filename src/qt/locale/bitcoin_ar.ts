@@ -66,12 +66,12 @@
         <translation>استقبال العناوين</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>هذه هي عناوين Libracoin التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>هذه هي عناوين Lavrovcoin التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>هذه هي عناوين Libracoin التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>هذه هي عناوين Lavrovcoin التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -184,7 +184,7 @@
         <translation>أدخل عبارة مرور جديدة إلى المحفظة. الرجاء استخدام عبارة مرور تتكون من10 حروف عشوائية على الاقل, أو أكثر من 7 كلمات</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
         <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
     </message>
     <message>
@@ -291,8 +291,8 @@
         <translation>افتح &amp;URI...</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>عميل libracoin core</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>عميل lavrovcoin core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -303,12 +303,12 @@
         <translation>إعادة فهرسة الكتل على القرص</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>ارسل عملات الى عنوان Libracoin</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>ارسل عملات الى عنوان Lavrovcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>تعديل إعدادات libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>تعديل إعدادات lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,7 +327,7 @@
         <translation>&amp;التحقق من الرسالة...</translation>
     </message>
     <message>
-        <source>Libracoin</source>
+        <source>Lavrovcoin</source>
         <translation>بت كوين</translation>
     </message>
     <message>
@@ -339,8 +339,8 @@
         <translation>&amp;استقبل</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>  اظهار معلومات حول Libracoin core</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>  اظهار معلومات حول Lavrovcoin core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -371,12 +371,12 @@
         <translation>شريط أدوات علامات التبويب</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
+        <source>Lavrovcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>حول libracoin core</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>حول lavrovcoin core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -626,7 +626,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
+        <source>Lavrovcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
@@ -634,7 +634,7 @@
         <translation>النسخة</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
+        <source>About Lavrovcoin Core</source>
         <translation>عن جوهر البيت كوين</translation>
     </message>
     <message>
@@ -661,7 +661,7 @@
         <translation>استخدام دليل بيانات مخصص:</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
+        <source>Lavrovcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
@@ -1234,7 +1234,7 @@
         <translation>التوقيع</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Libracoin address</source>
+        <source>Sign the message to prove you own this Lavrovcoin address</source>
         <translation>وقع الرسالة لتثبت انك تمتلك عنوان البت كوين هذا</translation>
     </message>
     <message>
@@ -1301,7 +1301,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
+        <source>Lavrovcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>

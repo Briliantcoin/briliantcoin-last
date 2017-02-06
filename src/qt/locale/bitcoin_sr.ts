@@ -108,8 +108,8 @@
         <translation>Новчаник је шифрован</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje libracoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje lavrovcoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -195,12 +195,12 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Пошаљите новац на libracoin адресу</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Пошаљите новац на lavrovcoin адресу</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>Изаберите могућности libracoin-а</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>Изаберите могућности lavrovcoin-а</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -334,8 +334,8 @@ Address: %4
         <translation>верзија</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>O Libracoin Coru</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>O Lavrovcoin Coru</translation>
     </message>
     <message>
         <source>Usage:</source>

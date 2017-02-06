@@ -46,12 +46,12 @@
         <translation>Duke marr adresen</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Këto janë Libracoin adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Këto janë Lavrovcoin adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Këto janë Libracoin adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Këto janë Lavrovcoin adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -207,8 +207,8 @@
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -243,11 +243,11 @@
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Berthama Libracoin</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Berthama Lavrovcoin</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
+        <source>&amp;About Lavrovcoin Core</source>
         <translation>Rreth Berthames Bitkoin</translation>
     </message>
     <message numerus="yes">
@@ -398,15 +398,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Berthama Libracoin</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Berthama Lavrovcoin</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versioni</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
+        <source>About Lavrovcoin Core</source>
         <translation>Rreth Berthames Bitkoin</translation>
     </message>
     </context>
@@ -417,12 +417,12 @@
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>Miresevini ne Berthamen Libracoin</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>Miresevini ne Berthamen Lavrovcoin</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Berthama Libracoin</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Berthama Lavrovcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -609,8 +609,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Berthama Libracoin</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Berthama Lavrovcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>

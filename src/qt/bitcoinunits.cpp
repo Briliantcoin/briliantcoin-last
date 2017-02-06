@@ -62,9 +62,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Libracoins");
-    case mBTC: return QString("Milli-Libracoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Libracoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case BTC: return QString("Lavrovcoins");
+    case mBTC: return QString("Milli-Lavrovcoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-Lavrovcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

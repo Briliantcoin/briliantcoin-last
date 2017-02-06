@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izvēlies adresi uz kuru sūtīt libracoins</translation>
+        <translation>Izvēlies adresi uz kuru sūtīt lavrovcoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt libracoins</translation>
+        <translation>Izvēlies adresi ar kuru saņemt lavrovcoins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Saņemšanas adreses</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Šīs ir jūsu Libracoin adreses maksājumu sūtīšanai. Vienmēr  pārbaudiet summu un saņēmēja adresi pirms monētu sūtīšanas.</translation>
+        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Šīs ir jūsu Lavrovcoin adreses maksājumu sūtīšanai. Vienmēr  pārbaudiet summu un saņēmēja adresi pirms monētu sūtīšanas.</translation>
     </message>
     <message>
-        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Šīs ir jūsu Libracoin adreses maksājumu saņemšanai. Ir ieteicams katram darījumam izmantot jaunu saņemšanas adresi.</translation>
+        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Šīs ir jūsu Lavrovcoin adreses maksājumu saņemšanai. Ir ieteicams katram darījumam izmantot jaunu saņemšanas adresi.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -180,8 +180,8 @@
         <translation>Maciņš nošifrēts</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst libracoins zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst lavrovcoins zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -287,8 +287,8 @@
         <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
-        <source>Libracoin Core client</source>
-        <translation>Libracoin Core klients</translation>
+        <source>Lavrovcoin Core client</source>
+        <translation>Lavrovcoin Core klients</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,12 +299,12 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a Libracoin address</source>
-        <translation>Nosūtīt libracoins uz Libracoin adresi</translation>
+        <source>Send coins to a Lavrovcoin address</source>
+        <translation>Nosūtīt lavrovcoins uz Lavrovcoin adresi</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>Mainīt Libracoin konfigurācijas uzstādījumus</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>Mainīt Lavrovcoin konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,8 +327,8 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>Libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>Lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -343,8 +343,8 @@
         <translation>&amp;Saņemt</translation>
     </message>
     <message>
-        <source>Show information about Libracoin Core</source>
-        <translation>Parādīt informāciju par Libracoin Core</translation>
+        <source>Show information about Lavrovcoin Core</source>
+        <translation>Parādīt informāciju par Lavrovcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -359,12 +359,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your Libracoin addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām Libracoin adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām Lavrovcoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Libracoin adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Lavrovcoin adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -383,28 +383,28 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and libracoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un libracoin: URIs)</translation>
+        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un lavrovcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Libracoin Core</source>
-        <translation>Par &amp;Libracoin Core</translation>
+        <source>&amp;About Lavrovcoin Core</source>
+        <translation>Par &amp;Lavrovcoin Core</translation>
     </message>
     <message>
-        <source>Open a libracoin: URI or payment request</source>
-        <translation>Atvērt libracoin URI vai maksājuma pieprasījumu</translation>
+        <source>Open a lavrovcoin: URI or payment request</source>
+        <translation>Atvērt lavrovcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandrindas iespējas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Libracoin network</source>
-        <translation><numerusform>%n aktīvu savienojumu ar Libracoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Libracoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Libracoin tīklu</numerusform></translation>
+        <source>%n active connection(s) to Lavrovcoin network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar Lavrovcoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Lavrovcoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Lavrovcoin tīklu</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -704,8 +704,8 @@ Adrese: %4
         <translation>Nupat ierakstītā adrese "%1" jau atrodas adrešu grāmatā.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>Ierakstītā adrese "%1" nav derīga Libracoin adrese.</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>Ierakstītā adrese "%1" nav derīga Lavrovcoin adrese.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -738,8 +738,8 @@ Adrese: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -750,8 +750,8 @@ Adrese: %4
         <translation>(%1-biti)</translation>
     </message>
     <message>
-        <source>About Libracoin Core</source>
-        <translation>Par Libracoin Core</translation>
+        <source>About Lavrovcoin Core</source>
+        <translation>Par Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -785,8 +785,8 @@ Adrese: %4
         <translation>Sveiciens</translation>
     </message>
     <message>
-        <source>Welcome to Libracoin Core.</source>
-        <translation>Sveicināts Libracoin Core</translation>
+        <source>Welcome to Lavrovcoin Core.</source>
+        <translation>Sveicināts Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -797,8 +797,8 @@ Adrese: %4
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -839,12 +839,12 @@ Adrese: %4
         <translation>&amp;Galvenais</translation>
     </message>
     <message>
-        <source>Automatically start Libracoin after logging in to the system.</source>
-        <translation>Automātiski sākt Libracoin pēc pieteikšanās sistēmā.</translation>
+        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <translation>Automātiski sākt Lavrovcoin pēc pieteikšanās sistēmā.</translation>
     </message>
     <message>
-        <source>&amp;Start Libracoin on system login</source>
-        <translation>&amp;Sākt Libracoin reizē ar sistēmu</translation>
+        <source>&amp;Start Lavrovcoin on system login</source>
+        <translation>&amp;Sākt Lavrovcoin reizē ar sistēmu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -892,15 +892,15 @@ Adrese: %4
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt libracoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt lavrovcoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Libracoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Lavrovcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -947,8 +947,8 @@ Adrese: %4
         <translation>Lietotāja interfeiss un &amp;valoda:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Libracoin.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Libracoin pārstartēšanas.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Lavrovcoin pārstartēšanas.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -956,11 +956,11 @@ Adrese: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot libracoins.</translation>
+        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot lavrovcoins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt Libracoin kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt Lavrovcoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -998,8 +998,8 @@ Adrese: %4
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Libracoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Lavrovcoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1049,8 +1049,8 @@ Adrese: %4
         <translation>Maksājumu pieprasījuma kļūda</translation>
     </message>
     <message>
-        <source>Cannot start libracoin: click-to-pay handler</source>
-        <translation>Nevar palaist Libracoin: nospied-lai-maksātu apstrādātāju</translation>
+        <source>Cannot start lavrovcoin: click-to-pay handler</source>
+        <translation>Nevar palaist Lavrovcoin: nospied-lai-maksātu apstrādātāju</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1205,8 +1205,8 @@ Adrese: %4
         <translation>Notīrīt konsoli</translation>
     </message>
     <message>
-        <source>Welcome to the Libracoin RPC console.</source>
-        <translation>Laipni lūgti Libracoin RPC konsolē.</translation>
+        <source>Welcome to the Lavrovcoin RPC console.</source>
+        <translation>Laipni lūgti Lavrovcoin RPC konsolē.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1386,11 +1386,11 @@ Adrese: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt Libracoins</translation>
+        <translation>Sūtīt Lavrovcoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Libracoin Kontroles Funkcijas</translation>
+        <translation>Lavrovcoin Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1466,7 +1466,7 @@ Adrese: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Apstiprināt libracoin sūtīšanu</translation>
+        <translation>Apstiprināt lavrovcoin sūtīšanu</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1529,8 +1529,8 @@ Adrese: %4
         <translation>Transakcijas izveidošana neizdevās!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Libracoin address</source>
-        <translation>Brīdinājums: Nederīga Libracoin adrese</translation>
+        <source>Warning: Invalid Lavrovcoin address</source>
+        <translation>Brīdinājums: Nederīga Lavrovcoin adrese</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1611,8 +1611,8 @@ Adrese: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Libracoin Core is shutting down...</source>
-        <translation>Libracoin Core tiek izslēgta...</translation>
+        <source>Lavrovcoin Core is shutting down...</source>
+        <translation>Lavrovcoin Core tiek izslēgta...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1658,8 +1658,8 @@ Adrese: %4
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Libracoin address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Libracoin adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this Lavrovcoin address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Lavrovcoin adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1741,8 +1741,8 @@ Adrese: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Libracoin Core</source>
-        <translation>Libracoin Core</translation>
+        <source>Lavrovcoin Core</source>
+        <translation>Lavrovcoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2138,7 +2138,7 @@ Adrese: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt Libracoins</translation>
+        <translation>Sūtīt Lavrovcoins</translation>
     </message>
 </context>
 <context>
@@ -2376,7 +2376,7 @@ Adrese: %4
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nepietiek libracoins</translation>
+        <translation>Nepietiek lavrovcoins</translation>
     </message>
     <message>
         <source>Loading block index...</source>

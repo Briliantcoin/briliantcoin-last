@@ -8,7 +8,7 @@ import com.google.common.base.Preconditions;
 
 /**
  * This class holds native methods to handle ECDSA verification.
- * You can find an example library that can be used for this at
+ * You can find an example lavrovcory that can be used for this at
  * https://github.com/sipa/secp256k1
  */
 public class NativeSecp256k1 {
@@ -26,7 +26,7 @@ public class NativeSecp256k1 {
     private static ThreadLocal<ByteBuffer> nativeECDSABuffer = new ThreadLocal<ByteBuffer>();
     /**
      * Verifies the given secp256k1 signature in native code.
-     * Calling when enabled == false is undefined (probably library not loaded)
+     * Calling when enabled == false is undefined (probably lavrovcory not loaded)
      * 
      * @param data The data which was signed, must be exactly 32 bytes
      * @param signature The signature

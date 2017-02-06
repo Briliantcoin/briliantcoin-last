@@ -160,8 +160,8 @@
         <translation>تایید رمزگذاری</translation>
     </message>
     <message>
-        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
-        <translation>Libracoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
+        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <translation>Lavrovcoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -251,8 +251,8 @@
         <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
-        <source>Modify configuration options for Libracoin</source>
-        <translation>اصلاح انتخابها برای پیکربندی Libracoin</translation>
+        <source>Modify configuration options for Lavrovcoin</source>
+        <translation>اصلاح انتخابها برای پیکربندی Lavrovcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -263,8 +263,8 @@
         <translation>رمز مربوط به رمزگذاریِ wallet را تغییر دهید</translation>
     </message>
     <message>
-        <source>Libracoin</source>
-        <translation>libracoin</translation>
+        <source>Lavrovcoin</source>
+        <translation>lavrovcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -406,8 +406,8 @@ Address: %4
         <translation>ویرایش حساب ارسال کننده</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Libracoin address.</source>
-        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای libracoin نسشت</translation>
+        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای lavrovcoin نسشت</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -468,8 +468,8 @@ Address: %4
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه libracoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه lavrovcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <source>out of sync</source>
@@ -519,7 +519,7 @@ Address: %4
         <translation>تعداد زنجیره های حاضر</translation>
     </message>
     <message>
-        <source>Welcome to the Libracoin RPC console.</source>
+        <source>Welcome to the Lavrovcoin RPC console.</source>
         <translation>به کنسول آر.پی.سی. LITECOIN خوش آمدید</translation>
     </message>
     </context>
@@ -616,7 +616,7 @@ Address: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>تایید ارسال Libracoins</translation>
+        <translation>تایید ارسال Lavrovcoins</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -681,8 +681,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Libracoin Core is shutting down...</source>
-        <translation>هسته Libracoin در حال خاموش شدن است...</translation>
+        <source>Lavrovcoin Core is shutting down...</source>
+        <translation>هسته Lavrovcoin در حال خاموش شدن است...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
