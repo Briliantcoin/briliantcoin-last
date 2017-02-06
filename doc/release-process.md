@@ -24,11 +24,11 @@ Release Process
 
 ###perform Gitian builds
 
- From a directory containing the lamacoin source, gitian-builder and gitian.sigs.ltc
+ From a directory containing the libracoin source, gitian-builder and gitian.sigs.ltc
   
     export SIGNER=(your Gitian key, ie wtogami, coblee, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./lamacoin
+	pushd ./libracoin
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -49,29 +49,29 @@ Release Process
 
   By default, Gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
-	make -C ../lamacoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../libracoin/depends download SOURCES_PATH=`pwd`/cache/common
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Lamacoin Core for Linux, Windows, and OS X:
+###Build Libracoin Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit lamacoin=v${VERSION} ../lamacoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../lamacoin/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/lamacoin-*.tar.gz build/out/src/lamacoin-*.tar.gz ../
-	./bin/gbuild --commit lamacoin=v${VERSION} ../lamacoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../lamacoin/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/lamacoin-*.zip build/out/lamacoin-*.exe ../
-	./bin/gbuild --commit lamacoin=v${VERSION} ../lamacoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../lamacoin/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/lamacoin-*-unsigned.tar.gz inputs/lamacoin-osx-unsigned.tar.gz
-	mv build/out/lamacoin-*.tar.gz build/out/lamacoin-*.dmg ../
+	./bin/gbuild --commit libracoin=v${VERSION} ../libracoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../libracoin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/libracoin-*.tar.gz build/out/src/libracoin-*.tar.gz ../
+	./bin/gbuild --commit libracoin=v${VERSION} ../libracoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../libracoin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/libracoin-*.zip build/out/libracoin-*.exe ../
+	./bin/gbuild --commit libracoin=v${VERSION} ../libracoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../libracoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/libracoin-*-unsigned.tar.gz inputs/libracoin-osx-unsigned.tar.gz
+	mv build/out/libracoin-*.tar.gz build/out/libracoin-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (lamacoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit binaries dist tarballs (lamacoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit installers and dist zips (lamacoin-${VERSION}-win[32|64]-setup.exe, lamacoin-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer (lamacoin-${VERSION}-osx-unsigned.dmg)
+  1. source tarball (libracoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (libracoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (libracoin-${VERSION}-win[32|64]-setup.exe, libracoin-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer (libracoin-${VERSION}-osx-unsigned.dmg)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your Gitian key)/
 
 ###Next steps:
@@ -95,9 +95,9 @@ Commit your signature to gitian.sigs:
 	pushd ./gitian-builder
 	# Fetch the signature as instructed by Warren/Coblee
 	cp signature.tar.gz inputs/
-	./bin/gbuild -i ../lamacoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../lamacoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/lamacoin-osx-signed.dmg ../lamacoin-${VERSION}-osx.dmg
+	./bin/gbuild -i ../libracoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../libracoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/libracoin-osx-signed.dmg ../libracoin-${VERSION}-osx.dmg
 	popd
 
 Commit your signature for the signed OS X binary:
@@ -126,17 +126,17 @@ rm SHA256SUMS
 ```
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 
-- Update lamacoin.org version
+- Update libracoin.org version
 
 - Announce the release:
 
-  - Release sticky on lamacointalk: https://lamacointalk.org/index.php?board=1.0
+  - Release sticky on libracointalk: https://libracointalk.org/index.php?board=1.0
 
-  - lamacoin-development mailing list
+  - libracoin-development mailing list
 
-  - Update title of #lamacoin on Freenode IRC
+  - Update title of #libracoin on Freenode IRC
 
-  - Optionally reddit /r/lamacoin, ... but this will usually sort out itself
+  - Optionally reddit /r/libracoin, ... but this will usually sort out itself
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

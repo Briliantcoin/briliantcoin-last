@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers 2011-@COPYRIGHT_YEAR@ The Lamacoin Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers 2011-@COPYRIGHT_YEAR@ The Libracoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Lamacoin-Qt</string>
+  <string>Libracoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.lamacoin.Lamacoin-Qt</string>
+  <string>org.libracoin.Libracoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.lamacoin.LamacoinPayment</string>
+      <string>org.libracoin.LibracoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>lamacoin</string>
+        <string>libracoin</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.lamacoin.paymentrequest</string>
+      <string>org.libracoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Lamacoin payment request</string>
+      <string>Libracoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-lamacoin-payment-request</string>
+        <string>application/x-libracoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>lamacoinpaymentrequest</string>
+          <string>libracoinpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.lamacoin.paymentrequest</string>
+        <string>org.libracoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Lamacoin"
-            VALUE "FileDescription",    "Lamacoin-cli (OSS RPC client for Lamacoin)"
+            VALUE "CompanyName",        "Libracoin"
+            VALUE "FileDescription",    "Libracoin-cli (OSS RPC client for Libracoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "lamacoin-cli"
+            VALUE "InternalName",       "libracoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "lamacoin-cli.exe"
-            VALUE "ProductName",        "Lamacoin-cli"
+            VALUE "OriginalFilename",   "libracoin-cli.exe"
+            VALUE "ProductName",        "Libracoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

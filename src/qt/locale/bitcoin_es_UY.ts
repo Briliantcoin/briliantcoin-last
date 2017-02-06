@@ -159,8 +159,8 @@
         <translation>Barra de herramientas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Lamacoin network</source>
-        <translation><numerusform>%n conexión activa a la red Lamacoin </numerusform><numerusform>%n conexiones activas a la red Lamacoin</numerusform></translation>
+        <source>%n active connection(s) to Libracoin network</source>
+        <translation><numerusform>%n conexión activa a la red Libracoin </numerusform><numerusform>%n conexiones activas a la red Libracoin</numerusform></translation>
     </message>
     <message>
         <source>Up to date</source>

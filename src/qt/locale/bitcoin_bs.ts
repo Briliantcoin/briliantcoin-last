@@ -11,12 +11,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Lamacoin</source>
-        <translation>Lamacoin</translation>
+        <source>Libracoin</source>
+        <translation>Libracoin</translation>
     </message>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>Lamacoin Jezrga</translation>
+        <source>Libracoin Core</source>
+        <translation>Libracoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -34,15 +34,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>Lamacoin Jezrga</translation>
+        <source>Libracoin Core</source>
+        <translation>Libracoin Jezrga</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>Lamacoin Jezrga</translation>
+        <source>Libracoin Core</source>
+        <translation>Libracoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -109,8 +109,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>Lamacoin Jezrga</translation>
+        <source>Libracoin Core</source>
+        <translation>Libracoin Jezrga</translation>
     </message>
     </context>
 <context>

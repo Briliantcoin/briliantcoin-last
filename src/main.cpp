@@ -31,7 +31,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Lamacoin cannot be compiled without assertions."
+# error "Libracoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -73,7 +73,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Lamacoin Signed Message:\n";
+const string strMessageMagic = "Libracoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -913,7 +913,7 @@ CAmount GetMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowF
             return 0;
     }
 
-    // Lamacoin
+    // Libracoin
     // To limit dust spam, add 1000 byte penalty for each output smaller than DUST_THRESHOLD
     BOOST_FOREACH(const CTxOut& txout, tx.vout)
         if (txout.nValue < DUST_THRESHOLD)
@@ -1244,34 +1244,81 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
 // miner's coin base reward based on nBits
 CAmount GetProofOfWorkReward(unsigned int nHeight)
 {
-        CAmount nSubsidy = 5000 * COIN;
+        CAmount nSubsidy = 10 * COIN;
 
-		if (nHeight < 2101)
-			nSubsidy = 5000 * COIN; // 10,500000 coins
-		else if (nHeight < 4201)
-			nSubsidy = 640 * COIN; // 1,344000 coins
-		else if (nHeight < 6301)
-			nSubsidy = 320 * COIN; // 0,672000 coins
-		else if (nHeight < 8401)
-			nSubsidy = 160 * COIN; // 0,336000 coins
-		else if (nHeight < 10501)
-			nSubsidy = 80 * COIN; // 0,168000 coins
-		else if (nHeight < 21001)
-			nSubsidy = 40 * COIN; // 0,420000 coins
-		else if (nHeight < 42001)
-			nSubsidy = 40 * COIN; // 0,840000 coins
-		else if (nHeight < 84001)
-			nSubsidy = 40 * COIN; // 1,680000 coins
-		else if (nHeight < 210001)
-			nSubsidy = 40 * COIN; // 5,040000 coins
-		else if (nHeight < 420001)
-			nSubsidy = 40 * COIN; // 40/2 = 20 coins
-		else if (nHeight < 840001)
-			nSubsidy = 40 * COIN; // 40/8 = 5 coins
-		else if (nHeight > 840000)
-			nSubsidy = 40 * COIN; // 2.50 coins per block
+		if (nHeight < 101)
+			nSubsidy = 20000 * COIN; // 2,0000000 coins
+		else if (nHeight < 201)
+			nSubsidy = 100 * COIN; // 10000 coins
+		else if (nHeight < 401)
+			nSubsidy = 40 * COIN; // 8000 coins
+		else if (nHeight < 601)
+			nSubsidy = 20 * COIN; // 8000 coins
+		else if (nHeight < 1001)
+			nSubsidy = 10 * COIN; // 4000 coins
+		else if (nHeight < 2001)
+			nSubsidy = 10 * COIN; // 10000 coins
+		else if (nHeight < 4001)
+			nSubsidy = 10 * COIN; // 20000 coins
+		else if (nHeight < 8001)
+			nSubsidy = 10 * COIN; // 40000 coins
+		else if (nHeight < 10001)
+			nSubsidy = 10 * COIN; // 20000 coins
+		else if (nHeight < 20001)
+			nSubsidy = 10 * COIN; // 100000 coins
+		else if (nHeight < 40001)
+			nSubsidy = 10 * COIN; // 200000 coins
+		else if (nHeight > 80000)
+			nSubsidy = 10 * COIN; // 10 coins per block
 
     	return nSubsidy;
+}
+
+// for miner's coin base reward min limit on alowed Balance
+CAmount GetProofOfWorkRewardBalance(unsigned int nHeight)
+{
+        CAmount nSubsidyMin = 2100 * COIN; //Is not need
+		//40*5.76*365 = 2102.4 and + nHeight * 0.02
+		if (nHeight < 2101)
+			nSubsidyMin = 0 * COIN; //  1000000 coins
+		else if (nHeight < 4201)
+			nSubsidyMin = (nHeight * 0.10 + 33600) * COIN; // 10 coins
+		else if (nHeight < 6301)
+			nSubsidyMin = (nHeight * 0.10 + 16800) * COIN; // 10 coins
+		else if (nHeight < 8401)
+			nSubsidyMin = (nHeight * 0.10 + 8400) * COIN; // 10 coins
+		else if (nHeight < 10501)
+			nSubsidyMin = (nHeight * 0.10 + 4200) * COIN; // 10 coins
+		else if (nHeight < 21001)
+			nSubsidyMin = (nHeight * 0.10 + 2100) * COIN; // 10 coins
+		else if (nHeight < 42001)
+			nSubsidyMin = (nHeight * 0.10 + 4200) * COIN; // 10 coins
+		else if (nHeight < 63001)
+			nSubsidyMin = (nHeight * 0.10 + 6300) * COIN; // 10 coins
+		else if (nHeight < 84001)
+			nSubsidyMin = (nHeight * 0.10 + 8400) * COIN; // 10 coins
+		else if (nHeight < 105001)
+			nSubsidyMin = (nHeight * 0.10 + 10500) * COIN; // 10 coins
+		else if (nHeight < 126001)
+			nSubsidyMin = (nHeight * 0.10 + 12600) * COIN; // 10 coins
+		else if (nHeight < 147001)
+			nSubsidyMin = (nHeight * 0.10 + 14700) * COIN; // 10 coins
+		else if (nHeight < 168001)
+			nSubsidyMin = (nHeight * 0.10 + 16800) * COIN; // 10 coins
+		else if (nHeight < 189001)
+			nSubsidyMin = (nHeight * 0.10 + 18900) * COIN; // 10 coins
+		else if (nHeight < 210001)
+			nSubsidyMin = (nHeight * 0.10 + 21000) * COIN; // 5 coins
+		else if (nHeight < 420001)
+			nSubsidyMin = (nHeight * 0.08 + 42000) * COIN; // 2.5 coins
+		else if (nHeight < 630001)
+			nSubsidyMin = (nHeight * 0.06 + 63000) * COIN; // 1.25 coins
+		else if (nHeight < 840001)
+			nSubsidyMin = (nHeight * 0.04 + 84000) * COIN; // 0.625 coins
+		else if (nHeight > 840000)
+			nSubsidyMin = (nHeight * 0.02 + 84000) * COIN; // 0.3125 coins per block
+
+    	return nSubsidyMin;
 }
 
 CAmount GetBlockValue(int nHeight, const CAmount& nFees)
@@ -1302,7 +1349,8 @@ bool IsInitialBlockDownload()
     static bool lockIBDState = false;
     if (lockIBDState)
         return false;
-    bool state = (chainActive.Height() < pindexBestHeader->nHeight - 24 * 6 ||
+	unsigned int nHeightMax = ((chainActive.Tip()->GetBlockTime() - Params().GenesisBlock().GetBlockTime())/Params().TargetSpacing());
+    bool state = ((chainActive.Height() <= nHeightMax && chainActive.Height() < pindexBestHeader->nHeight - 24 * 6) ||
             pindexBestHeader->GetBlockTime() < GetTime() - chainParams.MaxTipAge());
     if (!state)
         lockIBDState = true;
@@ -1684,7 +1732,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("lamacoin-scriptch");
+    RenameThread("libracoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2589,8 +2637,35 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
     CBlockIndex* pcheckpoint = Checkpoints::GetLastCheckpoint();
     if (pcheckpoint && nHeight < pcheckpoint->nHeight)
         return state.DoS(100, error("%s : forked chain older than last checkpoint (height %d)", __func__, nHeight));
+	
+	// Check timestamp against spam or dos after 16800 block
+	if (nHeight > 16800) {
+	//int nHeight = pindexPrev->nHeight+1;  chainActive.Tip()->GetMedianTimePast()+1
+	if ((block.GetBlockTime() - pindexPrev->GetMedianTimePast()) < 30)
+        return state.DoS(20, error("%s : forked chain new block after last height (height %d)", __func__, nHeight));
+	
+	}
+	
+	// Check timestamp many blocks against spam or dos after 16800 block
+	if (nHeight > 16800) {
+		
+    if ((block.GetBlockTime() - pindexPrev->GetMedianTimePast()) < (Params().TargetSpacing() - 60 + 1))
+        return state.Invalid(error("%s : block's timestamp is too speedy or from future (height %d)", __func__, nHeight),
+                             REJECT_INVALID, "time-too-new");
+	
+	}
+	
+	
+	//int nHeight = pindexPrev->nHeight+1; chainActive.Height()+1
+	unsigned int nHeightMaxNextBl = ((block.GetBlockTime() - Params().GenesisBlock().GetBlockTime() + Params().TargetSpacing())/Params().TargetSpacing());
+	if (nHeight > nHeightMaxNextBl) {
+    // Mark block as in flight already
+    //LogPrintf("Error in LamacoinMiner : Invalid over hight limit next block, unable to create new block!\n");
+	return state.DoS(100, error("%s : forked chain newest than over hight limit (height %d)", __func__, nHeight));
+	//return;
+    }	
 
-    // Lamacoin: Reject block.nVersion=1 blocks (mainnet >= 710000, testnet >= 400000, regtest uses supermajority)
+    // Libracoin: Reject block.nVersion=1 blocks (mainnet >= 710000, testnet >= 400000, regtest uses supermajority)
     bool enforceV2 = false;
     if (block.nVersion < 2)
     {
@@ -2639,7 +2714,7 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
             return state.DoS(10, error("%s : contains a non-final transaction", __func__), REJECT_INVALID, "bad-txns-nonfinal");
         }
 
-    // Lamacoin: (mainnet >= 710000, testnet >= 400000, regtest uses supermajority)
+    // Libracoin: (mainnet >= 710000, testnet >= 400000, regtest uses supermajority)
     // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
     // if 750 of the last 1,000 blocks are version 2 or greater (51/100 if testnet):
     bool checkHeightMismatch = false;
@@ -3950,6 +4025,12 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                         vToFetch.push_back(inv);
                         // Mark block as in flight already, even though the actual "getdata" message only goes out
                         // later (within the same cs_main lock, though).
+                        MarkBlockAsInFlight(pfrom->GetId(), inv.hash);
+                    }
+					unsigned int nHeightMax = ((chainActive.Tip()->GetBlockTime() - Params().GenesisBlock().GetBlockTime())/Params().TargetSpacing());
+					if (chainActive.Height() > nHeightMax) {
+                        vToFetch.push_back(inv);
+                        // Mark block as in flight already
                         MarkBlockAsInFlight(pfrom->GetId(), inv.hash);
                     }
                     LogPrint("net", "getheaders (%d) %s to peer=%d\n", pindexBestHeader->nHeight, inv.hash.ToString(), pfrom->id);

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Libracoin
+Comment=Libracoin P2P Cryptocurrency
+Exec=libracoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/libracoin;
+Categories=Office;Finance;
+Name[en_US]=libracoin-qt.desktop

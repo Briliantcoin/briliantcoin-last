@@ -79,7 +79,7 @@ static const int MAX_SCRIPTCHECK_THREADS = 16;
 /** -par default (number of script-checking threads, 0 = auto) */
 static const int DEFAULT_SCRIPTCHECK_THREADS = 0;
 /** Number of blocks that can be requested at any given time from a single peer. */
-static const int MAX_BLOCKS_IN_TRANSIT_PER_PEER = 16;
+static const int MAX_BLOCKS_IN_TRANSIT_PER_PEER = 8;
 /** Timeout in seconds during which a peer must stall block download progress before being disconnected. */
 static const unsigned int BLOCK_STALLING_TIMEOUT = 2;
 /** Number of headers sent in one getheaders result. We rely on the assumption that if a peer sends
@@ -95,12 +95,12 @@ static const unsigned int DATABASE_WRITE_INTERVAL = 3600;
 /** Maximum length of reject messages. */
 static const unsigned int MAX_REJECT_MESSAGE_LENGTH = 111;
 
-/** Lamacoin: Dust Threshold: outputs below this value in satoshis are assessed an additional 1000 bytes per txout */
+/** Libracoin: Dust Threshold: outputs below this value in satoshis are assessed an additional 1000 bytes per txout */
 static const CAmount DUST_THRESHOLD = 100000; // 0.001 LTC
-/** Lamacoin: Default TX Fee per 1000 bytes */
+/** Libracoin: Default TX Fee per 1000 bytes */
 static const CAmount DEFAULT_TX_FEE = 100000; // 0.001 LTC
 
-/** Lamacoin: default minimum input threshold, override with -mininput */
+/** Libracoin: default minimum input threshold, override with -mininput */
 static const CAmount DEFAULT_MINIMUM_INPUT_THRESHOLD = DUST_THRESHOLD / 100; // 0.00001 LTC
 
 /** "reject" message codes */
@@ -208,6 +208,8 @@ bool GetTransaction(const uint256 &hash, CTransaction &tx, uint256 &hashBlock, b
 bool ActivateBestChain(CValidationState &state, CBlock *pblock = NULL);
 /** Supsidy on mining */
 CAmount GetProofOfWorkReward(unsigned int nHeight);
+/** Supsidy for minimum on balance for mining */
+CAmount GetProofOfWorkRewardBalance(unsigned int nHeight);
 CAmount GetBlockValue(int nHeight, const CAmount& nFees);
 
 /** Create a new block index entry for a given block hash */

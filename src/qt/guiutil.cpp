@@ -106,7 +106,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Lamacoin address (e.g. %1)").arg("1CCdRUT7ocoofib2QzutQewb2sePR1g2bA"));
+    widget->setPlaceholderText(QObject::tr("Enter a Libracoin address (e.g. %1)").arg("1CCdRUT7ocoofib2QzutQewb2sePR1g2bA"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -124,7 +124,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no bitcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("lamacoin"))
+    if(!uri.isValid() || uri.scheme() != QString("libracoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -188,9 +188,9 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("lamacoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("libracoin://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 11, "lamacoin:");
+        uri.replace(0, 11, "libracoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -198,7 +198,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("lamacoin:%1").arg(info.address);
+    QString ret = QString("libracoin:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -567,7 +567,7 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Lamacoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Libracoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -649,7 +649,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "lamacoin.desktop";
+    return GetAutostartDir() / "libracoin.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -690,7 +690,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Lamacoin\n";
+        optionFile << "Name=Libracoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

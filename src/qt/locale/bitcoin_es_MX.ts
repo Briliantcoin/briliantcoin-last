@@ -62,12 +62,12 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your Lamacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones de Lamacoin para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
+        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones de Libracoin para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
     </message>
     <message>
-        <source>These are your Lamacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones Lamacoin para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
+        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones Libracoin para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -168,8 +168,8 @@
         <translation>Cartera encriptada</translation>
     </message>
     <message>
-        <source>Lamacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lamacoins from being stolen by malware infecting your computer.</source>
-        <translation>Lamacoin se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu cartera no protege completamente a tus lamacoins de ser robadas por malware infectando tu computadora.</translation>
+        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
+        <translation>Libracoin se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu cartera no protege completamente a tus libracoins de ser robadas por malware infectando tu computadora.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -283,12 +283,12 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Lamacoin address</source>
-        <translation>Enviar monedas a una dirección Lamacoin</translation>
+        <source>Send coins to a Libracoin address</source>
+        <translation>Enviar monedas a una dirección Libracoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Lamacoin</source>
-        <translation>Modificar las opciones de configuración de Lamacoin</translation>
+        <source>Modify configuration options for Libracoin</source>
+        <translation>Modificar las opciones de configuración de Libracoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,20 +327,20 @@
         <translation>Pestañas</translation>
     </message>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>nucleo Lamacoin</translation>
+        <source>Libracoin Core</source>
+        <translation>nucleo Libracoin</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>opciones de la &amp;Linea de comandos</translation>
     </message>
     <message>
-        <source>Show the Lamacoin Core help message to get a list with possible Lamacoin command-line options</source>
-        <translation>Mostrar mensaje de ayuda del nucleo de Lamacoin para optener una lista con los posibles comandos  de Lamacoin</translation>
+        <source>Show the Libracoin Core help message to get a list with possible Libracoin command-line options</source>
+        <translation>Mostrar mensaje de ayuda del nucleo de Libracoin para optener una lista con los posibles comandos  de Libracoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Lamacoin network</source>
-        <translation><numerusform>%n Activar conexión a la red de Lamacoin</numerusform><numerusform>%n Activar conexiones a la red de Lamacoin</numerusform></translation>
+        <source>%n active connection(s) to Libracoin network</source>
+        <translation><numerusform>%n Activar conexión a la red de Libracoin</numerusform><numerusform>%n Activar conexiones a la red de Libracoin</numerusform></translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -490,8 +490,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>nucleo Lamacoin</translation>
+        <source>Libracoin Core</source>
+        <translation>nucleo Libracoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -502,8 +502,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Lamacoin Core</source>
-        <translation>Acerca de Lamacoin Core</translation>
+        <source>About Libracoin Core</source>
+        <translation>Acerca de Libracoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -537,8 +537,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>nucleo Lamacoin</translation>
+        <source>Libracoin Core</source>
+        <translation>nucleo Libracoin</translation>
     </message>
     </context>
 <context>
@@ -588,8 +588,8 @@
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lamacoin network.</source>
-        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Lamacoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Libracoin network.</source>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Libracoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -725,8 +725,8 @@
         <translation>¡La transación fue rechazada! Esto puede ocurrir si algunas de tus monedas en tu cartera han sido gastadas, al igual que si usas una cartera copiada y la monedas fueron gastadas en la copia pero no se marcaron como gastadas.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Lamacoin address</source>
-        <translation>Advertencia: Dirección de Lamacoin invalida</translation>
+        <source>Warning: Invalid Libracoin address</source>
+        <translation>Advertencia: Dirección de Libracoin invalida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -795,8 +795,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Lamacoin Core is shutting down...</source>
-        <translation>Apagando el nucleo de Lamacoin...</translation>
+        <source>Libracoin Core is shutting down...</source>
+        <translation>Apagando el nucleo de Libracoin...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -821,8 +821,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>nucleo Lamacoin</translation>
+        <source>Libracoin Core</source>
+        <translation>nucleo Libracoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>

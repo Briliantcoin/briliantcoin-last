@@ -66,12 +66,12 @@
         <translation>Adresa de primire</translation>
     </message>
     <message>
-        <source>These are your Lamacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Acestea sînt adresele dumneavoastră Lamacoin pentru efectuarea plăţilor. Verificaţi întotdeauna cantitatea şi adresa de primire înainte de a trimite monezi.</translation>
+        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Acestea sînt adresele dumneavoastră Libracoin pentru efectuarea plăţilor. Verificaţi întotdeauna cantitatea şi adresa de primire înainte de a trimite monezi.</translation>
     </message>
     <message>
-        <source>These are your Lamacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Acestea sînt adresele dumneavoastră Lamacoin folosite pentru a primi plati. Este recomandat să folosiţi o adresă nouă de primire pentru fiecare tranzacţie în parte.</translation>
+        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Acestea sînt adresele dumneavoastră Libracoin folosite pentru a primi plati. Este recomandat să folosiţi o adresă nouă de primire pentru fiecare tranzacţie în parte.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Introduceţi noua parolă a portofelului electronic.&lt;br/&gt;Vă rugăm să folosiţi o parolă de&lt;b&gt;minimum 10 caractere aleatoare&lt;/b&gt;, sau &lt;b&gt;minimum 8 cuvinte&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Lamacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lamacoins from being stolen by malware infecting your computer.</source>
-        <translation>Lamacoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
+        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
+        <translation>Libracoin se va închide acum pentru a termina procesul de criptare. Ţineţi minte că criptarea portofelului nu vă poate proteja în totalitate de furtul monedelor de către programe dăunătoare care vă infectează calculatorul.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Lamacoin Core client</source>
-        <translation>Clientul Lamacoin Core</translation>
+        <source>Libracoin Core client</source>
+        <translation>Clientul Libracoin Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Se reindexează blocurile pe disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Lamacoin address</source>
-        <translation>Trimite monede către o adresă Lamacoin</translation>
+        <source>Send coins to a Libracoin address</source>
+        <translation>Trimite monede către o adresă Libracoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Lamacoin</source>
-        <translation>Modifică opţiunile de configurare pentru Lamacoin</translation>
+        <source>Modify configuration options for Libracoin</source>
+        <translation>Modifică opţiunile de configurare pentru Libracoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>&amp;Verifică mesaj...</translation>
     </message>
     <message>
-        <source>Lamacoin</source>
-        <translation>Lamacoin</translation>
+        <source>Libracoin</source>
+        <translation>Libracoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>P&amp;rimeşte</translation>
     </message>
     <message>
-        <source>Show information about Lamacoin Core</source>
-        <translation>Arată informaţii despre Lamacoin Core</translation>
+        <source>Show information about Libracoin Core</source>
+        <translation>Arată informaţii despre Libracoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Criptează cheile private ale portofelului dvs.</translation>
     </message>
     <message>
-        <source>Sign messages with your Lamacoin addresses to prove you own them</source>
-        <translation>Semnaţi mesaje cu adresa dvs. Lamacoin pentru a dovedi că vă aparţin</translation>
+        <source>Sign messages with your Libracoin addresses to prove you own them</source>
+        <translation>Semnaţi mesaje cu adresa dvs. Libracoin pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Lamacoin addresses</source>
-        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Lamacoin specificată</translation>
+        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
+        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Libracoin specificată</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Bara de unelte</translation>
     </message>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>Nucleul Lamacoin</translation>
+        <source>Libracoin Core</source>
+        <translation>Nucleul Libracoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lamacoin: URIs)</source>
-        <translation>Cereţi plăţi (generează coduri QR şi lamacoin-uri: URls)</translation>
+        <source>Request payments (generates QR codes and libracoin: URIs)</source>
+        <translation>Cereţi plăţi (generează coduri QR şi libracoin-uri: URls)</translation>
     </message>
     <message>
-        <source>&amp;About Lamacoin Core</source>
-        <translation>&amp;Despre Nucleul Lamacoin</translation>
+        <source>&amp;About Libracoin Core</source>
+        <translation>&amp;Despre Nucleul Libracoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Arată lista de adrese pentru primire şi etichetele</translation>
     </message>
     <message>
-        <source>Open a lamacoin: URI or payment request</source>
-        <translation>Deschidere lamacoin: o adresa URI sau o cerere de plată</translation>
+        <source>Open a libracoin: URI or payment request</source>
+        <translation>Deschidere libracoin: o adresa URI sau o cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opţiuni linie de &amp;comandă</translation>
     </message>
     <message>
-        <source>Show the Lamacoin Core help message to get a list with possible Lamacoin command-line options</source>
-        <translation>Arată mesajul de ajutor Lamacoin Core pentru a obţine o listă cu opţiunile posibile de linii de comandă Lamacoin</translation>
+        <source>Show the Libracoin Core help message to get a list with possible Libracoin command-line options</source>
+        <translation>Arată mesajul de ajutor Libracoin Core pentru a obţine o listă cu opţiunile posibile de linii de comandă Libracoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Lamacoin network</source>
-        <translation><numerusform>%n conexiune activă către reţeaua Lamacoin</numerusform><numerusform>%n conexiuni active către reţeaua Lamacoin</numerusform><numerusform>%n de conexiuni active către reţeaua Lamacoin</numerusform></translation>
+        <source>%n active connection(s) to Libracoin network</source>
+        <translation><numerusform>%n conexiune activă către reţeaua Libracoin</numerusform><numerusform>%n conexiuni active către reţeaua Libracoin</numerusform><numerusform>%n de conexiuni active către reţeaua Libracoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -776,8 +776,8 @@ Adresa: %4
         <translation>Adresa introdusă "%1" se află deja în lista de adrese.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Lamacoin address.</source>
-        <translation>Adresa introdusă "%1" nu este o adresă lamacoin validă.</translation>
+        <source>The entered address "%1" is not a valid Libracoin address.</source>
+        <translation>Adresa introdusă "%1" nu este o adresă libracoin validă.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -814,8 +814,8 @@ Adresa: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>Nucleul Lamacoin</translation>
+        <source>Libracoin Core</source>
+        <translation>Nucleul Libracoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -826,8 +826,8 @@ Adresa: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Lamacoin Core</source>
-        <translation>Despre Nucleul Lamacoin</translation>
+        <source>About Libracoin Core</source>
+        <translation>Despre Nucleul Libracoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -873,12 +873,12 @@ Adresa: %4
         <translation>Bun venit</translation>
     </message>
     <message>
-        <source>Welcome to Lamacoin Core.</source>
-        <translation>Bine aţi venit la Nucleul Lamacoin.</translation>
+        <source>Welcome to Libracoin Core.</source>
+        <translation>Bine aţi venit la Nucleul Libracoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Lamacoin Core will store its data.</source>
-        <translation>Dacă aceasta este prima dată cînd programul este lansat, puteţi alege unde Nucleul Lamacoin va stoca datele.</translation>
+        <source>As this is the first time the program is launched, you can choose where Libracoin Core will store its data.</source>
+        <translation>Dacă aceasta este prima dată cînd programul este lansat, puteţi alege unde Nucleul Libracoin va stoca datele.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -889,8 +889,8 @@ Adresa: %4
         <translation>Foloseşte un dosar de date personalizat:</translation>
     </message>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>Nucleul Lamacoin</translation>
+        <source>Libracoin Core</source>
+        <translation>Nucleul Libracoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -943,12 +943,12 @@ Adresa: %4
         <translation>Principal</translation>
     </message>
     <message>
-        <source>Automatically start Lamacoin after logging in to the system.</source>
-        <translation>Porneşte automat Lamacoin după pornirea calculatorului.</translation>
+        <source>Automatically start Libracoin after logging in to the system.</source>
+        <translation>Porneşte automat Libracoin după pornirea calculatorului.</translation>
     </message>
     <message>
-        <source>&amp;Start Lamacoin on system login</source>
-        <translation>Porneşte Lamacoin la pornirea sistemului</translation>
+        <source>&amp;Start Libracoin on system login</source>
+        <translation>Porneşte Libracoin la pornirea sistemului</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1023,16 +1023,16 @@ Adresa: %4
         <translation>Cheltuire rest neconfirmat</translation>
     </message>
     <message>
-        <source>Automatically open the Lamacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului Lamacoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului Libracoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapare port folosind &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Lamacoin network through a SOCKS5 proxy.</source>
-        <translation>Conectare la reţeaua Lamacoin printr-un proxy SOCKS.</translation>
+        <source>Connect to the Libracoin network through a SOCKS5 proxy.</source>
+        <translation>Conectare la reţeaua Libracoin printr-un proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1079,8 +1079,8 @@ Adresa: %4
         <translation>&amp;Limbă interfaţă utilizator</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Lamacoin.</source>
-        <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Lamacoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Libracoin.</source>
+        <translation>Limba interfeţei utilizatorului poate fi setată aici. Această setare va avea efect după repornirea Libracoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1088,7 +1088,7 @@ Adresa: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de lamacoin.</translation>
+        <translation>Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de libracoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1128,7 +1128,7 @@ Adresa: %4
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa lamacoin pe care aţi specificat-o nu este validă.</translation>
+        <translation>Adresa libracoin pe care aţi specificat-o nu este validă.</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ Adresa: %4
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lamacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Lamacoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Libracoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1245,16 +1245,16 @@ Adresa: %4
         <translation>Eroare la cererea de plată</translation>
     </message>
     <message>
-        <source>Cannot start lamacoin: click-to-pay handler</source>
-        <translation>Nu poate porni lamacoin: manipulator clic-pentru-plată</translation>
+        <source>Cannot start libracoin: click-to-pay handler</source>
+        <translation>Nu poate porni libracoin: manipulator clic-pentru-plată</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL-ul cererii de plată preluat nu este valid: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Lamacoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă Lamacoin nevalidă sau parametri URI deformaţi.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Libracoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă Libracoin nevalidă sau parametri URI deformaţi.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1323,8 +1323,8 @@ Adresa: %4
         <translation>Cantitate</translation>
     </message>
     <message>
-        <source>Enter a Lamacoin address (e.g. %1)</source>
-        <translation>Introduceţi o adresă Lamacoin (de exemplu %1)</translation>
+        <source>Enter a Libracoin address (e.g. %1)</source>
+        <translation>Introduceţi o adresă Libracoin (de exemplu %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1537,7 +1537,7 @@ Adresa: %4
         <translation>Fişier jurnal depanare</translation>
     </message>
     <message>
-        <source>Open the Lamacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Libracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Deschide fişierul jurnal depanare din directorul curent. Aceasta poate dura cîteva secunde pentru fişierele mai mari.</translation>
     </message>
     <message>
@@ -1545,8 +1545,8 @@ Adresa: %4
         <translation>Curăţă consola</translation>
     </message>
     <message>
-        <source>Welcome to the Lamacoin RPC console.</source>
-        <translation>Bun venit la consola lamacoin RPC.</translation>
+        <source>Welcome to the Libracoin RPC console.</source>
+        <translation>Bun venit la consola libracoin RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1620,8 +1620,8 @@ Adresa: %4
         <translation>R&amp;efoloseşte o adresă de primire (nu este recomandat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lamacoin network.</source>
-        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Lamacoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Libracoin network.</source>
+        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Libracoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1977,8 +1977,8 @@ Adresa: %4
         <translation>Plăteşte doar taxa minimă de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Lamacoin address</source>
-        <translation>Atenţie: Adresa lamacoin nevalidă!</translation>
+        <source>Warning: Invalid Libracoin address</source>
+        <translation>Atenţie: Adresa libracoin nevalidă!</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2028,8 +2028,8 @@ Adresa: %4
         <translation>Aceasta este o tranzacţie normală.</translation>
     </message>
     <message>
-        <source>The Lamacoin address to send the payment to</source>
-        <translation>Adresa lamacoin către care se face plata</translation>
+        <source>The Libracoin address to send the payment to</source>
+        <translation>Adresa libracoin către care se face plata</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2060,8 +2060,8 @@ Adresa: %4
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the lamacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lamacoin network.</source>
-        <translation>un mesaj a fost ataşat la lamacoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua lamacoin.</translation>
+        <source>A message that was attached to the libracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Libracoin network.</source>
+        <translation>un mesaj a fost ataşat la libracoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua libracoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2079,8 +2079,8 @@ Adresa: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Lamacoin Core is shutting down...</source>
-        <translation>Nucleul Lamacoin se închide...</translation>
+        <source>Libracoin Core is shutting down...</source>
+        <translation>Nucleul Libracoin se închide...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2102,7 +2102,7 @@ Adresa: %4
         <translation>Puteţi semna mesaje cu adresa dvs. pentru a demostra ca sînteti proprietarul lor. Aveţi grijă să nu semnaţi nimic vag, deoarece atacurile de tip phishing vă pot păcăli să le transferaţi identitatea. Semnaţi numai declaraţiile detaliate cu care sînteti de acord.</translation>
     </message>
     <message>
-        <source>The Lamacoin address to sign the message with</source>
+        <source>The Libracoin address to sign the message with</source>
         <translation>Adresa cu care semnaţi mesajul</translation>
     </message>
     <message>
@@ -2134,8 +2134,8 @@ Adresa: %4
         <translation>Copiază semnatura curentă în clipboard-ul sistemului</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Lamacoin address</source>
-        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Lamacoin</translation>
+        <source>Sign the message to prove you own this Libracoin address</source>
+        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Libracoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2158,12 +2158,12 @@ Adresa: %4
         <translation>Introduceţi adresa de semnatură, mesajul (asiguraţi-vă că aţi copiat spaţiile, taburile etc. exact) şi semnatura dedesubt pentru a verifica mesajul. Aveţi grijă să nu citiţi mai mult în semnatură decît mesajul în sine, pentru a evita să fiţi păcăliţi de un atac de tip man-in-the-middle.</translation>
     </message>
     <message>
-        <source>The Lamacoin address the message was signed with</source>
-        <translation>Introduceţi o adresă Lamacoin</translation>
+        <source>The Libracoin address the message was signed with</source>
+        <translation>Introduceţi o adresă Libracoin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Lamacoin address</source>
-        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Lamacoin specificată</translation>
+        <source>Verify the message to ensure it was signed with the specified Libracoin address</source>
+        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Libracoin specificată</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2229,12 +2229,12 @@ Adresa: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lamacoin Core</source>
-        <translation>Nucleul Lamacoin</translation>
+        <source>Libracoin Core</source>
+        <translation>Nucleul Libracoin</translation>
     </message>
     <message>
-        <source>The Lamacoin Core developers</source>
-        <translation>Dezvoltatorii Nucleului Lamacoin</translation>
+        <source>The Libracoin Core developers</source>
+        <translation>Dezvoltatorii Nucleului Libracoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2670,7 +2670,7 @@ Adresa: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Trimitere lamacoin</translation>
+        <translation>Trimitere libracoin</translation>
     </message>
 </context>
 <context>
@@ -2771,8 +2771,8 @@ Adresa: %4
         <translation>Aceasta este o versiune de test preliminară - vă asumaţi riscul folosind-o - nu folosiţi pentru minerit sau aplicaţiile comercianţilor</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Lamacoin Core is probably already running.</source>
-        <translation>Nu se poate lega la %s pe acest calculator. Nucleul Lamacoin probabil deja rulează.</translation>
+        <source>Unable to bind to %s on this computer. Libracoin Core is probably already running.</source>
+        <translation>Nu se poate lega la %s pe acest calculator. Nucleul Libracoin probabil deja rulează.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2943,8 +2943,8 @@ Adresa: %4
         <translation>A apărut o eroare la setarea adresei RPC %s portul %u pentru ascultare: %s</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Lamacoin Core is probably already running.</source>
-        <translation>Nu se poate obţine blocarea folderului cu date %s. Nucleul Lamacoin probabil deja rulează.</translation>
+        <source>Cannot obtain a lock on data directory %s. Libracoin Core is probably already running.</source>
+        <translation>Nu se poate obţine blocarea folderului cu date %s. Nucleul Libracoin probabil deja rulează.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -2967,8 +2967,8 @@ Adresa: %4
         <translation>Conectare prin proxy SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Lamacoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Dezvoltatorii Lamacoin</translation>
+        <source>Copyright (C) 2009-%i The Libracoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i Dezvoltatorii Libracoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -2979,16 +2979,16 @@ Adresa: %4
         <translation>Eroare: Argument nesuportat -tor găsit, folosiţi -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LMC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (în LMC/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
+        <source>Fee (in LVC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (în LVC/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Informaţie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Lamacoin Core is shutting down.</source>
-        <translation>Nu s-a reuşit iniţierea verificării sănătăţii. Nucleul Lamacoin se opreşte.</translation>
+        <source>Initialization sanity check failed. Libracoin Core is shutting down.</source>
+        <translation>Nu s-a reuşit iniţierea verificării sănătăţii. Nucleul Libracoin se opreşte.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3015,8 +3015,8 @@ Adresa: %4
         <translation>Trebuie să specificaţi un port cu -whitebind: '%s'</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Lamacoin Wiki for SSL setup instructions)</source>
-        <translation>Opţiuni RPC SSL: (vedeţi Wiki Lamacoin pentru intrucţiunile de setare SSL)</translation>
+        <source>RPC SSL options: (see the Libracoin Wiki for SSL setup instructions)</source>
+        <translation>Opţiuni RPC SSL: (vedeţi Wiki Libracoin pentru intrucţiunile de setare SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3087,8 +3087,8 @@ Adresa: %4
         <translation>Utilizator pentru conexiunile JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Lamacoin Core to complete</source>
-        <translation>Portofelul necesită rescrierea: reporniţi Nucleul Lamacoin pentru completare</translation>
+        <source>Wallet needed to be rewritten: restart Libracoin Core to complete</source>
+        <translation>Portofelul necesită rescrierea: reporniţi Nucleul Libracoin pentru completare</translation>
     </message>
     <message>
         <source>Warning</source>

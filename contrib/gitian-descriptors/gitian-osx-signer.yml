@@ -1,5 +1,5 @@
 ---
-name: "lamacoin-dmg-signer"
+name: "libracoin-dmg-signer"
 suites:
 - "precise"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "libc6:i386"
 - "faketime"
-reference_datetime: "2016-01-01 00:00:00"
+reference_datetime: "2016-06-16 00:00:00"
 remotes: []
 files:
-- "lamacoin-osx-unsigned.tar.gz"
+- "libracoin-osx-unsigned.tar.gz"
 - "signature.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -28,10 +28,10 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=lamacoin-osx-unsigned.tar.gz
-  SIGNED=lamacoin-osx-signed.dmg
+  UNSIGNED=libracoin-osx-unsigned.tar.gz
+  SIGNED=libracoin-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   ./detached-sig-apply.sh ${UNSIGNED} signature.tar.gz
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Lamacoin-Qt" -no-pad -r -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Libracoin-Qt" -no-pad -r -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

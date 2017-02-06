@@ -60,11 +60,11 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += lamacoind
+  bin_PROGRAMS += libracoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += lamacoin-cli lamacoin-tx
+  bin_PROGRAMS += libracoin-cli libracoin-tx
 endif
 
 .PHONY: FORCE
@@ -292,8 +292,8 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# lamacoind binary #
-lamacoind_LDADD = \
+# libracoind binary #
+libracoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -304,35 +304,35 @@ lamacoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_WALLET
-lamacoind_LDADD += libbitcoin_wallet.a
+libracoind_LDADD += libbitcoin_wallet.a
 endif
-lamacoind_SOURCES = bitcoind.cpp
+libracoind_SOURCES = bitcoind.cpp
 #
 
 if TARGET_WINDOWS
-lamacoind_SOURCES += bitcoind-res.rc
+libracoind_SOURCES += bitcoind-res.rc
 endif
 
-lamacoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-lamacoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-lamacoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+libracoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+libracoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+libracoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 # bitcoin-cli binary #
-lamacoin_cli_LDADD = \
+libracoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-lamacoin_cli_SOURCES = \
+libracoin_cli_SOURCES = \
   bitcoin-cli.cpp
 
-lamacoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+libracoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
 # bitcoin-tx binary #
-lamacoin_tx_LDADD = \
+libracoin_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -341,15 +341,15 @@ lamacoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-lamacoin_tx_SOURCES = bitcoin-tx.cpp
-lamacoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+libracoin_tx_SOURCES = bitcoin-tx.cpp
+libracoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-lamacoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+libracoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-lamacoin_cli_SOURCES += bitcoin-cli-res.rc
+libracoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
-lamacoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+libracoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

@@ -1,4 +1,4 @@
-Source: lamacoin
+Source: libracoin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -23,66 +23,66 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.lamacoin.org/
-Vcs-Git: git://github.com/genavarov/lamacoind.git
-Vcs-Browser: https://github.com/genavarov/lamacoind
+Homepage: https://www.libracoin.org/
+Vcs-Git: git://github.com/genavarov/libracoin.git
+Vcs-Browser: https://github.com/genavarov/libracoin
 
-Package: lamacoind
+Package: libracoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Lamacoin is a peer-to-peer Internet currency that enables instant,
- near-zero cost payments to anyone in the world. Lamacoin is an open 
+ Libracoin is a peer-to-peer Internet currency that enables instant,
+ near-zero cost payments to anyone in the world. Libracoin is an open 
  source, global payment network that is fully decentralized without 
  any central authorities. Mathematics secures the network and empowers
- individuals to control their own finances. Lamacoin features faster 
+ individuals to control their own finances. Libracoin features faster 
  transaction confirmation times and improved storage efficiency than 
  the leading math-based currency. With substantial industry support, 
- trade volume and liquidity, Lamacoin is a proven medium of commerce 
+ trade volume and liquidity, Libracoin is a proven medium of commerce 
  complementary to Bitcoin.
  .
  Full transaction history is stored locally at each client.  This
  requires 5+ GB of space, slowly growing.
  .
- This package provides the daemon, lamacoind, and the CLI tool
- lamacoin-cli to interact with the daemon.
+ This package provides the daemon, libracoind, and the CLI tool
+ libracoin-cli to interact with the daemon.
 
-Package: lamacoin-qt
+Package: libracoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Lamacoin is a peer-to-peer Internet currency that enables instant,
- near-zero cost payments to anyone in the world. Lamacoin is an open 
+ Libracoin is a peer-to-peer Internet currency that enables instant,
+ near-zero cost payments to anyone in the world. Libracoin is an open 
  source, global payment network that is fully decentralized without 
  any central authorities. Mathematics secures the network and empowers
- individuals to control their own finances. Lamacoin features faster 
+ individuals to control their own finances. Libracoin features faster 
  transaction confirmation times and improved storage efficiency than 
  the leading math-based currency. With substantial industry support, 
- trade volume and liquidity, Lamacoin is a proven medium of commerce 
+ trade volume and liquidity, Libracoin is a proven medium of commerce 
  complementary to Bitcoin.
  .
  Full transaction history is stored locally at each client.  This
  requires 5+ GB of space, slowly growing.
  .
- This package provides Lamacoin-Qt, a GUI for Lamacoin based on Qt.
+ This package provides Libracoin-Qt, a GUI for Libracoin based on Qt.
 
-Package: lamacoin-tx
+Package: libracoin-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Lamacoin is a peer-to-peer Internet currency that enables instant,
- near-zero cost payments to anyone in the world. Lamacoin is an open 
+ Libracoin is a peer-to-peer Internet currency that enables instant,
+ near-zero cost payments to anyone in the world. Libracoin is an open 
  source, global payment network that is fully decentralized without 
  any central authorities. Mathematics secures the network and empowers
- individuals to control their own finances. Lamacoin features faster 
+ individuals to control their own finances. Libracoin features faster 
  transaction confirmation times and improved storage efficiency than 
  the leading math-based currency. With substantial industry support, 
- trade volume and liquidity, Lamacoin is a proven medium of commerce 
+ trade volume and liquidity, Libracoin is a proven medium of commerce 
  complementary to Bitcoin.
  .
  Full transaction history is stored locally at each client.  This
  requires 5+ GB of space, slowly growing.
  .
- This package provides lamacoin-tx, a command-line transaction creation
- tool which can be used without a lamacoin daemon.  Some means of
+ This package provides libracoin-tx, a command-line transaction creation
+ tool which can be used without a libracoin daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

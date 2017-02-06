@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a Gitian build of Lamacoin using a Debian VM or physical system.*
+*Setup instructions for a Gitian build of Libracoin using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the Lamacoin
+Gitian is the deterministic build process that is used to build the Libracoin
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to lamacoin.org.
+to libracoin.org.
 
 More independent Gitian builders are needed, which is why I wrote this
 guide. It is preferred to follow these steps yourself instead of using someone else's
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up Gitian images](#setting-up-gitian-images)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building Lamacoin](#building-lamacoin)
+- [Building Libracoin](#building-libracoin)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -277,12 +277,12 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
-Clone the git repositories for lamacoin and Gitian and then checkout the lamacoin version that you want to build.
+Clone the git repositories for libracoin and Gitian and then checkout the libracoin version that you want to build.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/genavarov/lamacoin.git
-cd lamacoin
+git clone https://github.com/genavarov/libracoin.git
+cd libracoin
 git checkout v${VERSION}
 cd ..
 ```
@@ -310,16 +310,16 @@ There will be a lot of warnings printed during build of the images. These can be
 Getting and building the inputs
 --------------------------------
 
-Follow the instructions in [doc/release-process.md](release-process.md) in the lamacoin repository
+Follow the instructions in [doc/release-process.md](release-process.md) in the libracoin repository
 under 'Fetch and build inputs' to install sources which require manual intervention. Also follow
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for Gitian to work offline.
 
-Building Lamacoin
+Building Libracoin
 ----------------
 
-To build Lamacoin (for Linux, OS X and Windows) just follow the steps under 'perform
-Gitian builds' in [doc/release-process.md](release-process.md) in the lamacoin repository.
+To build Libracoin (for Linux, OS X and Windows) just follow the steps under 'perform
+Gitian builds' in [doc/release-process.md](release-process.md) in the libracoin repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -332,12 +332,12 @@ tail -f var/build.log
 
 Output from `gbuild` will look something like
 
-    Initialized empty Git repository in /home/debian/gitian-builder/inputs/lamacoin/.git/
+    Initialized empty Git repository in /home/debian/gitian-builder/inputs/libracoin/.git/
     remote: Reusing existing pack: 35606, done.
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/genavarov/lamacoin
+    From https://github.com/genavarov/libracoin
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -363,11 +363,11 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/user/lamacoin.git
+URL=https://github.com/user/libracoin.git
 COMMIT=2014_03_windows_unicode_path
-./bin/gbuild --commit lamacoin=${COMMIT} --url lamacoin=${URL} ../lamacoin/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit lamacoin=${COMMIT} --url lamacoin=${URL} ../lamacoin/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit lamacoin=${COMMIT} --url lamacoin=${URL} ../lamacoin/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit libracoin=${COMMIT} --url libracoin=${URL} ../libracoin/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit libracoin=${COMMIT} --url libracoin=${URL} ../libracoin/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit libracoin=${COMMIT} --url libracoin=${URL} ../libracoin/contrib/gitian-descriptors/gitian-osx.yml
 ```
 
 Signing externally
@@ -382,9 +382,9 @@ When you execute `gsign` you will get an error from GPG, which can be ignored. C
 in `gitian.sigs` to your signing machine and do
 
 ```bash
-    gpg --detach-sign ${VERSION}-linux/${SIGNER}/lamacoin-build.assert
-    gpg --detach-sign ${VERSION}-win/${SIGNER}/lamacoin-build.assert
-    gpg --detach-sign ${VERSION}-osx/${SIGNER}/lamacoin-build.assert
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/libracoin-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/libracoin-build.assert
+    gpg --detach-sign ${VERSION}-osx/${SIGNER}/libracoin-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
@@ -394,5 +394,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[lamacoin/gitian.sigs](https://github.com/genavarov/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[libracoin/gitian.sigs](https://github.com/genavarov/gitian.sigs.ltc/) repository, or if that's not possible create a pull
 request. 

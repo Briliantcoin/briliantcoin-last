@@ -13,13 +13,31 @@
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
+    // Standard retargeting for the first blocks
+    if (pindexLast->nHeight+1 < 40320) // Libracoin: block < 36000
+    {
+        //int64_t nParamsTargetTimespan = Params().TargetTimespan();
+		//int64_t nParamsInterval = Params().Interval();
+		return GetNextWorkRequiredn(pindexLast, pblock);
+    }
+    else
+    { //New non Standard retargeting x
+		//int64_t nParamsTargetTimespan = Params().TargetTimespanx();
+		//int64_t nParamsInterval = Params().Intervalx();
+		return GetNextWorkRequiredx(pindexLast, pblock);
+    }
+
+}
+	
+unsigned int GetNextWorkRequiredn(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
+{
     unsigned int nProofOfWorkLimit = Params().ProofOfWorkLimit().GetCompact();
 
     // Genesis block
     if (pindexLast == NULL)
         return nProofOfWorkLimit;
-
-    // Only change once per interval
+	
+	// Only change once per interval
     if ((pindexLast->nHeight+1) % Params().Interval() != 0)
     {
         if (Params().AllowMinDifficultyBlocks())
@@ -41,7 +59,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         return pindexLast->nBits;
     }
 
-    // Lamacoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Libracoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = Params().Interval()-1;
     if ((pindexLast->nHeight+1) != Params().Interval())
@@ -66,7 +84,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     uint256 bnOld;
     bnNew.SetCompact(pindexLast->nBits);
     bnOld = bnNew;
-    // Lamacoin: intermediate uint256 can overflow by 1 bit
+    // Libracoin: intermediate uint256 can overflow by 1 bit
     bool fShift = bnNew.bits() > 235;
     if (fShift)
         bnNew >>= 1;
@@ -81,6 +99,82 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     /// debug print
     LogPrintf("GetNextWorkRequired RETARGET\n");
     LogPrintf("Params().TargetTimespan() = %d    nActualTimespan = %d\n", Params().TargetTimespan(), nActualTimespan);
+    LogPrintf("Before: %08x  %s\n", pindexLast->nBits, bnOld.ToString());
+    LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.ToString());
+
+    return bnNew.GetCompact();
+}
+
+unsigned int GetNextWorkRequiredx(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
+{
+    unsigned int nProofOfWorkLimit = Params().ProofOfWorkLimit().GetCompact();
+
+    // Genesis block
+    if (pindexLast == NULL)
+        return nProofOfWorkLimit;
+	
+	// Only change once per interval
+    if ((pindexLast->nHeight+1) % Params().Intervalx() != 0)
+    {
+        if (Params().AllowMinDifficultyBlocks())
+        {
+            // Special difficulty rule for testnet:
+            // If the new block's timestamp is more than 2* 10 minutes
+            // then allow mining of a min-difficulty block.
+            if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + Params().TargetSpacing()*2)
+                return nProofOfWorkLimit;
+            else
+            {
+                // Return the last non-special-min-difficulty-rules-block
+                const CBlockIndex* pindex = pindexLast;
+                while (pindex->pprev && pindex->nHeight % Params().Intervalx() != 0 && pindex->nBits == nProofOfWorkLimit)
+                    pindex = pindex->pprev;
+                return pindex->nBits;
+            }
+        }
+        return pindexLast->nBits;
+    }
+
+    // Libracoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
+    int blockstogoback = Params().Intervalx()-1;
+    if ((pindexLast->nHeight+1) != Params().Intervalx())
+        blockstogoback = Params().Intervalx();
+
+    // Go back by what we want to be 14 days worth of blocks
+    const CBlockIndex* pindexFirst = pindexLast;
+    for (int i = 0; pindexFirst && i < blockstogoback; i++)
+        pindexFirst = pindexFirst->pprev;
+    assert(pindexFirst);
+
+    // Limit adjustment step
+    int64_t nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
+    LogPrintf("  nActualTimespan = %d  before bounds\n", nActualTimespan);
+    if (nActualTimespan < Params().TargetTimespanx()/4)
+        nActualTimespan = Params().TargetTimespanx()/4;
+    if (nActualTimespan > Params().TargetTimespanx()*4)
+        nActualTimespan = Params().TargetTimespanx()*4;
+
+    // Retarget
+    uint256 bnNew;
+    uint256 bnOld;
+    bnNew.SetCompact(pindexLast->nBits);
+    bnOld = bnNew;
+    // Libracoin: intermediate uint256 can overflow by 1 bit
+    bool fShift = bnNew.bits() > 235;
+    if (fShift)
+        bnNew >>= 1;
+    bnNew *= nActualTimespan;
+    bnNew /= Params().TargetTimespanx();
+    if (fShift)
+        bnNew <<= 1;
+
+    if (bnNew > Params().ProofOfWorkLimit())
+        bnNew = Params().ProofOfWorkLimit();
+
+    /// debug print
+    LogPrintf("GetNextWorkRequired eX RETARGET\n");
+    LogPrintf("Params().TargetTimespanx() = %d    nActualTimespan = %d\n", Params().TargetTimespanx(), nActualTimespan);
     LogPrintf("Before: %08x  %s\n", pindexLast->nBits, bnOld.ToString());
     LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.ToString());
 

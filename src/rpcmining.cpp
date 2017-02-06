@@ -11,8 +11,10 @@
 #include "main.h"
 #include "miner.h"
 #include "pow.h"
+#include "timedata.h"
 #include "rpcserver.h"
 #include "util.h"
+#include "utilmoneystr.h"
 #ifdef ENABLE_WALLET
 #include "db.h"
 #include "wallet.h"
@@ -98,7 +100,7 @@ Value getgenerate(const Array& params, bool fHelp)
         throw runtime_error(
             "getgenerate\n"
             "\nReturn if the server is set to generate coins or not. The default is false.\n"
-            "It is set with the command line argument -gen (or lamacoin.conf setting gen)\n"
+            "It is set with the command line argument -gen (or libracoin.conf setting gen)\n"
             "It can also be set with the setgenerate call.\n"
             "\nResult\n"
             "true|false      (boolean) If the server is set to generate coins or not\n"
@@ -429,10 +431,10 @@ Value getblocktemplate(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Lamacoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Libracoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Lamacoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Libracoin is downloading blocks...");
 
     static unsigned int nTransactionsUpdatedLast;
 
@@ -495,7 +497,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
     static int64_t nStart;
     static CBlockTemplate* pblocktemplate;
     if (pindexPrev != chainActive.Tip() ||
-        (mempool.GetTransactionsUpdated() != nTransactionsUpdatedLast && GetTime() - nStart > 5))
+        (mempool.GetTransactionsUpdated() != nTransactionsUpdatedLast && GetTime() - nStart > 30))
     {
         // Clear pindexPrev so future calls make a new block, despite any failures from here on
         pindexPrev = NULL;
@@ -504,7 +506,474 @@ Value getblocktemplate(const Array& params, bool fHelp)
         nTransactionsUpdatedLast = mempool.GetTransactionsUpdated();
         CBlockIndex* pindexPrevNew = chainActive.Tip();
         nStart = GetTime();
-
+		
+		//chainActive.Height()
+		unsigned int nHeightMax = ((chainActive.Tip()->GetBlockTime() - Params().GenesisBlock().GetBlockTime())/Params().TargetSpacing());
+		if (chainActive.Height() > nHeightMax) {
+			MilliSleep(150000); //wait 2.5 min
+			if (chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() > GetAdjustedTime()) { //not time for generate
+        throw JSONRPCError(RPC_INVALID_PARAMETER, "Timeout: Invalid over hight limit active block, unable to create new block! wait 5 min...");
+		//return;
+		MilliSleep(300000);
+		    }
+        }
+				int64_t nNowCent = ((pindexPrev->GetBlockTime() + 1 + pindexPrev->GetMedianTimePast() + 1 )/2);
+				int64_t nNowBack = GetAdjustedTime() - nNowCent; 
+		        //LogPrintf("Testing 0 in LibracoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
+						
+			//if ((chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()) { //not need time for generate
+                //Timeout again after new block - speed up if late
+				//int64_t nNowSleep = GetAdjustedTime() - (chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack);
+				//LogPrintf("Timeout in LibracoinMiner (Test) : Now time: %s over hight limit active block (%s), unable to create new block ! wait...\n", GetAdjustedTime(), chainActive.Height());
+				//LogPrintf("Timeout in LibracoinMiner (Test) : Now time: %s ! Invalid time. Sync and set the current time! wait %s sec...\n", GetAdjustedTime(), nNowSleep);
+				//MilliSleep(nNowSleep*1000);
+			//}
+			//unsigned int nHeightNext = pindexPrev->nHeight+1; 
+		//chainActive.Height()
+		//if (chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() > GetAdjustedTime()) { //not time for generate
+		if (((chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() > GetAdjustedTime()) && ((chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime())) || ((chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime())) { //not time for generate
+            //Timeout again after new block - speed up if late
+				//rpcmining
+				if (nHeightMax - chainActive.Height() > 4608) {
+				// Timeout after ~ 960 blocks
+                	// Check amount
+					CAmount nValue = pwalletMain->GetBalance();
+                    if (nValue <= 0)
+					{
+						LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
+				        //return;
+						LogPrintf("Warn in RPC LibracoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
+						//return;
+						MilliSleep(120000);
+				    }
+					else
+					{   
+						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
+						if (nValue <= nSubsidyMin)
+						{
+							LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("Warn in RPC LibracoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in RPC LibracoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
+							//return;
+							MilliSleep(120000);
+						}
+						else
+						{	
+							if (nValue > nSubsidyMin*8){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:25 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 12 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(88000);
+							}
+							else if (nValue > nSubsidyMin*4){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:30 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 10 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(90000);
+							}
+							else if (nValue > nSubsidyMin*2){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:35 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 5 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(95000);
+							}
+							else
+							{
+					        LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:40 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(100000);
+							}
+							//MilliSleep(115000);
+						}
+						
+					}//End Check amount
+				//LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:55 min...\n", GetAdjustedTime(), chainActive.Height());
+				//return;
+				//MilliSleep(115000); //90
+				}
+				else if ((nHeightMax - chainActive.Height() > 2304) && (nHeightMax - chainActive.Height() <= 4608)) {
+				// Timeout after ~ 822 blocks
+                	// Check amount
+					CAmount nValue = pwalletMain->GetBalance();
+                    if (nValue <= 0)
+					{
+						LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:05 min...\n", GetAdjustedTime(), chainActive.Height());
+				        //return;
+						LogPrintf("Warn in RPC LibracoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
+						//return;
+						MilliSleep(125000);
+				    }
+					else
+					{   
+						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
+						if (nValue <= nSubsidyMin)
+						{
+							LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:05 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("Warn in RPC LibracoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in RPC LibracoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
+							//return;
+							MilliSleep(125000);
+						}
+						else
+						{	
+							if (nValue > nSubsidyMin*8){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:30 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 12 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(90000);
+							}
+							else if (nValue > nSubsidyMin*4){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:34 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 8 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(94000);
+							}
+							else if (nValue > nSubsidyMin*2){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:38 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 4 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(98000);
+							}
+							else
+							{
+					        LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:42 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(102000);
+							}
+							//MilliSleep(120000);
+						}
+						
+					}//End Check amount
+				//LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
+				//return;
+				//MilliSleep(120000); //105
+				}
+				else if ((nHeightMax - chainActive.Height() > 1152) && (nHeightMax - chainActive.Height() <= 2304)) {
+				// Timeout after ~ 720 blocks
+                	// Check amount
+					CAmount nValue = pwalletMain->GetBalance();
+                    if (nValue <= 0)
+					{
+						LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:15 min...\n", GetAdjustedTime(), chainActive.Height());
+				        //return;
+						LogPrintf("Warn in RPC LibracoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
+						//return;
+						MilliSleep(135000);
+				    }
+					else
+					{   
+						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
+						if (nValue <= nSubsidyMin)
+						{
+							LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:15 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("Warn in RPC LibracoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in RPC LibracoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
+							//return;
+							MilliSleep(135000);
+						}
+						else
+						{	
+					        if (nValue > nSubsidyMin*8){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:40 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 15 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(100000);
+							}
+							else if (nValue > nSubsidyMin*4){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 10 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(105000);
+							}
+							else if (nValue > nSubsidyMin*2){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:50 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 5 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(110000);
+							}
+							else
+							{
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:55 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(115000);
+							}
+							//MilliSleep(130000);
+						}
+						
+					}//End Check amount
+				//LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:10 min...\n", GetAdjustedTime(), chainActive.Height());
+				//return;
+				//MilliSleep(130000); //120
+				}
+				else if ((nHeightMax - chainActive.Height() > 576) && (nHeightMax - chainActive.Height() <= 1152)) {
+				// Timeout after ~ 664 blocks
+                	// Check amount
+					CAmount nValue = pwalletMain->GetBalance();
+                    if (nValue <= 0)
+					{
+						LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
+				        //return;
+						LogPrintf("Warn in RPC LibracoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
+						//return;
+						MilliSleep(145000);
+				    }
+					else
+					{   
+						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
+						if (nValue <= nSubsidyMin)
+						{
+							LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("Warn in RPC LibracoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in RPC LibracoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
+							//return;
+							MilliSleep(145000);
+						}
+						else
+						{	
+					        if (nValue > nSubsidyMin*8){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:50 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 15 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(110000);
+							}
+							else if (nValue > nSubsidyMin*4){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:55 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 10 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(115000);
+							}
+							else if (nValue > nSubsidyMin*2){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 5 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(120000);
+							}
+							else
+							{
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:05 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(125000);
+							}
+							//MilliSleep(140000);
+						}
+						
+					}//End Check amount
+				//LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
+				//return;
+				//MilliSleep(140000); //130
+				}
+				else if ((nHeightMax - chainActive.Height() > 288) && (nHeightMax - chainActive.Height() <= 576)) {
+				// Timeout after ~ 617 blocks
+                	// Check amount
+					CAmount nValue = pwalletMain->GetBalance();
+                    if (nValue <= 0)
+					{
+						LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:30 min...\n", GetAdjustedTime(), chainActive.Height());
+				        //return;
+						LogPrintf("Warn in RPC LibracoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
+						//return;
+						MilliSleep(150000);
+				    }
+					else
+					{   
+						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
+						if (nValue <= nSubsidyMin)
+						{
+							LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:30 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("Warn in RPC LibracoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in RPC LibracoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
+							//return;
+							MilliSleep(150000);
+						}
+						else
+						{	
+					        if (nValue > nSubsidyMin*8){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:12 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 6 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(132000);
+							}
+							else if (nValue > nSubsidyMin*4){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:14 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 4 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(134000);
+							}
+							else if (nValue > nSubsidyMin*2){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:16 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 2 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(136000);
+							}
+							else
+							{
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:18 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(138000);
+							}
+							//MilliSleep(145000);
+						}
+						
+					}//End Check amount
+				//LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
+				//return;
+				//MilliSleep(145000); //140
+				}
+				else if ((nHeightMax - chainActive.Height() > 148) && (nHeightMax - chainActive.Height() <= 288)) {
+				// Timeout after ~ 595 blocks
+                	// Check amount
+					CAmount nValue = pwalletMain->GetBalance();
+                    if (nValue <= 0)
+					{
+						LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:33 min...\n", GetAdjustedTime(), chainActive.Height());
+				        //return;
+						LogPrintf("Warn in RPC LibracoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
+						//return;
+						MilliSleep(153000);
+				    }
+					else
+					{   
+						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
+						if (nValue <= nSubsidyMin)
+						{
+							LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:33 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("Warn in RPC LibracoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in RPC LibracoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
+							//return;
+							MilliSleep(153000);
+						}
+						else
+						{	
+					        if (nValue > nSubsidyMin*8){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:16 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *8 : %s It is alowed fast mining and bonus 6 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(136000);
+							}
+							else if (nValue > nSubsidyMin*4){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:18 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *4 : %s It is alowed fast mining and bonus 4 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(138000);
+							}
+							else if (nValue > nSubsidyMin*2){
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
+							//return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance > *2 : %s It is alowed fast mining and bonus 2 sec !\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(140000);
+							}
+							else
+							{
+							LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:22 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(142000);
+							}
+							//MilliSleep(148000);
+						}
+						
+					}//End Check amount
+				//LogPrintf("Timeout in LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:28 min...\n", GetAdjustedTime(), chainActive.Height());
+				//return;
+				//MilliSleep(148000); //145
+				}
+				else
+				{
+				// Timeout already before
+                	// Check amount
+					CAmount nValue = pwalletMain->GetBalance();
+                    if (nValue <= 0)
+					{
+						LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
+				        //return;
+						LogPrintf("Warn in RPC LibracoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
+						//return;
+						MilliSleep(155000);
+				    }
+					else
+					{   
+						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
+						if (nValue <= nSubsidyMin)
+						{
+							LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("Warn in RPC LibracoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in RPC LibracoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
+							//return;
+							MilliSleep(155000);
+						}
+						else
+						{	
+					        LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:30 min...\n", GetAdjustedTime(), chainActive.Height());
+				            //return;
+							LogPrintf("RPC LibracoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							MilliSleep(150000);
+						}
+						
+					}//End Check amount
+				//LogPrintf("Timeout in RPC LibracoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2.5 min...\n", GetAdjustedTime(), chainActive.Height());
+				//return;
+				//MilliSleep(150000);					
+				}
+		//throw JSONRPCError(RPC_INVALID_PARAMETER, "Timeout: Invalid over hight limit active block, unable to create new block! wait 5 min...");
+		//return;
+		//MilliSleep(150000);
+		MilliSleep(45000); //again min timeout 150000 - 110000 = 40000 
+		}
+			//chainActive.Height()+1
+		if (chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() + Params().TargetSpacing() > GetAdjustedTime()) { //not time for generate
+        //throw JSONRPCError(RPC_INVALID_PARAMETER, "Timeout: Invalid over hight limit active block, unable to create new block! wait 5 min...");
+		//return;
+		MilliSleep(150000);
+		}
+		//chainActive.Height()+1 + 150 sec
+		//if (chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() + Params().TargetSpacing() + Params().TargetSpacing() > GetAdjustedTime()) { //not time for generate
+        //throw JSONRPCError(RPC_INVALID_PARAMETER, "Timeout: Invalid over hight limit active block, unable to create new block! wait 5 min...");
+		//return;
+		//MilliSleep(450000);
+		//}
+		//GetAdjustedTime and chainActive.Height()+1
+		unsigned int nHeightMaxNext = ((chainActive.Tip()->GetBlockTime() - Params().GenesisBlock().GetBlockTime() + Params().TargetSpacing())/Params().TargetSpacing());
+		if (chainActive.Height()+1 > nHeightMaxNext) {
+			
+        throw JSONRPCError(RPC_INVALID_PARAMETER, "Timeout: Invalid over hight limit next block, unable to create new block! wait 10 min...");
+		//return;
+		MilliSleep(600000);
+		    
+        }
+		//GetAdjustedTime  int64_t nNow = GetAdjustedTime();
+		unsigned int nHeightMaxnTime = ((GetAdjustedTime() - Params().GenesisBlock().GetBlockTime() + Params().TargetSpacing())/Params().TargetSpacing());
+		if (chainActive.Height()+1 > nHeightMaxnTime) {
+        throw JSONRPCError(RPC_INVALID_PARAMETER, "Timeout: Invalid over hight limit in now Time, unable to create new block! wait 10 min...");
+		//return;
+		MilliSleep(600000);
+        }
+		
         // Create new block
         if(pblocktemplate)
         {

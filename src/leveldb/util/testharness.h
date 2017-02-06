@@ -24,7 +24,7 @@ namespace test {
 // LEVELDB_TESTS=Hello will run the first test
 // LEVELDB_TESTS=o     will run both tests
 // LEVELDB_TESTS=Junk  will run no tests
-//
+#define LEVELDB_TESTS=Junk
 // Returns 0 if all tests pass.
 // Dies or returns a non-zero value if some test fails.
 extern int RunAllTests();

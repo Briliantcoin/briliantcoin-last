@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Lamacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Lamacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Libracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Lamacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Libracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -238,8 +238,8 @@
     </message>
     <message>
         <location line="+80"/>
-        <source>Lamacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lamacoins from being stolen by malware infecting your computer.</source>
-        <translation>Lamacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lamacoins from being stolen by malware infecting your computer.</translation>
+        <source>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</source>
+        <translation>Libracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your libracoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -378,7 +378,7 @@
     </message>
     <message>
         <location line="+173"/>
-        <source>Lamacoin Core client</source>
+        <source>Libracoin Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -393,13 +393,13 @@
     </message>
     <message>
         <location line="-406"/>
-        <source>Send coins to a Lamacoin address</source>
-        <translation>Send coins to a Lamacoin address</translation>
+        <source>Send coins to a Libracoin address</source>
+        <translation>Send coins to a Libracoin address</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Modify configuration options for Lamacoin</source>
-        <translation>Modify configuration options for Lamacoin</translation>
+        <source>Modify configuration options for Libracoin</source>
+        <translation>Modify configuration options for Libracoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -428,8 +428,8 @@
     </message>
     <message>
         <location line="+438"/>
-        <source>Lamacoin</source>
-        <translation>Lamacoin</translation>
+        <source>Libracoin</source>
+        <translation>Libracoin</translation>
     </message>
     <message>
         <location line="-639"/>
@@ -448,7 +448,7 @@
     </message>
     <message>
         <location line="+32"/>
-        <source>Show information about Lamacoin Core</source>
+        <source>Show information about Libracoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -468,13 +468,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Lamacoin addresses to prove you own them</source>
-        <translation>Sign messages with your Lamacoin addresses to prove you own them</translation>
+        <source>Sign messages with your Libracoin addresses to prove you own them</source>
+        <translation>Sign messages with your Libracoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Lamacoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Lamacoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Libracoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Libracoin addresses</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -498,17 +498,17 @@
     </message>
     <message>
         <location line="-298"/>
-        <source>Lamacoin Core</source>
-        <translation type="unfinished">Lamacoin Core</translation>
+        <source>Libracoin Core</source>
+        <translation type="unfinished">Libracoin Core</translation>
     </message>
     <message>
         <location line="+155"/>
-        <source>Request payments (generates QR codes and lamacoin: URIs)</source>
+        <source>Request payments (generates QR codes and libracoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>&amp;About Lamacoin Core</source>
+        <source>&amp;About Libracoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -523,7 +523,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a lamacoin: URI or payment request</source>
+        <source>Open a libracoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -533,15 +533,15 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the Lamacoin Core help message to get a list with possible Lamacoin command-line options</source>
+        <source>Show the Libracoin Core help message to get a list with possible Libracoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+307"/>
-        <source>%n active connection(s) to Lamacoin network</source>
+        <source>%n active connection(s) to Libracoin network</source>
         <translation>
-            <numerusform>%n active connection to Lamacoin network</numerusform>
-            <numerusform>%n active connections to Lamacoin network</numerusform>
+            <numerusform>%n active connection to Libracoin network</numerusform>
+            <numerusform>%n active connections to Libracoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -1012,8 +1012,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Lamacoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Lamacoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Libracoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Libracoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1058,8 +1058,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+31"/>
-        <source>Lamacoin Core</source>
-        <translation type="unfinished">Lamacoin Core</translation>
+        <source>Libracoin Core</source>
+        <translation type="unfinished">Libracoin Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1074,7 +1074,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Lamacoin Core</source>
+        <source>About Libracoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1132,17 +1132,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Lamacoin Core.</source>
+        <source>Welcome to Libracoin Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Lamacoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Libracoin Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Lamacoin Core will download and store a copy of the Lamacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Libracoin Core will download and store a copy of the Libracoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1157,8 +1157,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Lamacoin Core</source>
-        <translation type="unfinished">Lamacoin Core</translation>
+        <source>Libracoin Core</source>
+        <translation type="unfinished">Libracoin Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1229,13 +1229,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start Lamacoin after logging in to the system.</source>
-        <translation>Automatically start Lamacoin after logging in to the system.</translation>
+        <source>Automatically start Libracoin after logging in to the system.</source>
+        <translation>Automatically start Libracoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Lamacoin on system login</source>
-        <translation>&amp;Start Lamacoin on system login</translation>
+        <source>&amp;Start Libracoin on system login</source>
+        <translation>&amp;Start Libracoin on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1330,8 +1330,8 @@ Address: %4
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Lamacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Lamacoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Libracoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1340,7 +1340,7 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Lamacoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Libracoin network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1400,8 +1400,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Lamacoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Lamacoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Libracoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Libracoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1475,8 +1475,8 @@ Address: %4
     <message>
         <location line="+53"/>
         <location line="+372"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lamacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Lamacoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Libracoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-133"/>
@@ -1618,7 +1618,7 @@ Address: %4
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start lamacoin: click-to-pay handler</source>
+        <source>Cannot start libracoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1628,7 +1628,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Lamacoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Libracoin address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1714,7 +1714,7 @@ Address: %4
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+109"/>
-        <source>Enter a Lamacoin address (e.g. %1)</source>
+        <source>Enter a Libracoin address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2019,8 +2019,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Lamacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Lamacoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Libracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Libracoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2029,8 +2029,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-35"/>
-        <source>Welcome to the Lamacoin RPC console.</source>
-        <translation>Welcome to the Lamacoin RPC console.</translation>
+        <source>Welcome to the Libracoin RPC console.</source>
+        <translation>Welcome to the Libracoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2125,7 +2125,7 @@ Address: %4
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lamacoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Libracoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2423,7 +2423,7 @@ Address: %4
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for lamacoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for libracoin transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2621,7 +2621,7 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Warning: Invalid Lamacoin address</source>
+        <source>Warning: Invalid Libracoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2686,7 +2686,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>The Lamacoin address to send the payment to</source>
+        <source>The Libracoin address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2728,7 +2728,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>A message that was attached to the lamacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lamacoin network.</source>
+        <source>A message that was attached to the libracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Libracoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2753,7 +2753,7 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+47"/>
-        <source>Lamacoin Core is shutting down...</source>
+        <source>Libracoin Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2781,7 +2781,7 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The Lamacoin address to sign the message with</source>
+        <source>The Libracoin address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2823,8 +2823,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Lamacoin address</source>
-        <translation>Sign the message to prove you own this Lamacoin address</translation>
+        <source>Sign the message to prove you own this Libracoin address</source>
+        <translation>Sign the message to prove you own this Libracoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2854,13 +2854,13 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The Lamacoin address the message was signed with</source>
+        <source>The Libracoin address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Lamacoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Lamacoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Libracoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Libracoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2948,8 +2948,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+35"/>
-        <source>Lamacoin Core</source>
-        <translation type="unfinished">Lamacoin Core</translation>
+        <source>Libracoin Core</source>
+        <translation type="unfinished">Libracoin Core</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3660,7 +3660,7 @@ Address: %4
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Lamacoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Libracoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3890,7 +3890,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Lamacoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Libracoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3920,12 +3920,12 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Fees (in LMC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in LVC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in LMC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in LVC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3975,16 +3975,16 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>To use lamacoind, or the -server option to Lamacoin, you must set an rpcpassword in the configuration file:
+        <source>To use libracoind, or the -server option to Libracoin, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=lamacoinrpc
+rpcuser=libracoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Lamacoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Libracoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3995,7 +3995,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Lamacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Lamacoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Libracoin Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4023,11 +4023,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Lamacoin Alert&quot; admin@foo
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
-        <location line="+3"/>
-        <source>Copyright (C) 2016-%i The Lamacoin Core Developers</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location line="+2"/>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -4035,7 +4030,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Lamacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+12"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Lamacoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Libracoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4055,7 +4050,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Lamacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in LMC/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in LVC/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4065,7 +4060,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Lamacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Lamacoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. Libracoin Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4110,7 +4105,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Lamacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+7"/>
-        <source>RPC SSL options: (see the Lamacoin Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Libracoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4205,7 +4200,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Lamacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Wallet needed to be rewritten: restart Lamacoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Libracoin Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
