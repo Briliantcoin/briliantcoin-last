@@ -1,4 +1,4 @@
-Source: briliantcocoin
+Source: briliantcoin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -23,11 +23,11 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.briliantcocoin.org/
-Vcs-Git: git://github.com/genavarov/briliantcocoin.git
-Vcs-Browser: https://github.com/genavarov/briliantcocoin
+Homepage: https://www.briliantcoin.org/
+Vcs-Git: git://github.com/genavarov/briliantcoin.git
+Vcs-Browser: https://github.com/genavarov/briliantcoin
 
-Package: briliantcocoind
+Package: briliantcoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -44,10 +44,10 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 5+ GB of space, slowly growing.
  .
- This package provides the daemon, briliantcocoind, and the CLI tool
- briliantcocoin-cli to interact with the daemon.
+ This package provides the daemon, briliantcoind, and the CLI tool
+ briliantcoin-cli to interact with the daemon.
 
-Package: briliantcocoin-qt
+Package: briliantcoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
@@ -66,7 +66,7 @@ Description: peer-to-peer network based digital currency - Qt GUI
  .
  This package provides Briliantcoin-Qt, a GUI for Briliantcoin based on Qt.
 
-Package: briliantcocoin-tx
+Package: briliantcoin-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
@@ -83,6 +83,6 @@ Description: peer-to-peer digital currency - standalone transaction tool
  Full transaction history is stored locally at each client.  This
  requires 5+ GB of space, slowly growing.
  .
- This package provides briliantcocoin-tx, a command-line transaction creation
- tool which can be used without a briliantcocoin daemon.  Some means of
+ This package provides briliantcoin-tx, a command-line transaction creation
+ tool which can be used without a briliantcoin daemon.  Some means of
  exchanging minimal transaction data with peers is still required.
