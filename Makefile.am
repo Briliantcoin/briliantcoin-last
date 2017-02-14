@@ -4,9 +4,9 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-BITCOIND_BIN=$(top_builddir)/src/lavrovcoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/lavrovcoin-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/lavrovcoin-cli$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/briliantcoind$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/briliantcoin-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/briliantcoin-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
 OSX_APP=Briliantcoin-Qt.app
