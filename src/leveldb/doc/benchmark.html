@@ -97,8 +97,8 @@ div.bsql {
 
 <h4>Custom Build Specifications</h4>
 <ul>
-<li>LevelDB: LevelDB was compiled with the <a href="http://code.google.com/p/google-perftools">tcmalloc</a> lavrovcory and the <a href="http://code.google.com/p/snappy/">Snappy</a> compression lavrovcory (revision 33).  Assertions were disabled.</li>
-<li>TreeDB: TreeDB was compiled using the <a href="http://www.oberhumer.com/opensource/lzo/">LZO</a> compression lavrovcory (version 2.03). Furthermore, we enabled the TSMALL and TLINEAR options when opening the database in order to reduce the footprint of each record.</li>
+<li>LevelDB: LevelDB was compiled with the <a href="http://code.google.com/p/google-perftools">tcmalloc</a> briliantcory and the <a href="http://code.google.com/p/snappy/">Snappy</a> compression briliantcory (revision 33).  Assertions were disabled.</li>
+<li>TreeDB: TreeDB was compiled using the <a href="http://www.oberhumer.com/opensource/lzo/">LZO</a> compression briliantcory (version 2.03). Furthermore, we enabled the TSMALL and TLINEAR options when opening the database in order to reduce the footprint of each record.</li>
 <li>SQLite: We tuned SQLite's performance, by setting its locking mode to exclusive.  We also enabled SQLite's <a href="http://www.sqlite.org/draft/wal.html">write-ahead logging</a>.</li>
 </ul>
 
@@ -324,8 +324,8 @@ to disk.  Therefore LevelDB users can leave compression enabled in
 most scenarios without having worry about a tradeoff between space
 usage and performance.  TreeDB's performance on the other hand is
 better without compression than with compression.  Presumably this is
-because TreeDB's compression lavrovcory (LZO) is more expensive than
-LevelDB's compression lavrovcory (Snappy).<p>
+because TreeDB's compression briliantcory (LZO) is more expensive than
+LevelDB's compression briliantcory (Snappy).<p>
 
 <h3>E. Using More Memory</h3>
 <p>We increased the overall cache size for each database to 128 MB. For LevelDB, we partitioned 128 MB into a 120 MB write buffer and 8 MB of cache (up from 2 MB of write buffer and 2 MB of cache). For SQLite3, we kept the page size at 1024 bytes, but increased the number of pages to 131,072 (up from 4096). For TreeDB, we also kept the page size at 1024 bytes, but increased the cache size to 128 MB (up from 4 MB).</p>

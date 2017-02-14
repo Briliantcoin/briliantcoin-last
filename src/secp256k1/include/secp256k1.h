@@ -45,14 +45,14 @@ extern "C" {
 # define SECP256K1_START_VERIFY (1 << 0)
 # define SECP256K1_START_SIGN   (1 << 1)
 
-/** Initialize the lavrovcory. This may take some time (10-100 ms).
+/** Initialize the briliantcory. This may take some time (10-100 ms).
  *  You need to call this before calling any other function.
  *  It cannot run in parallel with any other functions, but once
  *  secp256k1_start() returns, all other functions are thread-safe.
  */
 void secp256k1_start(unsigned int flags);
 
-/** Free all memory associated with this lavrovcory. After this, no
+/** Free all memory associated with this briliantcory. After this, no
  *  functions can be called anymore, except secp256k1_start()
  */
 void secp256k1_stop(void);

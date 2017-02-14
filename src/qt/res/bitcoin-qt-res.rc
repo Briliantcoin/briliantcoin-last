@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Lavrovcoin"
-            VALUE "FileDescription",    "Lavrovcoin Core (OSS GUI client for Lavrovcoin)"
+            VALUE "CompanyName",        "Briliantcoin"
+            VALUE "FileDescription",    "Briliantcoin Core (OSS GUI client for Briliantcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "lavrovcoin-qt"
+            VALUE "InternalName",       "briliantcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "lavrovcoin-qt.exe"
-            VALUE "ProductName",        "Lavrovcoin Core"
+            VALUE "OriginalFilename",   "briliantcoin-qt.exe"
+            VALUE "ProductName",        "Briliantcoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers 2011-@COPYRIGHT_YEAR@ The Lavrovcoin Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers 2011-@COPYRIGHT_YEAR@ The Briliantcoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Lavrovcoin-Qt</string>
+  <string>Briliantcoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.lavrovcoin.Lavrovcoin-Qt</string>
+  <string>org.briliantcoin.Briliantcoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.lavrovcoin.LavrovcoinPayment</string>
+      <string>org.briliantcoin.BriliantcoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>lavrovcoin</string>
+        <string>briliantcoin</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.lavrovcoin.paymentrequest</string>
+      <string>org.briliantcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Lavrovcoin payment request</string>
+      <string>Briliantcoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-lavrovcoin-payment-request</string>
+        <string>application/x-briliantcoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>lavrovcoinpaymentrequest</string>
+          <string>briliantcoinpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.lavrovcoin.paymentrequest</string>
+        <string>org.briliantcoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

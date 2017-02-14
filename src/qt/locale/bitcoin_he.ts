@@ -62,11 +62,11 @@
         <translation>כתובות לקבלה</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Briliantcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>אלה כתובת ללייטקוין שלך לצורך שליחת תשלומים. תמיד יש לבדוק את הכמות ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Briliantcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>אלה כתובות ללייטקוין שלך לצורך קבלת תשלומים. מומלץ להשתמש בכתובת קבלה חדשה לכל העברה.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>נא להזין את מילת הצופן החדשה לארנק.&lt;br/&gt;כדאי להשתמש במילת צופן המורכבת מ&lt;b&gt;עשרה תווים אקראיים ומעלה&lt;/b&gt;, או &lt;b&gt;שמונה מילים ומעלה&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <source>Briliantcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your briliantcoins from being stolen by malware infecting your computer.</source>
         <translation>לייטקוין ייסגר כעת כדי להשלים את תהליך ההצפנה. עליך לזכור שהצפנת הארנק שלך אינה מגנה באופן מלא על הלייטקוינים שלך מתכניות זדוניות המושתלות על המחשב.</translation>
     </message>
     <message>
@@ -291,7 +291,7 @@
         <translation>פתיחת &amp;כתובת משאב…</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core client</source>
+        <source>Briliantcoin Core client</source>
         <translation>לקוח ליבה של לייטקוין</translation>
     </message>
     <message>
@@ -303,11 +303,11 @@
         <translation>המקטעים נוספים למפתח בכונן…</translation>
     </message>
     <message>
-        <source>Send coins to a Lavrovcoin address</source>
+        <source>Send coins to a Briliantcoin address</source>
         <translation>שליחת מטבעות לכתובת לייטקוין</translation>
     </message>
     <message>
-        <source>Modify configuration options for Lavrovcoin</source>
+        <source>Modify configuration options for Briliantcoin</source>
         <translation>שינוי התצורה של לייטקוין</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>&amp;אימות הודעה…</translation>
     </message>
     <message>
-        <source>Lavrovcoin</source>
+        <source>Briliantcoin</source>
         <translation>לייטקוין</translation>
     </message>
     <message>
@@ -347,7 +347,7 @@
         <translation>&amp;קבלה</translation>
     </message>
     <message>
-        <source>Show information about Lavrovcoin Core</source>
+        <source>Show information about Briliantcoin Core</source>
         <translation>הצגת מידע על ליבת לייטקוין</translation>
     </message>
     <message>
@@ -363,11 +363,11 @@
         <translation>הצפנת המפתחות הפרטיים ששייכים לארנק שלך</translation>
     </message>
     <message>
-        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
+        <source>Sign messages with your Briliantcoin addresses to prove you own them</source>
         <translation>חתום על הודעות עם כתובות ללייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Briliantcoin addresses</source>
         <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת לייטקוין מסוימות</translation>
     </message>
     <message>
@@ -387,15 +387,15 @@
         <translation>סרגל כלים לשוניות</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
+        <source>Briliantcoin Core</source>
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
-        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :lavrovcoin)</translation>
+        <source>Request payments (generates QR codes and briliantcoin: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :briliantcoin)</translation>
     </message>
     <message>
-        <source>&amp;About Lavrovcoin Core</source>
+        <source>&amp;About Briliantcoin Core</source>
         <translation>על &amp;אודות ליבת לייטקוין</translation>
     </message>
     <message>
@@ -407,7 +407,7 @@
         <translation>הצגת רשימת הכתובות והתוויות הנמצאות בשימוש</translation>
     </message>
     <message>
-        <source>Open a lavrovcoin: URI or payment request</source>
+        <source>Open a briliantcoin: URI or payment request</source>
         <translation>פתיחת לייטקוין: כתובת משאב או בקשת תשלום</translation>
     </message>
     <message>
@@ -415,7 +415,7 @@
         <translation>אפשרויות &amp;שורת הפקודה</translation>
     </message>
     <message>
-        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
+        <source>Show the Briliantcoin Core help message to get a list with possible Briliantcoin command-line options</source>
         <translation>הצגת הודעות העזרה של ליבת לייטקוין כדי לקבל רשימה עם אפשרויות שורת הפקודה האפשריות של לייטקוין</translation>
     </message>
     <message>
@@ -747,7 +747,7 @@ Address: %4
         <translation>הכתובת שהוכנסה „%1“ כבר נמצאת בפנקס הכתובות.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
+        <source>The entered address "%1" is not a valid Briliantcoin address.</source>
         <translation>הכתובת שהוכנסה „%1“ אינה כתובת לייטקוין תקנית.</translation>
     </message>
     <message>
@@ -785,7 +785,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lavrovcoin Core</source>
+        <source>Briliantcoin Core</source>
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>
@@ -797,7 +797,7 @@ Address: %4
         <translation>(%1-סיביות)</translation>
     </message>
     <message>
-        <source>About Lavrovcoin Core</source>
+        <source>About Briliantcoin Core</source>
         <translation>על אודות ליבת לייטקוין</translation>
     </message>
     <message>
@@ -844,15 +844,15 @@ Address: %4
         <translation>ברוך בואך</translation>
     </message>
     <message>
-        <source>Welcome to Lavrovcoin Core.</source>
+        <source>Welcome to Briliantcoin Core.</source>
         <translation>ברוך בואך לליבת לייטקוין</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Lavrovcoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Briliantcoin Core will store its data.</source>
         <translation>מכיוון שזאת הפעם הראשונה שהתכנית פועלת ניתן לבחור איפה ליבת לייטקוין תאחסן את הנתונים שלה.</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core will download and store a copy of the Lavrovcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Briliantcoin Core will download and store a copy of the Briliantcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>לקוח לייטקוין יוריד וישמור העתק של שרשרת המקטעים של לייטקוין. לפחות %1 ג״ב מהנתונים יאוחסנו בתיקייה זו, והיא תגדל עם הזמן. הארנק גם יאוחסן בתיקייה הזו.</translation>
     </message>
     <message>
@@ -864,7 +864,7 @@ Address: %4
         <translation>שימוש בתיקיית נתונים מותאמת אישית:</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
+        <source>Briliantcoin Core</source>
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>
@@ -910,11 +910,11 @@ Address: %4
         <translation>&amp;ראשי</translation>
     </message>
     <message>
-        <source>Automatically start Lavrovcoin after logging in to the system.</source>
+        <source>Automatically start Briliantcoin after logging in to the system.</source>
         <translation>הפעלת לייטקוין אוטומטית לאחר כניסה למערכת.</translation>
     </message>
     <message>
-        <source>&amp;Start Lavrovcoin on system login</source>
+        <source>&amp;Start Briliantcoin on system login</source>
         <translation>ה&amp;פעלת לייטקוין בעת הכניסה למערכת</translation>
     </message>
     <message>
@@ -990,7 +990,7 @@ Address: %4
         <translation>עודף &amp;בלתי מאושר מההשקעה</translation>
     </message>
     <message>
-        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Briliantcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>פתיחת הפתחה של לייטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
     </message>
     <message>
@@ -1038,7 +1038,7 @@ Address: %4
         <translation>&amp;שפת מנשק המשתמש:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Briliantcoin.</source>
         <translation>להלן ניתן לקבוע את שפת מנשק המשתמש. הגדרה זו תיכנס לתוקף לאחר הפעלה מחדש של לייטקוין.</translation>
     </message>
     <message>
@@ -1097,7 +1097,7 @@ Address: %4
         <translation>טופס</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Briliantcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת ללייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
@@ -1200,7 +1200,7 @@ Address: %4
         <translation>שגיאה בבקשת תשלום</translation>
     </message>
     <message>
-        <source>Cannot start lavrovcoin: click-to-pay handler</source>
+        <source>Cannot start briliantcoin: click-to-pay handler</source>
         <translation>לא ניתן להתחיל את לייטקוין: טיפול בלחיצה–לתשלום </translation>
     </message>
     <message>
@@ -1208,7 +1208,7 @@ Address: %4
         <translation>כתובת אחזור בקשת התשלום שגויה: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Lavrovcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Briliantcoin address or malformed URI parameters.</source>
         <translation>לא ניתן לנתח את כתובת המשאב! מצב זה יכול לקרות עקב כתובת לייטקוין שגויה או פרמטרים שגויים בכתובת המשאב.</translation>
     </message>
     <message>
@@ -1270,7 +1270,7 @@ Address: %4
         <translation>כמות</translation>
     </message>
     <message>
-        <source>Enter a Lavrovcoin address (e.g. %1)</source>
+        <source>Enter a Briliantcoin address (e.g. %1)</source>
         <translation>נא להזין כתובת לייטקוין (למשל: %1)</translation>
     </message>
     <message>
@@ -1496,7 +1496,7 @@ Address: %4
         <translation>קובץ יומן ניפוי</translation>
     </message>
     <message>
-        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Briliantcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>פתיחת קובץ יומן הניפוי מתיקיית הנתונים הנוכחית. פעולה זו עשויה להימשך מספר שניות עבור קובצי יומן גדולים.</translation>
     </message>
     <message>
@@ -1504,7 +1504,7 @@ Address: %4
         <translation>ניקוי מסוף הבקרה</translation>
     </message>
     <message>
-        <source>Welcome to the Lavrovcoin RPC console.</source>
+        <source>Welcome to the Briliantcoin RPC console.</source>
         <translation>ברוכים הבאים למסוף ה־RPC של לייטקוין.</translation>
     </message>
     <message>
@@ -1579,7 +1579,7 @@ Address: %4
         <translation>ש&amp;ימוש &amp;חוזר בכתובת קבלה קיימת (לא מומלץ)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lavrovcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Briliantcoin network.</source>
         <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת לייטקוין.</translation>
     </message>
     <message>
@@ -1884,7 +1884,7 @@ Address: %4
         <translation>ההעברה נדחתה! מצב כזה עשוי לקרות אם חלק מהמטבעות בארנק שלך כבר הושקעו, כמו למשל עקב שימוש בעותק של wallet.dat והמטבעות הושקעו בעותק אבל לא סומנו כאילו הושקעו דרך כאן.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Lavrovcoin address</source>
+        <source>Warning: Invalid Briliantcoin address</source>
         <translation>אזהרה: כתובת לייטקוין שגויה</translation>
     </message>
     <message>
@@ -1935,7 +1935,7 @@ Address: %4
         <translation>זהו תשלום רגיל.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address to send the payment to</source>
+        <source>The Briliantcoin address to send the payment to</source>
         <translation>כתובת ללייטקוין של המוטב</translation>
     </message>
     <message>
@@ -1967,7 +1967,7 @@ Address: %4
         <translation>יש להזין תווית עבור כתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
     </message>
     <message>
-        <source>A message that was attached to the lavrovcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lavrovcoin network.</source>
+        <source>A message that was attached to the briliantcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Briliantcoin network.</source>
         <translation>הודעה שצורפה ללייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת ללייטקוין.</translation>
     </message>
     <message>
@@ -1986,7 +1986,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Lavrovcoin Core is shutting down...</source>
+        <source>Briliantcoin Core is shutting down...</source>
         <translation>ליבת לייטקוין נסגרת…</translation>
     </message>
     <message>
@@ -2009,7 +2009,7 @@ Address: %4
         <translation>ניתן לחתום על הודעות עם הכתובות שלך כדי להוכיח שהן בבעלותך. מומלץ להיזהר לא לחתום על משהו מפוקפק, שכן התקפות דיוג עשויות לגרום לך בעורמה למסור את זהותך. רצוי לחתום רק על הצהרות מפורטות לחלוטין שהסכמת עמן.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address to sign the message with</source>
+        <source>The Briliantcoin address to sign the message with</source>
         <translation>כתובת ללייטקוין אתה לחתום אתה את ההודעה</translation>
     </message>
     <message>
@@ -2041,7 +2041,7 @@ Address: %4
         <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Lavrovcoin address</source>
+        <source>Sign the message to prove you own this Briliantcoin address</source>
         <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת ללייטקוין הזו בבעלותך.</translation>
     </message>
     <message>
@@ -2065,11 +2065,11 @@ Address: %4
         <translation>הכנס למטה את הכתובת החותמת, ההודעה (ודא שאתה מעתיק מעברי שורה, רווחים, טאבים וכו' באופן מדויק) והחתימה כדי לאמת את ההודעה. היזהר לא לפרש את החתימה כיותר ממה שמופיע בהודעה החתומה בעצמה, כדי להימנע מליפול קורבן למתקפת איש-באמצע.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address the message was signed with</source>
+        <source>The Briliantcoin address the message was signed with</source>
         <translation>כתובת ללייטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Lavrovcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Briliantcoin address</source>
         <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת ללייטקוין הנתונה</translation>
     </message>
     <message>
@@ -2136,7 +2136,7 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lavrovcoin Core</source>
+        <source>Briliantcoin Core</source>
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>
@@ -2670,7 +2670,7 @@ Address: %4
         <translation>זוהי בניית ניסיון טרום-שחרור - השימוש בה על אחריותך - אין להשתמש לצורך כריה או יישומי מסחר</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Lavrovcoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Briliantcoin Core is probably already running.</source>
         <translation>לא ניתן להתאגד אל %s במחשב זה. כנראה שליבת לייטקוין כבר פועלת.</translation>
     </message>
     <message>
@@ -2834,11 +2834,11 @@ Address: %4
         <translation>הרץ פקודה כאשר ההתראה הרלוונטית מתקבלת או כשאנחנו עדים לפיצול ארוך מאוד (%s בשורת הפקודה יוחלף ע"י ההודעה)</translation>
     </message>
     <message>
-        <source>Fees (in LVC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>העמלות (ב־LVC/ק״ב) הנמוכות מהסכום הזה נחשבות לעמלות אפס ליצירת העברה (בררת מחדל: %s)</translation>
+        <source>Fees (in BRC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>העמלות (ב־BRC/ק״ב) הנמוכות מהסכום הזה נחשבות לעמלות אפס ליצירת העברה (בררת מחדל: %s)</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Lavrovcoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Briliantcoin Core will not work properly.</source>
         <translation>אזהרה: נא לבדוק שהתאריך והשעה של המחשב שלך נכונים! אם השעון שלך שגוי ליבת לייטקוין לא תעבוד כראוי.</translation>
     </message>
     <message>
@@ -2858,7 +2858,7 @@ Address: %4
         <translation>לא ניתן לנתח את הערך של ‎-rpcbind שצוין בתור %s ככתובת רשת</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Lavrovcoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Briliantcoin Core</source>
         <translation>אירעה שגיאה בטעינת wallet.dat: הארנק דורש גרסה חדשה יותר של ליבת לייטקוין</translation>
     </message>
     <message>
@@ -2866,15 +2866,15 @@ Address: %4
         <translation>שגיאה: נמצא ארגומנט בלתי נתמך ‎-tor, יש להשתמש ב־‎-onion.</translation>
     </message>
     <message>
-        <source>Fee (in LVC/kB) to add to transactions you send (default: %s)</source>
-        <translation>עמלה (ב־LVC/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
+        <source>Fee (in BRC/kB) to add to transactions you send (default: %s)</source>
+        <translation>עמלה (ב־BRC/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>מידע</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Lavrovcoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. Briliantcoin Core is shutting down.</source>
         <translation>בדיקת התקינות ההתחלתית נכשלה. ליבת לייטקוין תיסגר כעת.</translation>
     </message>
     <message>
@@ -2902,7 +2902,7 @@ Address: %4
         <translation>אפשרויות ממסר מפרק:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Lavrovcoin Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Briliantcoin Wiki for SSL setup instructions)</source>
         <translation>אפשרויות RPC SSL: (נא לעיין בוויקי של לייטקוין לקבלת הנחיות על הגדרת SSL)</translation>
     </message>
     <message>
@@ -2958,7 +2958,7 @@ Address: %4
         <translation>שם משתמש לחיבורי JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Lavrovcoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Briliantcoin Core to complete</source>
         <translation>יש לכתוב את הארנק מחדש: נא להפעיל את ליבת לייטקוין מחדש כדי להשלים את הפעולה</translation>
     </message>
     <message>

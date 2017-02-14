@@ -159,8 +159,8 @@
         <translation>แถบเครื่องมือ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Lavrovcoin network</source>
-        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Lavrovcoin</numerusform></translation>
+        <source>%n active connection(s) to Briliantcoin network</source>
+        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Briliantcoin</numerusform></translation>
     </message>
     <message>
         <source>Up to date</source>

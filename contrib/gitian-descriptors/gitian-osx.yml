@@ -1,5 +1,5 @@
 ---
-name: "lavrovcoin-osx-0.10"
+name: "briliantcocoin-osx-0.10"
 enable_cache: true
 suites:
 - "precise"
@@ -20,8 +20,8 @@ packages:
 - "libbz2-dev"
 reference_datetime: "2016-06-16 00:00:00"
 remotes:
-- "url": "https://github.com/genavarov/lavrovcoin.git"
-  "dir": "lavrovcoin"
+- "url": "https://github.com/genavarov/briliantcocoin.git"
+  "dir": "briliantcocoin"
 files:
 - "MacOSX10.9.sdk.tar.gz"
 script: |
@@ -68,7 +68,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd lavrovcoin
+  cd briliantcocoin
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
@@ -83,14 +83,14 @@ script: |
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
-  SOURCEDIST=`echo lavrovcoin-*.tar.gz`
+  SOURCEDIST=`echo briliantcocoin-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
 
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find lavrovcoin-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+  find briliantcocoin-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
   popd
 
   ORIGPATH="$PATH"
@@ -120,7 +120,7 @@ script: |
     popd
 
     make deploy
-    ${WRAP_DIR}/dmg dmg Lavrovcoin-Qt.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+    ${WRAP_DIR}/dmg dmg Briliantcoin-Qt.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
 
     cd installed
     find . -name "lib*.la" -delete

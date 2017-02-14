@@ -27,7 +27,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// LavrovcoinMiner
+// BriliantcoinMiner
 //
 
 //
@@ -88,20 +88,20 @@ void UpdateTime(CBlockHeader* pblock, const CBlockIndex* pindexPrev)
 	int64_t nNow = GetAdjustedTime();
 	
 		int64_t nNowBack = GetAdjustedTime() - nNowCent; 
-		//LogPrintf("Testing 0 in LavrovcoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
+		//LogPrintf("Testing 0 in BriliantcoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
 			
 		if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()){
 			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 180 , GetAdjustedTime());
-		    //LogPrintf("Testing 1 in LavrovcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 30);
+		    //LogPrintf("Testing 1 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 30);
 		}else if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()){
 			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 60 , GetAdjustedTime());
-		    //LogPrintf("Testing 2 in LavrovcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 10);
+		    //LogPrintf("Testing 2 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 10);
 		}else if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing()) < GetAdjustedTime()){
 			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5 , GetAdjustedTime());
-		    //LogPrintf("Testing 3 in LavrovcoinMiner : Min Central time: %s over limit: (%s), Real time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5);
+		    //LogPrintf("Testing 3 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5);
 		}else{
 			pblock->nTime = std::max(pindexPrev->GetMedianTimePast()+1, GetAdjustedTime());	
-		    //LogPrintf("Testing 4 in LavrovcoinMiner : Max Central time: %s over limit: (%s), Mediantime create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetMedianTimePast()+1);
+		    //LogPrintf("Testing 4 in BriliantcoinMiner : Max Central time: %s over limit: (%s), Mediantime create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetMedianTimePast()+1);
 		}
 	
 	
@@ -408,7 +408,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("LavrovcoinMiner : generated block is stale");
+            return error("BriliantcoinMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -423,16 +423,16 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("LavrovcoinMiner : ProcessNewBlock, block not accepted");
+        return error("BriliantcoinMiner : ProcessNewBlock, block not accepted");
 
     return true;
 }
 
 void static BitcoinMiner(CWallet *pwallet)
 {
-    LogPrintf("LavrovcoinMiner started\n");
+    LogPrintf("BriliantcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("lavrovcoin-miner");
+    RenameThread("briliantcoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -464,11 +464,11 @@ void static BitcoinMiner(CWallet *pwallet)
 			//chainActive.Height()
 			unsigned int nHeightMax = ((chainActive.Tip()->GetBlockTime() - Params().GenesisBlock().GetBlockTime())/Params().TargetSpacing());
 			if (chainActive.Height() > nHeightMax) {
-				LogPrintf("Timeout in LavrovcoinMiner : Time: %s is not now for over hight limit active block (%s)! wait 2.5 min...\n", GetAdjustedTime(), chainActive.Height());
+				LogPrintf("Timeout in BriliantcoinMiner : Time: %s is not now for over hight limit active block (%s)! wait 2.5 min...\n", GetAdjustedTime(), chainActive.Height());
                 MilliSleep(150000);
 				if (chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() > GetAdjustedTime()) { //not time for generate
                     // Mark block as in flight already
-                    LogPrintf("Timeout in LavrovcoinMiner : Invalid time: %s over hight limit active block (%s), unable to create new block ! wait 5 min...\n", GetAdjustedTime(), chainActive.Height());
+                    LogPrintf("Timeout in BriliantcoinMiner : Invalid time: %s over hight limit active block (%s), unable to create new block ! wait 5 min...\n", GetAdjustedTime(), chainActive.Height());
 					//return;
 				MilliSleep(300000);
 				}
@@ -476,14 +476,14 @@ void static BitcoinMiner(CWallet *pwallet)
 			//
 				int64_t nNowCent = ((pindexPrev->GetBlockTime() + 1 + pindexPrev->GetMedianTimePast() + 1 )/2);
 				int64_t nNowBack = GetAdjustedTime() - nNowCent; 
-		//LogPrintf("Testing 0 in LavrovcoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
+		//LogPrintf("Testing 0 in BriliantcoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
 			
 			
 			//unsigned int nHeightNext = pindexPrev->nHeight+1; //chainActive.Height()+1;
 			//if (chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() > GetAdjustedTime()) { //not time for generate
 			if (((chainActive.Tip()->GetBlockTime() + Params().TargetSpacing() > GetAdjustedTime()) && ((chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime())) || ((chainActive.Tip()->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime())) { //not time for generate
                 //Timeout again after new block - speed up if late
-				//LogPrintf("Testing 7 in LavrovcoinMiner : Res Central time: %s over limit: (%s), Last -NowBack time create new block.\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() - nNowBack);
+				//LogPrintf("Testing 7 in BriliantcoinMiner : Res Central time: %s over limit: (%s), Last -NowBack time create new block.\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() - nNowBack);
 				if (nHeightMax - chainActive.Height() > 4608) {
 				// Timeout after ~ 960 blocks
 				    
@@ -491,9 +491,9 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
+						LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
 				        //return;
-						LogPrintf("Warn in LavrovcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(105000);
@@ -503,10 +503,10 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
+							LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
 				            //return;
-							LogPrintf("Warn in LavrovcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in LavrovcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							LogPrintf("Warn in BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(105000);
@@ -517,7 +517,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						
 					}//End Check amount
-                //LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:30 min...\n", GetAdjustedTime(), chainActive.Height());
+                //LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:30 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(90000);
 				}
@@ -527,9 +527,9 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
+						LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
 				        //return;
-						LogPrintf("Warn in LavrovcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(105000);
@@ -539,10 +539,10 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
+							LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
 				            //return;
-							LogPrintf("Warn in LavrovcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in LavrovcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							LogPrintf("Warn in BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(105000);
@@ -553,7 +553,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
+				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:45 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(105000);
 				}
@@ -563,9 +563,9 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
+						LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
 				        //return;
-						LogPrintf("Warn in LavrovcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(120000);
@@ -575,10 +575,10 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
+							LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
 				            //return;
-							LogPrintf("Warn in LavrovcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in LavrovcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							LogPrintf("Warn in BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(120000);
@@ -589,7 +589,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
+				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(120000);
 				}
@@ -599,9 +599,9 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:10 min...\n", GetAdjustedTime(), chainActive.Height());
+						LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:10 min...\n", GetAdjustedTime(), chainActive.Height());
 				        //return;
-						LogPrintf("Warn in LavrovcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(130000);
@@ -611,10 +611,10 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:10 min...\n", GetAdjustedTime(), chainActive.Height());
+							LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:10 min...\n", GetAdjustedTime(), chainActive.Height());
 				            //return;
-							LogPrintf("Warn in LavrovcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in LavrovcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							LogPrintf("Warn in BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(130000);
@@ -625,7 +625,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:10 min...\n", GetAdjustedTime(), chainActive.Height());
+				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:10 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(130000);
 				}
@@ -635,9 +635,9 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
+						LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
 				        //return;
-						LogPrintf("Warn in LavrovcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(140000);
@@ -647,10 +647,10 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
+							LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
 				            //return;
-							LogPrintf("Warn in LavrovcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in LavrovcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							LogPrintf("Warn in BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(140000);
@@ -661,7 +661,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
+				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(140000);
 				}
@@ -671,9 +671,9 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
+						LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
 				        //return;
-						LogPrintf("Warn in LavrovcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(145000);
@@ -683,10 +683,10 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
+							LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
 				            //return;
-							LogPrintf("Warn in LavrovcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in LavrovcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							LogPrintf("Warn in BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(145000);
@@ -697,7 +697,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
+				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(145000);
 				}
@@ -708,9 +708,9 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
+						LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
 				        //return;
-						LogPrintf("Warn in LavrovcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(155000);
@@ -720,10 +720,10 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
+							LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
 				            //return;
-							LogPrintf("Warn in LavrovcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in LavrovcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+							LogPrintf("Warn in BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
+							LogPrintf("Warn in BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(155000);
@@ -734,7 +734,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in LavrovcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2.5 min...\n", GetAdjustedTime(), chainActive.Height());
+				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2.5 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(150000);					
 				}
@@ -744,7 +744,7 @@ void static BitcoinMiner(CWallet *pwallet)
 			if (chainActive.Height() > 100){
 			if (chainActive.Height()+1 > nHeightMaxNext) {
                 // Mark block as in flight already
-                LogPrintf("Timeout in LavrovcoinMiner : Invalid time: %s over hight limit next block (%s), unable to create new block ! wait 5 min...\n", GetAdjustedTime(), chainActive.Height()+1);
+                LogPrintf("Timeout in BriliantcoinMiner : Invalid time: %s over hight limit next block (%s), unable to create new block ! wait 5 min...\n", GetAdjustedTime(), chainActive.Height()+1);
 				return;
 				MilliSleep(300000);
 						 
@@ -755,7 +755,7 @@ void static BitcoinMiner(CWallet *pwallet)
 			if (chainActive.Height()+1 > nHeightMaxnTime) {
                         
                 // Mark block as in flight already
-                LogPrintf("Timeout in LavrovcoinMiner : Invalid time: %s over hight limit in now Time for block (%s), unable to create new block ! wait 5 min...\n", GetAdjustedTime(), chainActive.Height());
+                LogPrintf("Timeout in BriliantcoinMiner : Invalid time: %s over hight limit in now Time for block (%s), unable to create new block ! wait 5 min...\n", GetAdjustedTime(), chainActive.Height());
 				return;
 				MilliSleep(300000);
             }
@@ -763,13 +763,13 @@ void static BitcoinMiner(CWallet *pwallet)
             auto_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey));
             if (!pblocktemplate.get())
             {
-                LogPrintf("Error in LavrovcoinMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
+                LogPrintf("Error in BriliantcoinMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
                 return;
             }
             CBlock *pblock = &pblocktemplate->block;
             IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-            LogPrintf("Running LavrovcoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+            LogPrintf("Running BriliantcoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                 ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
             //
@@ -788,7 +788,7 @@ void static BitcoinMiner(CWallet *pwallet)
                     {
                         // Found a solution
                         SetThreadPriority(THREAD_PRIORITY_NORMAL);
-                        LogPrintf("LavrovcoinMiner:\n");
+                        LogPrintf("BriliantcoinMiner:\n");
                         LogPrintf("proof-of-work found  \n  powhash: %s  \ntarget: %s\n", thash.GetHex(), hashTarget.GetHex());
                         ProcessBlockFound(pblock, *pwallet, reservekey);
                         SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -858,12 +858,12 @@ void static BitcoinMiner(CWallet *pwallet)
     }
     catch (boost::thread_interrupted)
     {
-        LogPrintf("LavrovcoinMiner terminated\n");
+        LogPrintf("BriliantcoinMiner terminated\n");
         throw;
     }
     catch (const std::runtime_error &e)
     {
-        LogPrintf("LavrovcoinMiner runtime error: %s\n", e.what());
+        LogPrintf("BriliantcoinMiner runtime error: %s\n", e.what());
         return;
     }
 }

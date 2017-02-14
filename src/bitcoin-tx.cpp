@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Lavrovcoin Core lavrovcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Briliantcoin Core briliantcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  lavrovcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded lavrovcoin transaction") + "\n" +
-              "  lavrovcoin-tx [options] -create [commands]   " + _("Create hex-encoded lavrovcoin transaction") + "\n" +
+              "  briliantcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded briliantcoin transaction") + "\n" +
+              "  briliantcoin-tx [options] -create [commands]   " + _("Create hex-encoded briliantcoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

@@ -44,9 +44,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "Lavrovcoin"
-#define QAPP_ORG_DOMAIN "lavrovcoin.org"
-#define QAPP_APP_NAME_DEFAULT "Lavrovcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Lavrovcoin-Qt-testnet"
+#define QAPP_ORG_NAME "Briliantcoin"
+#define QAPP_ORG_DOMAIN "briliantcoin.org"
+#define QAPP_APP_NAME_DEFAULT "Briliantcoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Briliantcoin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

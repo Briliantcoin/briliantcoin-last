@@ -24,11 +24,11 @@ Release Process
 
 ###perform Gitian builds
 
- From a directory containing the lavrovcoin source, gitian-builder and gitian.sigs.ltc
+ From a directory containing the briliantcoin source, gitian-builder and gitian.sigs.ltc
   
     export SIGNER=(your Gitian key, ie wtogami, coblee, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./lavrovcoin
+	pushd ./briliantcoin
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -49,29 +49,29 @@ Release Process
 
   By default, Gitian will fetch source files as needed. For offline builds, they can be fetched ahead of time:
 
-	make -C ../lavrovcoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../briliantcoin/depends download SOURCES_PATH=`pwd`/cache/common
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Lavrovcoin Core for Linux, Windows, and OS X:
+###Build Briliantcoin Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit lavrovcoin=v${VERSION} ../lavrovcoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../lavrovcoin/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/lavrovcoin-*.tar.gz build/out/src/lavrovcoin-*.tar.gz ../
-	./bin/gbuild --commit lavrovcoin=v${VERSION} ../lavrovcoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../lavrovcoin/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/lavrovcoin-*.zip build/out/lavrovcoin-*.exe ../
-	./bin/gbuild --commit lavrovcoin=v${VERSION} ../lavrovcoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../lavrovcoin/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/lavrovcoin-*-unsigned.tar.gz inputs/lavrovcoin-osx-unsigned.tar.gz
-	mv build/out/lavrovcoin-*.tar.gz build/out/lavrovcoin-*.dmg ../
+	./bin/gbuild --commit briliantcoin=v${VERSION} ../briliantcoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../briliantcoin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/briliantcoin-*.tar.gz build/out/src/briliantcoin-*.tar.gz ../
+	./bin/gbuild --commit briliantcoin=v${VERSION} ../briliantcoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../briliantcoin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/briliantcoin-*.zip build/out/briliantcoin-*.exe ../
+	./bin/gbuild --commit briliantcoin=v${VERSION} ../briliantcoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../briliantcoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/briliantcoin-*-unsigned.tar.gz inputs/briliantcoin-osx-unsigned.tar.gz
+	mv build/out/briliantcoin-*.tar.gz build/out/briliantcoin-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (lavrovcoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit binaries dist tarballs (lavrovcoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit installers and dist zips (lavrovcoin-${VERSION}-win[32|64]-setup.exe, lavrovcoin-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer (lavrovcoin-${VERSION}-osx-unsigned.dmg)
+  1. source tarball (briliantcoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (briliantcoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (briliantcoin-${VERSION}-win[32|64]-setup.exe, briliantcoin-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer (briliantcoin-${VERSION}-osx-unsigned.dmg)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your Gitian key)/
 
 ###Next steps:
@@ -95,9 +95,9 @@ Commit your signature to gitian.sigs:
 	pushd ./gitian-builder
 	# Fetch the signature as instructed by Warren/Coblee
 	cp signature.tar.gz inputs/
-	./bin/gbuild -i ../lavrovcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../lavrovcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/lavrovcoin-osx-signed.dmg ../lavrovcoin-${VERSION}-osx.dmg
+	./bin/gbuild -i ../briliantcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../briliantcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/briliantcoin-osx-signed.dmg ../briliantcoin-${VERSION}-osx.dmg
 	popd
 
 Commit your signature for the signed OS X binary:
@@ -126,17 +126,17 @@ rm SHA256SUMS
 ```
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 
-- Update lavrovcoin.org version
+- Update briliantcoin.org version
 
 - Announce the release:
 
-  - Release sticky on lavrovcointalk: https://lavrovcointalk.org/index.php?board=1.0
+  - Release sticky on briliantcointalk: https://briliantcointalk.org/index.php?board=1.0
 
-  - lavrovcoin-development mailing list
+  - briliantcoin-development mailing list
 
-  - Update title of #lavrovcoin on Freenode IRC
+  - Update title of #briliantcoin on Freenode IRC
 
-  - Optionally reddit /r/lavrovcoin, ... but this will usually sort out itself
+  - Optionally reddit /r/briliantcoin, ... but this will usually sort out itself
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

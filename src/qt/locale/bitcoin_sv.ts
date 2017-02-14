@@ -66,12 +66,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Lavrovcoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Lavrovcoins.</translation>
+        <source>These are your Briliantcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Briliantcoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Briliantcoins.</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Lavrovcoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your Briliantcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina Briliantcoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -189,7 +189,7 @@ Var vänlig och försök igen.</translation>
         <translation>Ange plånbokens nya lösenord. &lt;br/&gt; Använd ett lösenord på &lt;b&gt;tio eller fler slumpmässiga tecken,&lt;/b&gt; eller &lt;b&gt;åtta eller fler ord.&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
+        <source>Briliantcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your briliantcoins from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -296,8 +296,8 @@ Var vänlig och försök igen.</translation>
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core client</source>
-        <translation>Lavrovcoin Core klient</translation>
+        <source>Briliantcoin Core client</source>
+        <translation>Briliantcoin Core klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -308,12 +308,12 @@ Var vänlig och försök igen.</translation>
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Lavrovcoin address</source>
-        <translation>Skicka lavrovcoins till en Lavrovcoin-adress</translation>
+        <source>Send coins to a Briliantcoin address</source>
+        <translation>Skicka briliantcoins till en Briliantcoin-adress</translation>
     </message>
     <message>
-        <source>Modify configuration options for Lavrovcoin</source>
-        <translation>Ändra konfigurationsalternativ för Lavrovcoin</translation>
+        <source>Modify configuration options for Briliantcoin</source>
+        <translation>Ändra konfigurationsalternativ för Briliantcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -336,8 +336,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Lavrovcoin</source>
-        <translation>Lavrovcoin</translation>
+        <source>Briliantcoin</source>
+        <translation>Briliantcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -352,8 +352,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Ta emot</translation>
     </message>
     <message>
-        <source>Show information about Lavrovcoin Core</source>
-        <translation>Visa information om Lavrovcoin Core</translation>
+        <source>Show information about Briliantcoin Core</source>
+        <translation>Visa information om Briliantcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -368,12 +368,12 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Lavrovcoin-adress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Briliantcoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Briliantcoin-adress för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade Lavrovcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Briliantcoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade Briliantcoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -392,16 +392,16 @@ Var vänlig och försök igen.</translation>
         <translation>Verktygsfält för Tabbar</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Kärna</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Kärna</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
-        <translation>Begär betalning (genererar QR-koder och lavrovcoin-URI)</translation>
+        <source>Request payments (generates QR codes and briliantcoin: URIs)</source>
+        <translation>Begär betalning (genererar QR-koder och briliantcoin-URI)</translation>
     </message>
     <message>
-        <source>&amp;About Lavrovcoin Core</source>
-        <translation>&amp;Om Lavrovcoin Core</translation>
+        <source>&amp;About Briliantcoin Core</source>
+        <translation>&amp;Om Briliantcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -412,20 +412,20 @@ Var vänlig och försök igen.</translation>
         <translation>Visa listan av använda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a lavrovcoin: URI or payment request</source>
-        <translation>Öppna en lavrovcoin: URI eller betalningsbegäran</translation>
+        <source>Open a briliantcoin: URI or payment request</source>
+        <translation>Öppna en briliantcoin: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
-        <translation>Visa Lavrovcoin Core hjälpmeddelande för att få en lista med möjliga Lavrovcoin kommandoradsalternativ.</translation>
+        <source>Show the Briliantcoin Core help message to get a list with possible Briliantcoin command-line options</source>
+        <translation>Visa Briliantcoin Core hjälpmeddelande för att få en lista med möjliga Briliantcoin kommandoradsalternativ.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Lavrovcoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Lavrovcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Lavrovcoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to Briliantcoin network</source>
+        <translation><numerusform>%n aktiva anslutningar till Briliantcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Briliantcoin-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -785,8 +785,8 @@ Adress: %4
         <translation>Den angivna adressen "%1" finns redan i adressboken.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Lavrovcoin-adress.</translation>
+        <source>The entered address "%1" is not a valid Briliantcoin address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Briliantcoin-adress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -823,8 +823,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Kärna</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Kärna</translation>
     </message>
     <message>
         <source>version</source>
@@ -835,8 +835,8 @@ Adress: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Lavrovcoin Core</source>
-        <translation>Om Lavrovcoin Core</translation>
+        <source>About Briliantcoin Core</source>
+        <translation>Om Briliantcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -882,16 +882,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Lavrovcoin Core.</source>
-        <translation>Välkommen till Lavrovcoin Core.</translation>
+        <source>Welcome to Briliantcoin Core.</source>
+        <translation>Välkommen till Briliantcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Lavrovcoin Core will store its data.</source>
-        <translation>Eftersom detta är första gången programmet startas får du välja var Lavrovcoin Core skall lagra sitt data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Briliantcoin Core will store its data.</source>
+        <translation>Eftersom detta är första gången programmet startas får du välja var Briliantcoin Core skall lagra sitt data.</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core will download and store a copy of the Lavrovcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Lavrovcoin Core kommer att ladda ner och spara en kopia av Lavrovcoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+        <source>Briliantcoin Core will download and store a copy of the Briliantcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Briliantcoin Core kommer att ladda ner och spara en kopia av Briliantcoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -902,8 +902,8 @@ Adress: %4
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Kärna</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Kärna</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -956,12 +956,12 @@ Adress: %4
         <translation>&amp;Allmänt</translation>
     </message>
     <message>
-        <source>Automatically start Lavrovcoin after logging in to the system.</source>
-        <translation>Starta Lavrovcoin automatiskt efter inloggning.</translation>
+        <source>Automatically start Briliantcoin after logging in to the system.</source>
+        <translation>Starta Briliantcoin automatiskt efter inloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start Lavrovcoin on system login</source>
-        <translation>&amp;Starta Lavrovcoin vid systemstart</translation>
+        <source>&amp;Start Briliantcoin on system login</source>
+        <translation>&amp;Starta Briliantcoin vid systemstart</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1036,16 +1036,16 @@ Adress: %4
         <translation>&amp;Spendera okonfirmerad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Lavrovcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the Briliantcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Briliantcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Tilldela port med hjälp av &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Lavrovcoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Lavrovcoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the Briliantcoin network through a SOCKS5 proxy.</source>
+        <translation>Anslut till Briliantcoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1092,8 +1092,8 @@ Adress: %4
         <translation>Användargränssnittets &amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Lavrovcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Briliantcoin.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Briliantcoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1151,8 +1151,8 @@ Adress: %4
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Lavrovcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Briliantcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Briliantcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1258,16 +1258,16 @@ Adress: %4
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start lavrovcoin: click-to-pay handler</source>
-        <translation>Kan inte starta lavrovcoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start briliantcoin: click-to-pay handler</source>
+        <translation>Kan inte starta briliantcoin: klicka-och-betala handhavare</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Betalningsbegärans hämta URL är felaktig: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Lavrovcoin address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Lavrovcoin-adress eller felaktiga URI parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Briliantcoin address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Briliantcoin-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1336,8 +1336,8 @@ Adress: %4
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a Lavrovcoin address (e.g. %1)</source>
-        <translation>Ange en Lavrovcoin-adress (t.ex. %1)</translation>
+        <source>Enter a Briliantcoin address (e.g. %1)</source>
+        <translation>Ange en Briliantcoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1562,16 +1562,16 @@ Adress: %4
         <translation>Debugloggfil</translation>
     </message>
     <message>
-        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Lavrovcoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <source>Open the Briliantcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Briliantcoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Rensa konsollen</translation>
     </message>
     <message>
-        <source>Welcome to the Lavrovcoin RPC console.</source>
-        <translation>Välkommen till Lavrovcoin RPC-konsollen.</translation>
+        <source>Welcome to the Briliantcoin RPC console.</source>
+        <translation>Välkommen till Briliantcoin RPC-konsollen.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1641,8 +1641,8 @@ Adress: %4
         <translation>Åt&amp;eranvänd en existerande mottagningsadress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lavrovcoin network.</source>
-        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Lavrovcoinnätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Briliantcoin network.</source>
+        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Briliantcoinnätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1878,8 +1878,8 @@ Adress: %4
         <translation>totalt minst</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for lavrovcoin transactions than the network can process.</source>
-        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på lavrovcoin transaktioner än nätverket kan bearbeta.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for briliantcoin transactions than the network can process.</source>
+        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på briliantcoin transaktioner än nätverket kan bearbeta.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2034,8 +2034,8 @@ Adress: %4
         <translation>Bekräftelsen beräknas börja inom %1 block.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Lavrovcoin address</source>
-        <translation>Varning: Felaktig Lavrovcoinadress</translation>
+        <source>Warning: Invalid Briliantcoin address</source>
+        <translation>Varning: Felaktig Briliantcoinadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2085,8 +2085,8 @@ Adress: %4
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address to send the payment to</source>
-        <translation>Lavrovcoinadress att sända betalning till</translation>
+        <source>The Briliantcoin address to send the payment to</source>
+        <translation>Briliantcoinadress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2117,8 +2117,8 @@ Adress: %4
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the lavrovcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lavrovcoin network.</source>
-        <translation>Ett meddelande som bifogades lavrovcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Lavrovcoinnätverket.</translation>
+        <source>A message that was attached to the briliantcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Briliantcoin network.</source>
+        <translation>Ett meddelande som bifogades briliantcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Briliantcoinnätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2136,8 +2136,8 @@ Adress: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Lavrovcoin Core is shutting down...</source>
-        <translation>Lavrovcoin Core stängs av...</translation>
+        <source>Briliantcoin Core is shutting down...</source>
+        <translation>Briliantcoin Core stängs av...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2159,8 +2159,8 @@ Adress: %4
         <translation>Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med vad du signerar eftersom phising-attacker kan försöka få dig att skriva över din identitet till någon annan. Signera bara väldetaljerade påståenden du kan gå i god för.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address to sign the message with</source>
-        <translation>Lavrovcoinadress att signera meddelandet med</translation>
+        <source>The Briliantcoin address to sign the message with</source>
+        <translation>Briliantcoinadress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2191,7 +2191,7 @@ Adress: %4
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Lavrovcoin address</source>
+        <source>Sign the message to prove you own this Briliantcoin address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -2215,12 +2215,12 @@ Adress: %4
         <translation>Skriv in din adress, meddelande (se till att du kopierar radbrytningar, mellanslag, tabbar, osv. exakt) och signatur nedan för att verifiera meddelandet. Var noga med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet, för att undvika att luras av en man-in-the-middle attack.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address the message was signed with</source>
-        <translation>Lavrovcoinadressen som meddelandet signerades med</translation>
+        <source>The Briliantcoin address the message was signed with</source>
+        <translation>Briliantcoinadressen som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Lavrovcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Lavrovcoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Briliantcoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Briliantcoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2286,8 +2286,8 @@ Adress: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Kärna</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Kärna</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2840,8 +2840,8 @@ Adress: %4
         <translation>Detta är ett förhands testbygge - använd på egen risk - använd inte för mining eller handels applikationer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Lavrovcoin Core is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. Lavrovcoin Core är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. Briliantcoin Core is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. Briliantcoin Core är förmodligen redan igång.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3024,8 +3024,8 @@ Adress: %4
         <translation>Bind till angiven adress för att lyssna på JSON-RPC anslutningar. Använd [värd]:port notation for IPv6. Denna option kan specificeras flera gånger (förvalt: bind till alla gränssnitt)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Lavrovcoin Core is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. Lavrovcoin Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Briliantcoin Core is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. Briliantcoin Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -3048,12 +3048,12 @@ Adress: %4
         <translation>Exekvera kommando när ett relevant meddelande är mottagen eller när vi ser en väldigt lång förgrening (%s i cmd är utbytt med ett meddelande)</translation>
     </message>
     <message>
-        <source>Fees (in LVC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i LVC/Kb) mindre än detta betraktas som nollavgift för vidarebefodran (förvalt: %s)</translation>
+        <source>Fees (in BRC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i BRC/Kb) mindre än detta betraktas som nollavgift för vidarebefodran (förvalt: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LVC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i LVC/Kb) mindre än detta betraktas som nollavgift för transaktionsskapande (förvalt: %s)</translation>
+        <source>Fees (in BRC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i BRC/Kb) mindre än detta betraktas som nollavgift för transaktionsskapande (förvalt: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3089,27 +3089,27 @@ Adress: %4
         <translation>Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användning i OpenSSL Toolkit &lt;https://www.openssl.org/&gt; och kryptografisk mjukvara utvecklad av Eric Young samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use lavrovcoind, or the -server option to Lavrovcoin, you must set an rpcpassword in the configuration file:
+        <source>To use briliantcoind, or the -server option to Briliantcoin, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=lavrovcoinrpc
+rpcuser=briliantcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Briliantcoin Alert" admin@foo.com
 </source>
-        <translation>För att använda bitconid,eller -server optionen till Lavrovcoin så mäste du sätta ett rpclösensord i konfigurationsfilen:
+        <translation>För att använda bitconid,eller -server optionen till Briliantcoin så mäste du sätta ett rpclösensord i konfigurationsfilen:
 %s
 Det är rekommenderat att använda följande slumpade lösenord:
-rpcuser=lavrovcoinrpc
+rpcuser=briliantcoinrpc
 rpcpassword=%s
 (du behöver inte komma ihåg lösenordet)
 Användarnamnet och lösenordet FÅR INTE vara detsamma.
 Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
 Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
-till exempel: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s "Briliantcoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3117,8 +3117,8 @@ till exempel: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
         <translation>Varning: -maxtxfee är satt väldigt hög! Så höga avgifter kan betalas för en enstaka transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Lavrovcoin Core will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Lavrovcoin Core inte att fungera korrekt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Briliantcoin Core will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Briliantcoin Core inte att fungera korrekt.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3145,8 +3145,8 @@ till exempel: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
         <translation>Kunde inte tolka -rpcbind värdet %s som en nätverksadress</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Lavrovcoin Core</source>
-        <translation>Fel vid inläsningen av wallet.dat: Kontofilen kräver en senare version av Lavrovcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Briliantcoin Core</source>
+        <translation>Fel vid inläsningen av wallet.dat: Kontofilen kräver en senare version av Briliantcoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3161,16 +3161,16 @@ till exempel: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
         <translation>Fel: Argumentet -tor stöds inte, använd -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LVC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i LVC/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
+        <source>Fee (in BRC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i BRC/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Lavrovcoin Core is shutting down.</source>
-        <translation>Initieringschecken fallerade. Lavrovcoin Core stängs av...</translation>
+        <source>Initialization sanity check failed. Briliantcoin Core is shutting down.</source>
+        <translation>Initieringschecken fallerade. Briliantcoin Core stängs av...</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3205,8 +3205,8 @@ till exempel: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
         <translation>Nodreläoptioner:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Lavrovcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL optioner: (se Lavrovcoin Wiki för SSL inställningsinstruktioner)</translation>
+        <source>RPC SSL options: (see the Briliantcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL optioner: (se Briliantcoin Wiki för SSL inställningsinstruktioner)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3281,8 +3281,8 @@ till exempel: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
         <translation>Användarnamn för JSON-RPC-anslutningar</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Lavrovcoin Core to complete</source>
-        <translation>Kontot behöver sparas om: Starta om Lavrovcoin Core för att fullfölja</translation>
+        <source>Wallet needed to be rewritten: restart Briliantcoin Core to complete</source>
+        <translation>Kontot behöver sparas om: Starta om Briliantcoin Core för att fullfölja</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3530,7 +3530,7 @@ till exempel: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med lavrovcoins</translation>
+        <translation>Otillräckligt med briliantcoins</translation>
     </message>
     <message>
         <source>Loading block index...</source>

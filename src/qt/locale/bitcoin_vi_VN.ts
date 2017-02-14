@@ -167,12 +167,12 @@
         <translation>Mở &amp;URI...</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core client</source>
-        <translation>Lavrovcoin Core client</translation>
+        <source>Briliantcoin Core client</source>
+        <translation>Briliantcoin Core client</translation>
     </message>
     <message>
-        <source>Lavrovcoin</source>
-        <translation>Lavrovcoin</translation>
+        <source>Briliantcoin</source>
+        <translation>Briliantcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -207,12 +207,12 @@
         <translation>Trợ &amp;giúp</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Core</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Core</translation>
     </message>
     <message>
-        <source>&amp;About Lavrovcoin Core</source>
-        <translation>&amp;Về Lavrovcoin Core</translation>
+        <source>&amp;About Briliantcoin Core</source>
+        <translation>&amp;Về Briliantcoin Core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -374,16 +374,16 @@ Loại: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Core</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>version</translation>
     </message>
     <message>
-        <source>About Lavrovcoin Core</source>
-        <translation>Về Lavrovcoin Core</translation>
+        <source>About Briliantcoin Core</source>
+        <translation>Về Briliantcoin Core</translation>
     </message>
     </context>
 <context>
@@ -393,8 +393,8 @@ Loại: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Core</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -593,8 +593,8 @@ Loại: %3
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Core</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Core</translation>
     </message>
     </context>
 <context>

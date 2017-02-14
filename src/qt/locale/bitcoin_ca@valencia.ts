@@ -66,12 +66,12 @@
         <translation>S'estan rebent les adreces</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes són les vostres adreces de Lavrovcoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
+        <source>These are your Briliantcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes són les vostres adreces de Briliantcoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes són les vostres adreces Lavrovcoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
+        <source>These are your Briliantcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes són les vostres adreces Briliantcoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Introduïu la contrasenya nova al moneder.&lt;br/&gt;Utilitzeu una contrasenya de &lt;b&gt;deu o més caràcters aleatoris&lt;/b&gt;, o &lt;b&gt;vuit o més paraules&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
-        <translation>Lavrovcoin es tancarà ara per acabar el procés d'encriptació. Recordeu que encriptar el moneder no protegeix completament els lavrovcoins de ser robats per programari maliciós instal·lat a l'ordinador.</translation>
+        <source>Briliantcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your briliantcoins from being stolen by malware infecting your computer.</source>
+        <translation>Briliantcoin es tancarà ara per acabar el procés d'encriptació. Recordeu que encriptar el moneder no protegeix completament els briliantcoins de ser robats per programari maliciós instal·lat a l'ordinador.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Obri un &amp;URI...</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core client</source>
-        <translation>Client del Lavrovcoin Core</translation>
+        <source>Briliantcoin Core client</source>
+        <translation>Client del Briliantcoin Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>S'estan reindexant els blocs al disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Lavrovcoin address</source>
-        <translation>Envia monedes a una adreça Lavrovcoin</translation>
+        <source>Send coins to a Briliantcoin address</source>
+        <translation>Envia monedes a una adreça Briliantcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Lavrovcoin</source>
-        <translation>Modifica les opcions de configuració per lavrovcoin</translation>
+        <source>Modify configuration options for Briliantcoin</source>
+        <translation>Modifica les opcions de configuració per briliantcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>&amp;Verifica el missatge...</translation>
     </message>
     <message>
-        <source>Lavrovcoin</source>
-        <translation>Lavrovcoin</translation>
+        <source>Briliantcoin</source>
+        <translation>Briliantcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>&amp;Rep</translation>
     </message>
     <message>
-        <source>Show information about Lavrovcoin Core</source>
-        <translation>Mostra informació del Lavrovcoin Core</translation>
+        <source>Show information about Briliantcoin Core</source>
+        <translation>Mostra informació del Briliantcoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Encripta les claus privades pertanyents al moneder</translation>
     </message>
     <message>
-        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seua adreça de Lavrovcoin per provar que les poseeixes</translation>
+        <source>Sign messages with your Briliantcoin addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seua adreça de Briliantcoin per provar que les poseeixes</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
-        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Lavrovcoin específica.</translation>
+        <source>Verify messages to ensure they were signed with specified Briliantcoin addresses</source>
+        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Briliantcoin específica.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Nucli de Lavrovcoin</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Nucli de Briliantcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lavrovcoin: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i lavrovcoin: URI)</translation>
+        <source>Request payments (generates QR codes and briliantcoin: URIs)</source>
+        <translation>Sol·licita pagaments (genera codis QR i briliantcoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Lavrovcoin Core</source>
-        <translation>&amp;Quant al Lavrovcoin Core</translation>
+        <source>&amp;About Briliantcoin Core</source>
+        <translation>&amp;Quant al Briliantcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,16 +411,16 @@
         <translation>Mostra la llista d'adreces de recepció i etiquetes utilitzades</translation>
     </message>
     <message>
-        <source>Open a lavrovcoin: URI or payment request</source>
-        <translation>Obri una lavrovcoin: sol·licitud d'URI o pagament</translation>
+        <source>Open a briliantcoin: URI or payment request</source>
+        <translation>Obri una briliantcoin: sol·licitud d'URI o pagament</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcions de la &amp;línia d'ordes</translation>
     </message>
     <message>
-        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
-        <translation>Mostra el missatge d'ajuda del Lavrovcoin Core per obtindre una llista amb les possibles opcions de línia d'ordes de Lavrovcoin</translation>
+        <source>Show the Briliantcoin Core help message to get a list with possible Briliantcoin command-line options</source>
+        <translation>Mostra el missatge d'ajuda del Briliantcoin Core per obtindre una llista amb les possibles opcions de línia d'ordes de Briliantcoin</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -760,8 +760,8 @@ Address: %4
         <translation>L'adreça introduïda «%1» ja és present a la llibreta d'adreces.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
-        <translation>L'adreça introduïda «%1» no és una adreça de Lavrovcoin vàlida.</translation>
+        <source>The entered address "%1" is not a valid Briliantcoin address.</source>
+        <translation>L'adreça introduïda «%1» no és una adreça de Briliantcoin vàlida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -798,8 +798,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Nucli de Lavrovcoin</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Nucli de Briliantcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -810,8 +810,8 @@ Address: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Lavrovcoin Core</source>
-        <translation>Quant al Lavrovcoin Core</translation>
+        <source>About Briliantcoin Core</source>
+        <translation>Quant al Briliantcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -857,16 +857,16 @@ Address: %4
         <translation>Vos donem la benviguda</translation>
     </message>
     <message>
-        <source>Welcome to Lavrovcoin Core.</source>
-        <translation>Vos donem la benvinguda al Lavrovcoin Core.</translation>
+        <source>Welcome to Briliantcoin Core.</source>
+        <translation>Vos donem la benvinguda al Briliantcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Lavrovcoin Core will store its data.</source>
-        <translation>Atès que és la primera vegada que executeu el programa, podeu triar on emmagatzemarà el Lavrovcoin Core les dades.</translation>
+        <source>As this is the first time the program is launched, you can choose where Briliantcoin Core will store its data.</source>
+        <translation>Atès que és la primera vegada que executeu el programa, podeu triar on emmagatzemarà el Briliantcoin Core les dades.</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core will download and store a copy of the Lavrovcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>El Lavrovcoin Core descarregarà i emmagatzemarà una còpia de la cadena de blocs de Lavrovcoin. Com a mínim s'emmagatzemaran %1 GB de dades en este directori, que seguiran creixent gradualment. També s'hi emmagatzemarà el moneder.</translation>
+        <source>Briliantcoin Core will download and store a copy of the Briliantcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>El Briliantcoin Core descarregarà i emmagatzemarà una còpia de la cadena de blocs de Briliantcoin. Com a mínim s'emmagatzemaran %1 GB de dades en este directori, que seguiran creixent gradualment. També s'hi emmagatzemarà el moneder.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -877,8 +877,8 @@ Address: %4
         <translation>Utilitza un directori de dades personalitzat:</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Nucli de Lavrovcoin</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Nucli de Briliantcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -923,12 +923,12 @@ Address: %4
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Automatically start Lavrovcoin after logging in to the system.</source>
-        <translation>Inicia automàticament el Lavrovcoin després de l'inici de sessió del sistema.</translation>
+        <source>Automatically start Briliantcoin after logging in to the system.</source>
+        <translation>Inicia automàticament el Briliantcoin després de l'inici de sessió del sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Lavrovcoin on system login</source>
-        <translation>&amp;Inicia el Lavrovcoin a l'inici de sessió del sistema.</translation>
+        <source>&amp;Start Briliantcoin on system login</source>
+        <translation>&amp;Inicia el Briliantcoin a l'inici de sessió del sistema.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1003,16 +1003,16 @@ Address: %4
         <translation>&amp;Gasta el canvi sense confirmar</translation>
     </message>
     <message>
-        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obri el port del client de Lavrovcoin al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
+        <source>Automatically open the Briliantcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obri el port del client de Briliantcoin al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Port obert amb &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Lavrovcoin network through a SOCKS5 proxy.</source>
-        <translation>Connecta a la xarxa Lavrovcoin a través d'un proxy SOCKS5.</translation>
+        <source>Connect to the Briliantcoin network through a SOCKS5 proxy.</source>
+        <translation>Connecta a la xarxa Briliantcoin a través d'un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1059,8 +1059,8 @@ Address: %4
         <translation>&amp;Llengua de la interfície d'usuari:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
-        <translation>Ací podeu definir la llengua de l'aplicació. Esta configuració tindrà efecte una vegada es reinicie Lavrovcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Briliantcoin.</source>
+        <translation>Ací podeu definir la llengua de l'aplicació. Esta configuració tindrà efecte una vegada es reinicie Briliantcoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1118,8 +1118,8 @@ Address: %4
         <translation>Formulari</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Lavrovcoin un cop s'ha establit connexió, però este proces no s'ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Briliantcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Briliantcoin un cop s'ha establit connexió, però este proces no s'ha completat encara.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1225,16 +1225,16 @@ Address: %4
         <translation>Error en la sol·licitud de pagament</translation>
     </message>
     <message>
-        <source>Cannot start lavrovcoin: click-to-pay handler</source>
-        <translation>No es pot iniciar lavrovcoin: gestor clica-per-pagar</translation>
+        <source>Cannot start briliantcoin: click-to-pay handler</source>
+        <translation>No es pot iniciar briliantcoin: gestor clica-per-pagar</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>L'URL de recuperació de la sol·licitud de pagament no és vàlida: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Lavrovcoin address or malformed URI parameters.</source>
-        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Lavrovcoin no vàlida o per paràmetres URI amb mal format.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Briliantcoin address or malformed URI parameters.</source>
+        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Briliantcoin no vàlida o per paràmetres URI amb mal format.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1303,8 +1303,8 @@ Address: %4
         <translation>Quantitat</translation>
     </message>
     <message>
-        <source>Enter a Lavrovcoin address (e.g. %1)</source>
-        <translation>Introduïu una adreça de Lavrovcoin (p. ex. %1)</translation>
+        <source>Enter a Briliantcoin address (e.g. %1)</source>
+        <translation>Introduïu una adreça de Briliantcoin (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1529,16 +1529,16 @@ Address: %4
         <translation>Fitxer de registre de depuració</translation>
     </message>
     <message>
-        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obri el fitxer de registre de depuració de Lavrovcoin del directori de dades actual. Això pot trigar uns quants segons per a fitxers de registre grans.</translation>
+        <source>Open the Briliantcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obri el fitxer de registre de depuració de Briliantcoin del directori de dades actual. Això pot trigar uns quants segons per a fitxers de registre grans.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Neteja la consola</translation>
     </message>
     <message>
-        <source>Welcome to the Lavrovcoin RPC console.</source>
-        <translation>Vos donem la benvinguda a la consola RPC de Lavrovcoin</translation>
+        <source>Welcome to the Briliantcoin RPC console.</source>
+        <translation>Vos donem la benvinguda a la consola RPC de Briliantcoin</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1612,8 +1612,8 @@ Address: %4
         <translation>R&amp;eutilitza una adreça de recepció anterior (no recomanat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lavrovcoin network.</source>
-        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'òbriga la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Lavrovcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Briliantcoin network.</source>
+        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'òbriga la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Briliantcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1841,8 +1841,8 @@ Address: %4
         <translation>total com a mínim</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for lavrovcoin transactions than the network can process.</source>
-        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi haja menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirme una vegada hi haja més demanda de transaccions de lavrovcoins que la xarxa puga processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for briliantcoin transactions than the network can process.</source>
+        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi haja menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirme una vegada hi haja més demanda de transaccions de briliantcoins que la xarxa puga processar.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1985,8 +1985,8 @@ Address: %4
         <translation>Paga només la comissió mínima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Lavrovcoin address</source>
-        <translation>Avís: adreça Lavrovcoin no vàlida</translation>
+        <source>Warning: Invalid Briliantcoin address</source>
+        <translation>Avís: adreça Briliantcoin no vàlida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2036,8 +2036,8 @@ Address: %4
         <translation>Això és un pagament normal.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address to send the payment to</source>
-        <translation>L'adreça Lavrovcoin on enviar el pagament</translation>
+        <source>The Briliantcoin address to send the payment to</source>
+        <translation>L'adreça Briliantcoin on enviar el pagament</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2068,8 +2068,8 @@ Address: %4
         <translation>Introduïu una etiqueta per a esta adreça per afegir-la a la llista d'adreces utilitzades</translation>
     </message>
     <message>
-        <source>A message that was attached to the lavrovcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lavrovcoin network.</source>
-        <translation>Un missatge que s'ha adjuntat al lavrovcoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Lavrovcoin.</translation>
+        <source>A message that was attached to the briliantcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Briliantcoin network.</source>
+        <translation>Un missatge que s'ha adjuntat al briliantcoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Briliantcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2087,8 +2087,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Lavrovcoin Core is shutting down...</source>
-        <translation>S'està parant el Lavrovcoin Core...</translation>
+        <source>Briliantcoin Core is shutting down...</source>
+        <translation>S'està parant el Briliantcoin Core...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2110,8 +2110,8 @@ Address: %4
         <translation>Podeu signar missatges amb la vostra adreça per provar que són vostres. Aneu amb compte no signar qualsevol cosa, ja que els atacs de pesca electrònica (phishing) poden provar de confondre-vos perquè els signeu amb la vostra identitat. Només signeu als documents completament detallats amb què hi esteu d'acord.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address to sign the message with</source>
-        <translation>L'adreça Lavrovcoin amb què signar el missatge</translation>
+        <source>The Briliantcoin address to sign the message with</source>
+        <translation>L'adreça Briliantcoin amb què signar el missatge</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2142,8 +2142,8 @@ Address: %4
         <translation>Copia la signatura actual al porta-retalls del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Lavrovcoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d'esta adreça Lavrovcoin</translation>
+        <source>Sign the message to prove you own this Briliantcoin address</source>
+        <translation>Signa el missatge per provar que ets propietari d'esta adreça Briliantcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2166,12 +2166,12 @@ Address: %4
         <translation>Introduïsca l'adreça signant, missatge (assegura't que copies salts de línia, espais, tabuladors, etc excactament tot el text) i la signatura a sota per verificar el missatge. Per evitar ser enganyat per un atac home-entre-mig, vés amb compte de no llegir més en la signatura del que hi ha al missatge signat mateix.</translation>
     </message>
     <message>
-        <source>The Lavrovcoin address the message was signed with</source>
-        <translation>L'adreça Lavrovcoin amb què va ser signat el missatge</translation>
+        <source>The Briliantcoin address the message was signed with</source>
+        <translation>L'adreça Briliantcoin amb què va ser signat el missatge</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Lavrovcoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Lavrovcoin específica</translation>
+        <source>Verify the message to ensure it was signed with the specified Briliantcoin address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Briliantcoin específica</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2237,8 +2237,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Core</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2775,8 +2775,8 @@ Address: %4
         <translation>Esta és una versió de pre-llançament - utilitza-la sota la teva responsabilitat - No usar per a minería o aplicacions de compra-venda</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Lavrovcoin Core is probably already running.</source>
-        <translation>No es pot enllaçar %s a este ordinador. El Lavrovcoin Core probablement ja estiga executant-s'hi.</translation>
+        <source>Unable to bind to %s on this computer. Briliantcoin Core is probably already running.</source>
+        <translation>No es pot enllaçar %s a este ordinador. El Briliantcoin Core probablement ja estiga executant-s'hi.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2955,8 +2955,8 @@ Address: %4
         <translation>Vincula a l'adreça donada per a escoltar les connexions JSON-RPC. Feu servir la notació [host]:port per a IPv6. Esta opció pot ser especificada moltes vegades (per defecte: vincula a totes les interfícies)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Lavrovcoin Core is probably already running.</source>
-        <translation>No es pot obtindre un bloqueig del directori de dades %s. El Lavrovcoin Core probablement ja s'estiga executant.</translation>
+        <source>Cannot obtain a lock on data directory %s. Briliantcoin Core is probably already running.</source>
+        <translation>No es pot obtindre un bloqueig del directori de dades %s. El Briliantcoin Core probablement ja s'estiga executant.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -2975,12 +2975,12 @@ Address: %4
         <translation>Executa l'orde quan es reba un avís rellevant o veiem una forquilla molt llarga (%s en cmd és reemplaçat per un missatge)</translation>
     </message>
     <message>
-        <source>Fees (in LVC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comissions (en LVC/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
+        <source>Fees (in BRC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comissions (en BRC/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LVC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comissions (en LVC/Kb) inferiors a això es consideren de comissió zero per a la creació de la transacció (per defecte: %s)</translation>
+        <source>Fees (in BRC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comissions (en BRC/Kb) inferiors a això es consideren de comissió zero per a la creació de la transacció (per defecte: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3011,35 +3011,35 @@ Address: %4
         <translation>Este producte inclou programari desenvolupat pel projecte OpenSSL per a ús a l'OpenSSL Toolkit &lt;https://www.openssl.org/&gt; i programari criptogràfic escrit per Eric Young i programari UPnP escrit per Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use lavrovcoind, or the -server option to Lavrovcoin, you must set an rpcpassword in the configuration file:
+        <source>To use briliantcoind, or the -server option to Briliantcoin, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=lavrovcoinrpc
+rpcuser=briliantcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Lavrovcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Briliantcoin Alert" admin@foo.com
 </source>
-        <translation>Per utilitzar lavrovcoind, o l'opció de serviddor de Lavrovcoin, heu de definir una rpcpassword en el fitxer de configuració:
+        <translation>Per utilitzar briliantcoind, o l'opció de serviddor de Briliantcoin, heu de definir una rpcpassword en el fitxer de configuració:
 %s
 Es recomana que utilitzeu la contrasenya aleatòria següent:
-rpcuser=lavrovcoinrpc
+rpcuser=briliantcoinrpc
 rpcpassword=%s
 (no cal que recordeu la contrasenya)
 El nom d'usuari i la contrasenya NO han de ser els mateixos.
 Si el fitxer no existeix, creeu-ne un amb permisos de lectura només per al seu propietari.
 Es recomana definir alertnotify per tal de ser notificat de qualsevol problema;
-per exemple: alertnotify=echo %%s | mail -s "Avís de Lavrovcoin" admin@foo.com</translation>
+per exemple: alertnotify=echo %%s | mail -s "Avís de Briliantcoin" admin@foo.com</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
         <translation>Avís: s'ha especificat un -maxtxfee molt alt! Comissions tan grans podrien pagar-se en una única transacció.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Lavrovcoin Core will not work properly.</source>
-        <translation>Avís: comproveu que la data i hora del vostre ordinador siguen correctes! Si el vostre rellotge no és correcte, el Lavrovcoin Core no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Briliantcoin Core will not work properly.</source>
+        <translation>Avís: comproveu que la data i hora del vostre ordinador siguen correctes! Si el vostre rellotge no és correcte, el Briliantcoin Core no funcionarà correctament.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3066,8 +3066,8 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Lavrovcoin" admin@foo.com<
         <translation>No s'ha pogut analitzar el valor -rpcbind %s com una adreça de xarxa</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Lavrovcoin Core</source>
-        <translation>Error en carregar wallet.dat: el moneder requereix una versió més nova del Lavrovcoin core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Briliantcoin Core</source>
+        <translation>Error en carregar wallet.dat: el moneder requereix una versió més nova del Briliantcoin core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3078,16 +3078,16 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Lavrovcoin" admin@foo.com<
         <translation>Error: s'ha trobat un argument -tor no acceptat. Feu servir -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LVC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comissió en (LVC/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
+        <source>Fee (in BRC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comissió en (BRC/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>&amp;Informació</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Lavrovcoin Core is shutting down.</source>
-        <translation>Ha fallat la inicialització de la comprovació de validesa. El Lavrovcoin Core s'està parant.</translation>
+        <source>Initialization sanity check failed. Briliantcoin Core is shutting down.</source>
+        <translation>Ha fallat la inicialització de la comprovació de validesa. El Briliantcoin Core s'està parant.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3122,8 +3122,8 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Lavrovcoin" admin@foo.com<
         <translation>Opcions de transmissió del node:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Lavrovcoin Wiki for SSL setup instructions)</source>
-        <translation>Opcions RPC SSL: (veieu el wiki del Lavrovcoin per a instruccions de configuració de l'SSL)</translation>
+        <source>RPC SSL options: (see the Briliantcoin Wiki for SSL setup instructions)</source>
+        <translation>Opcions RPC SSL: (veieu el wiki del Briliantcoin per a instruccions de configuració de l'SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3194,8 +3194,8 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Lavrovcoin" admin@foo.com<
         <translation>Nom d'usuari per a connexions JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Lavrovcoin Core to complete</source>
-        <translation>Cal reescriure el moneder: reiniceu el Lavrovcoin Core per completar-ho.</translation>
+        <source>Wallet needed to be rewritten: restart Briliantcoin Core to complete</source>
+        <translation>Cal reescriure el moneder: reiniceu el Briliantcoin Core per completar-ho.</translation>
     </message>
     <message>
         <source>Warning</source>

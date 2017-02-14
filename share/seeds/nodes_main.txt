@@ -1,5 +1,5 @@
-# List of Lavrovcoin IPv4 nodes sorted by 30 day availability, block height and version.
-192.168.1.100:8644
-192.168.1.103:8644
-192.168.1.107:8644
+# List of Briliantcoin IPv4 nodes sorted by 30 day availability, block height and version.
+192.168.1.100:8544
+192.168.1.103:8544
+192.168.1.107:8544
 

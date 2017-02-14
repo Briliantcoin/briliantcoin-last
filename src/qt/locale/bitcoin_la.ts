@@ -30,7 +30,7 @@
         <translation>&amp;Dele</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Briliantcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -132,8 +132,8 @@
         <translation>Cassidile cifratum</translation>
     </message>
     <message>
-        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
-        <translation>Lavrovcoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
+        <source>Briliantcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your briliantcoins from being stolen by malware infecting your computer.</source>
+        <translation>Briliantcoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -231,12 +231,12 @@
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Lavrovcoin address</source>
-        <translation>Mitte nummos ad inscriptionem Lavrovcoin</translation>
+        <source>Send coins to a Briliantcoin address</source>
+        <translation>Mitte nummos ad inscriptionem Briliantcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Lavrovcoin</source>
-        <translation>Muta configurationis optiones pro Lavrovcoin</translation>
+        <source>Modify configuration options for Briliantcoin</source>
+        <translation>Muta configurationis optiones pro Briliantcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -259,8 +259,8 @@
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-        <source>Lavrovcoin</source>
-        <translation>Lavrovcoin</translation>
+        <source>Briliantcoin</source>
+        <translation>Briliantcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -287,12 +287,12 @@
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Lavrovcoin addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus Lavrovcoin ut demonstres te eas possidere</translation>
+        <source>Sign messages with your Briliantcoin addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus Briliantcoin ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Lavrovcoin addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Lavrovcoin</translation>
+        <source>Verify messages to ensure they were signed with specified Briliantcoin addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Briliantcoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -311,12 +311,12 @@
         <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Nucleus</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Nucleus</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Lavrovcoin network</source>
-        <translation><numerusform>%n activa conexio ad rete Lavrovcoin</numerusform><numerusform>%n activae conexiones ad rete Lavrovcoin</numerusform></translation>
+        <source>%n active connection(s) to Briliantcoin network</source>
+        <translation><numerusform>%n activa conexio ad rete Briliantcoin</numerusform><numerusform>%n activae conexiones ad rete Briliantcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -476,8 +476,8 @@ Inscriptio: %4
         <translation>Inserta inscriptio "%1" iam in libro inscriptionum est.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Lavrovcoin address.</source>
-        <translation>Inscriptio inserta "%1" non valida inscriptio Lavrovcoin est.</translation>
+        <source>The entered address "%1" is not a valid Briliantcoin address.</source>
+        <translation>Inscriptio inserta "%1" non valida inscriptio Briliantcoin est.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -494,8 +494,8 @@ Inscriptio: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Nucleus</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Nucleus</translation>
     </message>
     <message>
         <source>version</source>
@@ -533,8 +533,8 @@ Inscriptio: %4
 <context>
     <name>Intro</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Nucleus</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Nucleus</translation>
     </message>
     <message>
         <source>Error</source>
@@ -555,12 +555,12 @@ Inscriptio: %4
         <translation>&amp;Princeps</translation>
     </message>
     <message>
-        <source>Automatically start Lavrovcoin after logging in to the system.</source>
-        <translation>Pelle Lavrovcoin per se postquam in systema inire.</translation>
+        <source>Automatically start Briliantcoin after logging in to the system.</source>
+        <translation>Pelle Briliantcoin per se postquam in systema inire.</translation>
     </message>
     <message>
-        <source>&amp;Start Lavrovcoin on system login</source>
-        <translation>&amp;Pelle Lavrovcoin cum inire systema</translation>
+        <source>&amp;Start Briliantcoin on system login</source>
+        <translation>&amp;Pelle Briliantcoin cum inire systema</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -575,8 +575,8 @@ Inscriptio: %4
         <translation>&amp;Rete</translation>
     </message>
     <message>
-        <source>Automatically open the Lavrovcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Lavrovcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the Briliantcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Briliantcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -623,8 +623,8 @@ Inscriptio: %4
         <translation>&amp;Lingua monstranda utenti:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Lavrovcoin.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Lavrovcoin iterum initiatum erit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Briliantcoin.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Briliantcoin iterum initiatum erit.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -662,8 +662,8 @@ Inscriptio: %4
         <translation>Schema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lavrovcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Lavrovcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Briliantcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Briliantcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -685,8 +685,8 @@ Inscriptio: %4
         <translation>Tractatio URI</translation>
     </message>
     <message>
-        <source>Cannot start lavrovcoin: click-to-pay handler</source>
-        <translation>Lavrovcoin incipere non potest: cliccare-ad-pensandum handler</translation>
+        <source>Cannot start briliantcoin: click-to-pay handler</source>
+        <translation>Briliantcoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     </context>
 <context>
@@ -773,16 +773,16 @@ Inscriptio: %4
         <translation>Debug catalogi plica</translation>
     </message>
     <message>
-        <source>Open the Lavrovcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de Lavrovcoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+        <source>Open the Briliantcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de Briliantcoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Vacuefac terminale</translation>
     </message>
     <message>
-        <source>Welcome to the Lavrovcoin RPC console.</source>
-        <translation>Bene ventio in terminale RPC de Lavrovcoin.</translation>
+        <source>Welcome to the Briliantcoin RPC console.</source>
+        <translation>Bene ventio in terminale RPC de Briliantcoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1002,8 +1002,8 @@ Inscriptio: %4
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Lavrovcoin address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem Lavrovcoin a te possessa esse</translation>
+        <source>Sign the message to prove you own this Briliantcoin address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Briliantcoin a te possessa esse</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1026,8 +1026,8 @@ Inscriptio: %4
         <translation>Insere inscriptionem signantem, nuntium (cura ut copias intermissiones linearum, spatia, tabs, et cetera exacte) et signationem infra ut nuntium verifices.  Cautus esto ne magis legas in signationem quam in nuntio signato ipso est, ut vites falli ab impetu homo-in-medio.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Lavrovcoin address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Lavrovcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Briliantcoin address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Briliantcoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1093,8 +1093,8 @@ Inscriptio: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Nucleus</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Nucleus</translation>
     </message>
     <message>
         <source>[testnet]</source>

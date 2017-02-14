@@ -3,7 +3,7 @@
   found in the LICENSE file. See the AUTHORS file for names of contributors.
 
   C bindings for leveldb.  May be useful as a stable ABI that can be
-  used by programs that keep leveldb in a shared lavrovcory, or for
+  used by programs that keep leveldb in a shared briliantcory, or for
   a JNI api.
 
   Does not support:
@@ -27,7 +27,7 @@
   be true on entry:
      *errptr == NULL
      *errptr points to a malloc()ed null-terminated error message
-       (On Windows, *errptr must have been malloc()-ed by this lavrovcory.)
+       (On Windows, *errptr must have been malloc()-ed by this briliantcory.)
   On success, a leveldb routine leaves *errptr unchanged.
   On failure, leveldb frees the old value of *errptr and
   set *errptr to a malloc()ed error message.
@@ -274,7 +274,7 @@ extern void leveldb_env_destroy(leveldb_env_t*);
    REQUIRES: ptr was malloc()-ed and returned by one of the routines
    in this file.  Note that in certain cases (typically on Windows), you
    may need to call this routine instead of free(ptr) to dispose of
-   malloc()-ed memory returned by this lavrovcory. */
+   malloc()-ed memory returned by this briliantcory. */
 extern void leveldb_free(void* ptr);
 
 /* Return the major version number for this release. */

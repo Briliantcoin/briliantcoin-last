@@ -14,7 +14,7 @@
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
     // Standard retargeting for the first blocks
-    if (pindexLast->nHeight+1 < 100) // Lavrovcoin: block < 36000
+    if (pindexLast->nHeight+1 < 100) // Briliantcoin: block < 36000
     {
         //int64_t nParamsTargetTimespan = Params().TargetTimespan();
 		//int64_t nParamsInterval = Params().Interval();
@@ -59,7 +59,7 @@ unsigned int GetNextWorkRequiredn(const CBlockIndex* pindexLast, const CBlockHea
         return pindexLast->nBits;
     }
 
-    // Lavrovcoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Briliantcoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = Params().Interval()-1;
     if ((pindexLast->nHeight+1) != Params().Interval())
@@ -84,7 +84,7 @@ unsigned int GetNextWorkRequiredn(const CBlockIndex* pindexLast, const CBlockHea
     uint256 bnOld;
     bnNew.SetCompact(pindexLast->nBits);
     bnOld = bnNew;
-    // Lavrovcoin: intermediate uint256 can overflow by 1 bit
+    // Briliantcoin: intermediate uint256 can overflow by 1 bit
     bool fShift = bnNew.bits() > 235;
     if (fShift)
         bnNew >>= 1;
@@ -135,7 +135,7 @@ unsigned int GetNextWorkRequiredx(const CBlockIndex* pindexLast, const CBlockHea
         return pindexLast->nBits;
     }
 
-    // Lavrovcoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Briliantcoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = Params().Intervalx()-1;
     if ((pindexLast->nHeight+1) != Params().Intervalx())
@@ -160,7 +160,7 @@ unsigned int GetNextWorkRequiredx(const CBlockIndex* pindexLast, const CBlockHea
     uint256 bnOld;
     bnNew.SetCompact(pindexLast->nBits);
     bnOld = bnNew;
-    // Lavrovcoin: intermediate uint256 can overflow by 1 bit
+    // Briliantcoin: intermediate uint256 can overflow by 1 bit
     bool fShift = bnNew.bits() > 235;
     if (fShift)
         bnNew >>= 1;

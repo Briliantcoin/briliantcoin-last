@@ -11,12 +11,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Lavrovcoin</source>
-        <translation>Lavrovcoin</translation>
+        <source>Briliantcoin</source>
+        <translation>Briliantcoin</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Jezrga</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -34,15 +34,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Jezrga</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Jezrga</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Jezrga</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -109,8 +109,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>Lavrovcoin Jezrga</translation>
+        <source>Briliantcoin Core</source>
+        <translation>Briliantcoin Jezrga</translation>
     </message>
     </context>
 <context>

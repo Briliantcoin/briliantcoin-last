@@ -1,4 +1,4 @@
-**LevelDB is a fast key-value storage lavrovcory written at Google that provides an ordered mapping from string keys to string values.**
+**LevelDB is a fast key-value storage briliantcory written at Google that provides an ordered mapping from string keys to string values.**
 
 Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)
 
@@ -10,15 +10,15 @@ Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)
   * Multiple changes can be made in one atomic batch.
   * Users can create a transient snapshot to get a consistent view of data.
   * Forward and backward iteration is supported over the data.
-  * Data is automatically compressed using the [Snappy compression lavrovcory](http://code.google.com/p/snappy).
+  * Data is automatically compressed using the [Snappy compression briliantcory](http://code.google.com/p/snappy).
   * External activity (file system operations etc.) is relayed through a virtual interface so users can customize the operating system interactions.
-  * [Detailed documentation](http://htmlpreview.github.io/?https://github.com/google/leveldb/blob/master/doc/index.html) about how to use the lavrovcory is included with the source code.
+  * [Detailed documentation](http://htmlpreview.github.io/?https://github.com/google/leveldb/blob/master/doc/index.html) about how to use the briliantcory is included with the source code.
 
 
 # Limitations
   * This is not a SQL database.  It does not have a relational data model, it does not support SQL queries, and it has no support for indexes.
   * Only a single process (possibly multi-threaded) can access a particular database at a time.
-  * There is no client-server support builtin to the lavrovcory.  An application that needs such support will have to wrap their own server around the lavrovcory.
+  * There is no client-server support builtin to the briliantcory.  An application that needs such support will have to wrap their own server around the briliantcory.
 
 # Performance
 

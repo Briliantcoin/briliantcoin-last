@@ -70,7 +70,7 @@ MEMENVLIBRARY = libmemenv.a
 
 default: all
 
-# Should we build shared lavrovcories?
+# Should we build shared briliantcories?
 ifneq ($(PLATFORM_SHARED_EXT),)
 
 ifneq ($(PLATFORM_SHARED_VERSIONED),true)

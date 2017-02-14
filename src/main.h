@@ -95,12 +95,12 @@ static const unsigned int DATABASE_WRITE_INTERVAL = 3600;
 /** Maximum length of reject messages. */
 static const unsigned int MAX_REJECT_MESSAGE_LENGTH = 111;
 
-/** Lavrovcoin: Dust Threshold: outputs below this value in satoshis are assessed an additional 1000 bytes per txout */
+/** Briliantcoin: Dust Threshold: outputs below this value in satoshis are assessed an additional 1000 bytes per txout */
 static const CAmount DUST_THRESHOLD = 100000; // 0.001 LTC
-/** Lavrovcoin: Default TX Fee per 1000 bytes */
+/** Briliantcoin: Default TX Fee per 1000 bytes */
 static const CAmount DEFAULT_TX_FEE = 100000; // 0.001 LTC
 
-/** Lavrovcoin: default minimum input threshold, override with -mininput */
+/** Briliantcoin: default minimum input threshold, override with -mininput */
 static const CAmount DEFAULT_MINIMUM_INPUT_THRESHOLD = DUST_THRESHOLD / 100; // 0.00001 LTC
 
 /** "reject" message codes */

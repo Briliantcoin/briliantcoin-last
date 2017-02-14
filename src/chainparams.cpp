@@ -54,33 +54,30 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0, uint256("0xb4e5b2790a490485f66f85f72bef41bd53911a1673faaea48675bf82532e233e"))
-        ( 100, uint256("0x3ac76fccef7d1e2da6f2d44df348fe5578a03362ccd4cecbebd340de0c26a575"))
-        ( 200, uint256("0x4666fccebc32e66c0e8270a46952534777fe7a8e7b5112583c833bf1747d260b"))
-        ( 600, uint256("0xb377accb94bb103aeb2302e03f2541bca61973163dcab9a61fd9eff580bf7602"))
+        ( 0, uint256("0x04578e13aa752f24c4396823febf8a6762416d6e088010a320e95771c5aa0c42"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1486574638, // * UNIX timestamp of last checkpoint block d77cb63a40042d73a83142383c7872c123cda7253db1d9c0effc8a029ca857b2
-        602,   // * total number of transactions between genesis and last checkpoint
+        1487116800, // * UNIX timestamp of last checkpoint block d77cb63a40042d73a83142383c7872c123cda7253db1d9c0effc8a029ca857b2
+        0,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         1152.0     // * estimated number of transactions per day after checkpoint
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
-        ( 0, uint256("0xb4e5b2790a490485f66f85f72bef41bd53911a1673faaea48675bf82532e233e"))		
+        ( 0, uint256("0x04578e13aa752f24c4396823febf8a6762416d6e088010a320e95771c5aa0c42"))		
         ;
 static const Checkpoints::CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
-        1486339200, // 06022017
+        1487116800, // 06022017
         0,
         630
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
         boost::assign::map_list_of
-        ( 0, uint256("0x73c4fd3f16b8185aa8c5f61d5e79b11da22ca24f6cd02f6cb21f85ac8fd7923f"))
+        ( 0, uint256("0xa2d875cf8a6aba0718f9224ebda9bc5c97dbce25363ae9b7279aa7cad51e03b8"))
         ;
 static const Checkpoints::CCheckpointData dataRegtest = {
         &mapCheckpointsRegtest,
@@ -99,12 +96,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xfb;
         pchMessageStart[1] = 0xc0;
+		pchMessageStart[0] = 0xfb;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xdb;
-        vAlertPubKey = ParseHex("043014c67b78f95c8964ba4f10bc83ce6dbee8d6afeb0570552e2f7562f83a5ae6cc937900545ab5c30a84565315d55107d5269e816c50e4080ca89dc2cc64e9c2");
-        nDefaultPort = 8644;
+        vAlertPubKey = ParseHex("04ab1877684062954fc451f0d0910f825b599dc07e22260555b679a2848330c749bd96ad79460b1116db20ad50ebf35572aea93be4506011ff42145ca34b859b29");
+        nDefaultPort = 8544;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         nSubsidyHalvingInterval = 210000;
         nProofOfWorkZero = 210000 * 60 * 10; 
@@ -127,24 +124,24 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
          *   vMerkleTree: 4a5e1e
          */
-        const char* pszTimestamp = "Monday, 06-Feb-17 18:00:00 UTC";
+        const char* pszTimestamp = "Brilliant day Wednesday, 15-Feb-17 00:00:00 UTC";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = nProofOfWorkZero * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04a15fddd04020b22f44bb5688d5104532d93b5503ee7bcb998a334390ef584c1199267f67d324b2c6b843ab350260bde25671952299af57d084085cd2a73dfe0d") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04398760c178db985a4e4c99da16aaea05d438ab5cfd3876db07ebba822ff755a531bcee08a927dd2131571cf75970ae6298f50989b0c51ca9242357cf64e3f265") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1486404000;
+        genesis.nTime    = 1487116800;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 995063;
+        genesis.nNonce   = 110133;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0xb4e5b2790a490485f66f85f72bef41bd53911a1673faaea48675bf82532e233e"));
-        assert(genesis.hashMerkleRoot == uint256("0xa67314dde6a69568e3e047fa7c3c0622557ec68f02a297db0af1788024e6d239"));
+        assert(hashGenesisBlock == uint256("0x04578e13aa752f24c4396823febf8a6762416d6e088010a320e95771c5aa0c42"));
+        assert(genesis.hashMerkleRoot == uint256("0x465cb641998e0a58361d48d1f9809857e05e609aa05919466e7a91a72f7bd499"));
 		
 		vSeeds.push_back(CDNSSeedData("king.odj.ru", "king.odj.ru"));
 		vSeeds.push_back(CDNSSeedData("king1.odj.ru", "king1.odj.ru"));
@@ -173,7 +170,7 @@ public:
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
 
-        // Lavrovcoin: Mainnet v2 enforced as of block 710k
+        // Briliantcoin: Mainnet v2 enforced as of block 710k
         nEnforceV2AfterHeight = 710000;
     }
 
@@ -198,11 +195,11 @@ public:
         *pchMessageStart[2] = 0xb7;
         *pchMessageStart[3] = 0xdc;
 		**/
+		pchMessageStart[1] = 0xc0;
 		pchMessageStart[0] = 0xfb;
-        pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xdb;
-        vAlertPubKey = ParseHex("04c3a87437918ba20792e662b1331412198b30811addbaf7a51df3c793590f8711899ac32507a4813fa8b165283e5fda113aa34558c0c0b837fea1c4dcd63a5e8a");
+        vAlertPubKey = ParseHex("04ab1877684062954fc451f0d0910f825b599dc07e22260555b679a2848330c749bd96ad79460b1116db20ad50ebf35572aea93be4506011ff42145ca34b859b29");
         nDefaultPort = 9333;
         bnProofOfWorkLimit = ~uint256(0) >> 20; //empty
         nSubsidyHalvingInterval = 210000; //empty
@@ -217,10 +214,10 @@ public:
         //nMaxTipAge = 0x7fffffff;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1486404000;
-        genesis.nNonce = 995063;
+        genesis.nTime = 1487116800;
+        genesis.nNonce = 110133;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0xb4e5b2790a490485f66f85f72bef41bd53911a1673faaea48675bf82532e233e"));
+        assert(hashGenesisBlock == uint256("0x04578e13aa752f24c4396823febf8a6762416d6e088010a320e95771c5aa0c42"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -258,7 +255,7 @@ public:
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false; //true
 
-        // Lavrovcoin: Testnet v2 enforced as of block 400k
+        // Briliantcoin: Testnet v2 enforced as of block 400k
         nEnforceV2AfterHeight = 710000;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -290,12 +287,12 @@ public:
         nTargetSpacing = 2.5 * 60; // 2.5 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nMaxTipAge = 24 * 60 * 60;
-        genesis.nTime = 1486339200;
+        genesis.nTime = 1487116200;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 0;
+        genesis.nNonce = 2;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
-        assert(hashGenesisBlock == uint256("0x73c4fd3f16b8185aa8c5f61d5e79b11da22ca24f6cd02f6cb21f85ac8fd7923f"));
+        assert(hashGenesisBlock == uint256("0xa2d875cf8a6aba0718f9224ebda9bc5c97dbce25363ae9b7279aa7cad51e03b8"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
@@ -308,7 +305,7 @@ public:
         fMineBlocksOnDemand = true;
         fTestnetToBeDeprecatedFieldRPC = false;
 
-        // Lavrovcoin: v2 enforced using Bitcoin's supermajority rule
+        // Briliantcoin: v2 enforced using Bitcoin's supermajority rule
         nEnforceV2AfterHeight = -1;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -336,7 +333,7 @@ public:
         fAllowMinDifficultyBlocks = false;
         fMineBlocksOnDemand = true;
 
-        // Lavrovcoin: v2 enforced using Bitcoin's supermajority rule
+        // Briliantcoin: v2 enforced using Bitcoin's supermajority rule
         nEnforceV2AfterHeight = -1;
     }
 

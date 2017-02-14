@@ -62,12 +62,12 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones de Lavrovcoin para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
+        <source>These are your Briliantcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones de Briliantcoin para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
     </message>
     <message>
-        <source>These are your Lavrovcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones Lavrovcoin para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
+        <source>These are your Briliantcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones Briliantcoin para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -168,8 +168,8 @@
         <translation>Cartera encriptada</translation>
     </message>
     <message>
-        <source>Lavrovcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your lavrovcoins from being stolen by malware infecting your computer.</source>
-        <translation>Lavrovcoin se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu cartera no protege completamente a tus lavrovcoins de ser robadas por malware infectando tu computadora.</translation>
+        <source>Briliantcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your briliantcoins from being stolen by malware infecting your computer.</source>
+        <translation>Briliantcoin se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu cartera no protege completamente a tus briliantcoins de ser robadas por malware infectando tu computadora.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -283,12 +283,12 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Lavrovcoin address</source>
-        <translation>Enviar monedas a una dirección Lavrovcoin</translation>
+        <source>Send coins to a Briliantcoin address</source>
+        <translation>Enviar monedas a una dirección Briliantcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Lavrovcoin</source>
-        <translation>Modificar las opciones de configuración de Lavrovcoin</translation>
+        <source>Modify configuration options for Briliantcoin</source>
+        <translation>Modificar las opciones de configuración de Briliantcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,20 +327,20 @@
         <translation>Pestañas</translation>
     </message>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>nucleo Lavrovcoin</translation>
+        <source>Briliantcoin Core</source>
+        <translation>nucleo Briliantcoin</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>opciones de la &amp;Linea de comandos</translation>
     </message>
     <message>
-        <source>Show the Lavrovcoin Core help message to get a list with possible Lavrovcoin command-line options</source>
-        <translation>Mostrar mensaje de ayuda del nucleo de Lavrovcoin para optener una lista con los posibles comandos  de Lavrovcoin</translation>
+        <source>Show the Briliantcoin Core help message to get a list with possible Briliantcoin command-line options</source>
+        <translation>Mostrar mensaje de ayuda del nucleo de Briliantcoin para optener una lista con los posibles comandos  de Briliantcoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Lavrovcoin network</source>
-        <translation><numerusform>%n Activar conexión a la red de Lavrovcoin</numerusform><numerusform>%n Activar conexiones a la red de Lavrovcoin</numerusform></translation>
+        <source>%n active connection(s) to Briliantcoin network</source>
+        <translation><numerusform>%n Activar conexión a la red de Briliantcoin</numerusform><numerusform>%n Activar conexiones a la red de Briliantcoin</numerusform></translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -490,8 +490,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>nucleo Lavrovcoin</translation>
+        <source>Briliantcoin Core</source>
+        <translation>nucleo Briliantcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -502,8 +502,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Lavrovcoin Core</source>
-        <translation>Acerca de Lavrovcoin Core</translation>
+        <source>About Briliantcoin Core</source>
+        <translation>Acerca de Briliantcoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -537,8 +537,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>nucleo Lavrovcoin</translation>
+        <source>Briliantcoin Core</source>
+        <translation>nucleo Briliantcoin</translation>
     </message>
     </context>
 <context>
@@ -588,8 +588,8 @@
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lavrovcoin network.</source>
-        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Lavrovcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Briliantcoin network.</source>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Briliantcoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -725,8 +725,8 @@
         <translation>¡La transación fue rechazada! Esto puede ocurrir si algunas de tus monedas en tu cartera han sido gastadas, al igual que si usas una cartera copiada y la monedas fueron gastadas en la copia pero no se marcaron como gastadas.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Lavrovcoin address</source>
-        <translation>Advertencia: Dirección de Lavrovcoin invalida</translation>
+        <source>Warning: Invalid Briliantcoin address</source>
+        <translation>Advertencia: Dirección de Briliantcoin invalida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -795,8 +795,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Lavrovcoin Core is shutting down...</source>
-        <translation>Apagando el nucleo de Lavrovcoin...</translation>
+        <source>Briliantcoin Core is shutting down...</source>
+        <translation>Apagando el nucleo de Briliantcoin...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -821,8 +821,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Lavrovcoin Core</source>
-        <translation>nucleo Lavrovcoin</translation>
+        <source>Briliantcoin Core</source>
+        <translation>nucleo Briliantcoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>

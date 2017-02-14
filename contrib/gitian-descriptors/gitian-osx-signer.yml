@@ -1,5 +1,5 @@
 ---
-name: "lavrovcoin-dmg-signer"
+name: "briliantcocoin-dmg-signer"
 suites:
 - "precise"
 architectures:
@@ -10,7 +10,7 @@ packages:
 reference_datetime: "2016-06-16 00:00:00"
 remotes: []
 files:
-- "lavrovcoin-osx-unsigned.tar.gz"
+- "briliantcocoin-osx-unsigned.tar.gz"
 - "signature.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -28,10 +28,10 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=lavrovcoin-osx-unsigned.tar.gz
-  SIGNED=lavrovcoin-osx-signed.dmg
+  UNSIGNED=briliantcocoin-osx-unsigned.tar.gz
+  SIGNED=briliantcocoin-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   ./detached-sig-apply.sh ${UNSIGNED} signature.tar.gz
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Lavrovcoin-Qt" -no-pad -r -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Briliantcoin-Qt" -no-pad -r -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

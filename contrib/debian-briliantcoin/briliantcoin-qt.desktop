@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Briliantcoin
+Comment=Briliantcoin P2P Cryptocurrency
+Exec=briliantcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/briliantcoin;
+Categories=Office;Finance;
+Name[en_US]=briliantcoin-qt.desktop
