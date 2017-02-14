@@ -533,10 +533,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 					CAmount nValue = pwalletMain->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
-				        //return;
-						LogPrintf("Warn in RPC BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
-						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(120000);
 				    }
@@ -545,11 +541,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("Warn in RPC BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in RPC BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(120000);
 						}
@@ -560,7 +551,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 1:55 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(115000); //90
 				}
@@ -570,10 +560,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 					CAmount nValue = pwalletMain->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:05 min...\n", GetAdjustedTime(), chainActive.Height());
-				        //return;
-						LogPrintf("Warn in RPC BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
-						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(125000);
 				    }
@@ -582,11 +568,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:05 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("Warn in RPC BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in RPC BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(125000);
 						}
@@ -597,7 +578,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:00 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(120000); //105
 				}
@@ -607,10 +587,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 					CAmount nValue = pwalletMain->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:15 min...\n", GetAdjustedTime(), chainActive.Height());
-				        //return;
-						LogPrintf("Warn in RPC BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
-						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(135000);
 				    }
@@ -619,11 +595,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:15 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("Warn in RPC BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in RPC BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(135000);
 						}
@@ -634,7 +605,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:10 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(130000); //120
 				}
@@ -644,10 +614,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 					CAmount nValue = pwalletMain->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
-				        //return;
-						LogPrintf("Warn in RPC BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
-						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(145000);
 				    }
@@ -656,11 +622,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("Warn in RPC BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in RPC BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(145000);
 						}
@@ -671,7 +632,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:20 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(140000); //130
 				}
@@ -681,10 +641,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 					CAmount nValue = pwalletMain->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:30 min...\n", GetAdjustedTime(), chainActive.Height());
-				        //return;
-						LogPrintf("Warn in RPC BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
-						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(150000);
 				    }
@@ -693,11 +649,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:30 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("Warn in RPC BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in RPC BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(150000);
 						}
@@ -708,7 +659,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:25 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(145000); //140
 				}
@@ -718,10 +668,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 					CAmount nValue = pwalletMain->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:33 min...\n", GetAdjustedTime(), chainActive.Height());
-				        //return;
-						LogPrintf("Warn in RPC BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
-						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(153000);
 				    }
@@ -730,11 +676,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:33 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("Warn in RPC BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in RPC BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(153000);
 						}
@@ -745,7 +686,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:28 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(148000); //145
 				}
@@ -756,10 +696,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 					CAmount nValue = pwalletMain->GetBalance();
                     if (nValue <= 0)
 					{
-						LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
-				        //return;
-						LogPrintf("Warn in RPC BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
-						//throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid zero amount on balance - unable for fast mining!");
 						//return;
 						MilliSleep(155000);
 				    }
@@ -768,28 +704,19 @@ Value getblocktemplate(const Array& params, bool fHelp)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
-							LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:35 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("Warn in RPC BriliantcoinMiner : Not minimum alowed amount on your balance - unable fast mining!\n");						
-							LogPrintf("Warn in RPC BriliantcoinMiner : Alowed balance: %s Your balance : %s It is unable fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
-							//throw JSONRPCError(RPC_INVALID_PARAMETER, "Not minimum alowed amount on your balance - unable for fast mining!");
 							//return;
 							MilliSleep(155000);
 						}
 						else
 						{	
-					        LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2:30 min...\n", GetAdjustedTime(), chainActive.Height());
-				            //return;
-							LogPrintf("RPC BriliantcoinMiner : Alowed balance: %s Your balance : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
+					        //return;
 							MilliSleep(150000);
 						}
 						
 					}//End Check amount
-				//LogPrintf("Timeout in RPC BriliantcoinMiner : Now time: %s over hight limit active block (%s), unable to create new block ! wait 2.5 min...\n", GetAdjustedTime(), chainActive.Height());
 				//return;
 				//MilliSleep(150000);					
 				}
-		//throw JSONRPCError(RPC_INVALID_PARAMETER, "Timeout: Invalid over hight limit active block, unable to create new block! wait 5 min...");
 		//return;
 		//MilliSleep(150000);
 		MilliSleep(45000); //again min timeout 150000 - 110000 = 40000 
