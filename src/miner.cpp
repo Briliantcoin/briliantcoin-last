@@ -91,13 +91,13 @@ void UpdateTime(CBlockHeader* pblock, const CBlockIndex* pindexPrev)
 		//LogPrintf("Testing 0 in BriliantcoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
 			
 		if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 180 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 600 , GetAdjustedTime());
 		    //LogPrintf("Testing 1 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 30);
 		}else if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 60 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 360 , GetAdjustedTime());
 		    //LogPrintf("Testing 2 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 10);
 		}else if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing()) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 50 , GetAdjustedTime());
 		    //LogPrintf("Testing 3 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5);
 		}else{
 			pblock->nTime = std::max(pindexPrev->GetMedianTimePast()+1, GetAdjustedTime());	
@@ -492,7 +492,7 @@ void static BitcoinMiner(CWallet *pwallet)
                     if (nValue <= 0)
 					{
 						//return;
-						MilliSleep(105000);
+						MilliSleep(95000);
 				    }
 					else
 					{   
@@ -500,11 +500,11 @@ void static BitcoinMiner(CWallet *pwallet)
 						if (nValue <= nSubsidyMin)
 						{
 							//return;
-							MilliSleep(105000);
+							MilliSleep(95000);
 						}
 						else
 						{	
-							MilliSleep(100000);
+							MilliSleep(80000);
 						}
 						
 					}//End Check amount
@@ -518,7 +518,7 @@ void static BitcoinMiner(CWallet *pwallet)
                     if (nValue <= 0)
 					{
 						//return;
-						MilliSleep(105000);
+						MilliSleep(95000);
 				    }
 					else
 					{   
@@ -526,11 +526,11 @@ void static BitcoinMiner(CWallet *pwallet)
 						if (nValue <= nSubsidyMin)
 						{
 							//return;
-							MilliSleep(105000);
+							MilliSleep(95000);
 						}
 						else
 						{	
-							MilliSleep(100000);
+							MilliSleep(80000);
 						}
 						
 					}//End Check amount
@@ -544,7 +544,7 @@ void static BitcoinMiner(CWallet *pwallet)
                     if (nValue <= 0)
 					{
 						//return;
-						MilliSleep(120000);
+						MilliSleep(110000);
 				    }
 					else
 					{   
@@ -552,7 +552,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						if (nValue <= nSubsidyMin)
 						{
 							//return;
-							MilliSleep(120000);
+							MilliSleep(110000);
 						}
 						else
 						{	
@@ -570,7 +570,7 @@ void static BitcoinMiner(CWallet *pwallet)
                     if (nValue <= 0)
 					{
 						//return;
-						MilliSleep(130000);
+						MilliSleep(120000);
 				    }
 					else
 					{   
@@ -578,11 +578,11 @@ void static BitcoinMiner(CWallet *pwallet)
 						if (nValue <= nSubsidyMin)
 						{
 							//return;
-							MilliSleep(130000);
+							MilliSleep(120000);
 						}
 						else
 						{	
-					        MilliSleep(120000);
+					        MilliSleep(100000);
 						}
 						
 					}//End Check amount
@@ -596,7 +596,7 @@ void static BitcoinMiner(CWallet *pwallet)
                     if (nValue <= 0)
 					{
 						//return;
-						MilliSleep(140000);
+						MilliSleep(130000);
 				    }
 					else
 					{   
@@ -604,11 +604,11 @@ void static BitcoinMiner(CWallet *pwallet)
 						if (nValue <= nSubsidyMin)
 						{
 							//return;
-							MilliSleep(140000);
+							MilliSleep(130000);
 						}
 						else
 						{	
-					        MilliSleep(130000);
+					        MilliSleep(110000);
 						}
 						
 					}//End Check amount
@@ -622,7 +622,7 @@ void static BitcoinMiner(CWallet *pwallet)
                     if (nValue <= 0)
 					{
 						//return;
-						MilliSleep(145000);
+						MilliSleep(135000);
 				    }
 					else
 					{   
@@ -630,11 +630,11 @@ void static BitcoinMiner(CWallet *pwallet)
 						if (nValue <= nSubsidyMin)
 						{
 							//return;
-							MilliSleep(145000);
+							MilliSleep(135000);
 						}
 						else
 						{	
-					        MilliSleep(135000);
+					        MilliSleep(115000);
 						}
 						
 					}//End Check amount
@@ -661,7 +661,7 @@ void static BitcoinMiner(CWallet *pwallet)
 						}
 						else
 						{	
-					        MilliSleep(145000);
+					        MilliSleep(135000);
 						}
 						
 					}//End Check amount
