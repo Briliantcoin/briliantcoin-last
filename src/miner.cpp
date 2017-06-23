@@ -91,13 +91,13 @@ void UpdateTime(CBlockHeader* pblock, const CBlockIndex* pindexPrev)
 		//LogPrintf("Testing 0 in BriliantcoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
 			
 		if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 180 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 600 , GetAdjustedTime());
 		    //LogPrintf("Testing 1 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 30);
 		}else if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 60 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 360 , GetAdjustedTime());
 		    //LogPrintf("Testing 2 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 10);
 		}else if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing()) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 50 , GetAdjustedTime());
 		    //LogPrintf("Testing 3 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5);
 		}else{
 			pblock->nTime = std::max(pindexPrev->GetMedianTimePast()+1, GetAdjustedTime());	
