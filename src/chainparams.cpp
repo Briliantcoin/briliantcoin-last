@@ -55,11 +55,14 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         ( 0, uint256("0x04578e13aa752f24c4396823febf8a6762416d6e088010a320e95771c5aa0c42"))
+        ( 1000, uint256("0xa62de049949277496487a7cf2d1f2fe8d21acb5e007051ffc5d05015d8abfffa"))
+        ( 32000, uint256("0xb5cd6e6b08cddca51593d2f15a4578efbbe4c6ae2d472010a961fe8c2ad7ea64"))
+        ( 64000, uint256("0xd444affd0bca745bcb28bffea34f9521a9f4225b202aaccdd7e85c220021992f"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1487116800, // * UNIX timestamp of last checkpoint block d77cb63a40042d73a83142383c7872c123cda7253db1d9c0effc8a029ca857b2
-        0,   // * total number of transactions between genesis and last checkpoint
+        1497520266, // * UNIX timestamp of last checkpoint block d77cb63a40042d73a83142383c7872c123cda7253db1d9c0effc8a029ca857b2
+        64455,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         1152.0     // * estimated number of transactions per day after checkpoint
     };
@@ -147,11 +150,19 @@ public:
 		vSeeds.push_back(CDNSSeedData("king1.odj.ru", "king1.odj.ru"));
 		vSeeds.push_back(CDNSSeedData("king2.odj.ru", "king2.odj.ru"));
 		vSeeds.push_back(CDNSSeedData("king3.odj.ru", "king3.odj.ru"));
-
+		vSeeds.push_back(CDNSSeedData("king4.odj.ru", "king4.odj.ru"));
+		vSeeds.push_back(CDNSSeedData("king5.odj.ru", "king5.odj.ru"));
+		
 		vSeeds.push_back(CDNSSeedData("node1.exip.net", "node1.exip.net"));
 		vSeeds.push_back(CDNSSeedData("node2.exip.net", "node2.exip.net"));
 		vSeeds.push_back(CDNSSeedData("node3.exip.net", "node3.exip.net"));
 		vSeeds.push_back(CDNSSeedData("node4.exip.net", "node4.exip.net"));
+		vSeeds.push_back(CDNSSeedData("node5.exip.net", "node5.exip.net"));
+
+		vSeeds.push_back(CDNSSeedData("node.briliantcoin.info", "node.briliantcoin.info"));
+		vSeeds.push_back(CDNSSeedData("node1.briliantcoin.info", "node1.briliantcoin.info"));
+		vSeeds.push_back(CDNSSeedData("node2.briliantcoin.info", "node2.briliantcoin.info"));
+		vSeeds.push_back(CDNSSeedData("node3.briliantcoin.info", "node3.briliantcoin.info"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(0);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
@@ -226,11 +237,19 @@ public:
 		vSeeds.push_back(CDNSSeedData("king1.odj.ru", "king1.odj.ru"));
 		vSeeds.push_back(CDNSSeedData("king2.odj.ru", "king2.odj.ru"));
 		vSeeds.push_back(CDNSSeedData("king3.odj.ru", "king3.odj.ru"));
+		vSeeds.push_back(CDNSSeedData("king4.odj.ru", "king4.odj.ru"));
+		vSeeds.push_back(CDNSSeedData("king5.odj.ru", "king5.odj.ru"));
 
 		vSeeds.push_back(CDNSSeedData("node1.exip.net", "node1.exip.net"));
 		vSeeds.push_back(CDNSSeedData("node2.exip.net", "node2.exip.net"));
 		vSeeds.push_back(CDNSSeedData("node3.exip.net", "node3.exip.net"));
 		vSeeds.push_back(CDNSSeedData("node4.exip.net", "node4.exip.net"));
+		vSeeds.push_back(CDNSSeedData("node5.exip.net", "node5.exip.net"));
+
+		vSeeds.push_back(CDNSSeedData("node.briliantcoin.info", "node.briliantcoin.info"));
+		vSeeds.push_back(CDNSSeedData("node1.briliantcoin.info", "node1.briliantcoin.info"));
+		vSeeds.push_back(CDNSSeedData("node2.briliantcoin.info", "node2.briliantcoin.info"));
+		vSeeds.push_back(CDNSSeedData("node3.briliantcoin.info", "node3.briliantcoin.info"));
 		
         base58Prefixes[PUBKEY_ADDRESS] = list_of(48);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
