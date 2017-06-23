@@ -96,8 +96,8 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[1] = 0xc0;
 		pchMessageStart[0] = 0xfb;
+        pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xdb;
         vAlertPubKey = ParseHex("04ab1877684062954fc451f0d0910f825b599dc07e22260555b679a2848330c749bd96ad79460b1116db20ad50ebf35572aea93be4506011ff42145ca34b859b29");
@@ -195,8 +195,8 @@ public:
         *pchMessageStart[2] = 0xb7;
         *pchMessageStart[3] = 0xdc;
 		**/
-		pchMessageStart[1] = 0xc0;
 		pchMessageStart[0] = 0xfb;
+		pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xdb;
         vAlertPubKey = ParseHex("04ab1877684062954fc451f0d0910f825b599dc07e22260555b679a2848330c749bd96ad79460b1116db20ad50ebf35572aea93be4506011ff42145ca34b859b29");

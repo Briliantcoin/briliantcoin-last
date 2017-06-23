@@ -1,4 +1,4 @@
-Source: lamacoin
+Source: litecoin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -23,66 +23,66 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.lamacoin.org/
-Vcs-Git: git://github.com/genavarov/lamacoind.git
-Vcs-Browser: https://github.com/genavarov/lamacoind
+Homepage: https://www.litecoin.org/
+Vcs-Git: git://github.com/genavarov/litecoind.git
+Vcs-Browser: https://github.com/genavarov/litecoind
 
-Package: lamacoind
+Package: litecoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Lamacoin is a peer-to-peer Internet currency that enables instant,
- near-zero cost payments to anyone in the world. Lamacoin is an open 
+ Litecoin is a peer-to-peer Internet currency that enables instant,
+ near-zero cost payments to anyone in the world. Litecoin is an open 
  source, global payment network that is fully decentralized without 
  any central authorities. Mathematics secures the network and empowers
- individuals to control their own finances. Lamacoin features faster 
+ individuals to control their own finances. Litecoin features faster 
  transaction confirmation times and improved storage efficiency than 
  the leading math-based currency. With substantial industry support, 
- trade volume and liquidity, Lamacoin is a proven medium of commerce 
+ trade volume and liquidity, Litecoin is a proven medium of commerce 
  complementary to Bitcoin.
  .
  Full transaction history is stored locally at each client.  This
  requires 5+ GB of space, slowly growing.
  .
- This package provides the daemon, lamacoind, and the CLI tool
- lamacoin-cli to interact with the daemon.
+ This package provides the daemon, litecoind, and the CLI tool
+ litecoin-cli to interact with the daemon.
 
-Package: lamacoin-qt
+Package: litecoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Lamacoin is a peer-to-peer Internet currency that enables instant,
- near-zero cost payments to anyone in the world. Lamacoin is an open 
+ Litecoin is a peer-to-peer Internet currency that enables instant,
+ near-zero cost payments to anyone in the world. Litecoin is an open 
  source, global payment network that is fully decentralized without 
  any central authorities. Mathematics secures the network and empowers
- individuals to control their own finances. Lamacoin features faster 
+ individuals to control their own finances. Litecoin features faster 
  transaction confirmation times and improved storage efficiency than 
  the leading math-based currency. With substantial industry support, 
- trade volume and liquidity, Lamacoin is a proven medium of commerce 
+ trade volume and liquidity, Litecoin is a proven medium of commerce 
  complementary to Bitcoin.
  .
  Full transaction history is stored locally at each client.  This
  requires 5+ GB of space, slowly growing.
  .
- This package provides Lamacoin-Qt, a GUI for Lamacoin based on Qt.
+ This package provides Litecoin-Qt, a GUI for Litecoin based on Qt.
 
-Package: lamacoin-tx
+Package: litecoin-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Lamacoin is a peer-to-peer Internet currency that enables instant,
- near-zero cost payments to anyone in the world. Lamacoin is an open 
+ Litecoin is a peer-to-peer Internet currency that enables instant,
+ near-zero cost payments to anyone in the world. Litecoin is an open 
  source, global payment network that is fully decentralized without 
  any central authorities. Mathematics secures the network and empowers
- individuals to control their own finances. Lamacoin features faster 
+ individuals to control their own finances. Litecoin features faster 
  transaction confirmation times and improved storage efficiency than 
  the leading math-based currency. With substantial industry support, 
- trade volume and liquidity, Lamacoin is a proven medium of commerce 
+ trade volume and liquidity, Litecoin is a proven medium of commerce 
  complementary to Bitcoin.
  .
  Full transaction history is stored locally at each client.  This
  requires 5+ GB of space, slowly growing.
  .
- This package provides lamacoin-tx, a command-line transaction creation
- tool which can be used without a lamacoin daemon.  Some means of
+ This package provides litecoin-tx, a command-line transaction creation
+ tool which can be used without a litecoin daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

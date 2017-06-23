@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package lamacoind/lamacoin-qt
-for Debian-based Linux systems. If you compile lamacoind/lamacoin-qt yourself, there are some useful files here.
+This directory contains files used to package litecoind/litecoin-qt
+for Debian-based Linux systems. If you compile litecoind/litecoin-qt yourself, there are some useful files here.
 
-## lamacoin: URI support ##
+## litecoin: URI support ##
 
 
-lamacoin-qt.desktop  (Gnome / Open Desktop)
+litecoin-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install lamacoin-qt.desktop
+	sudo desktop-file-install litecoin-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your lamacoin-qt binary to `/usr/bin`
+the .desktop file or copy or symlink your litecoin-qt binary to `/usr/bin`
 and the `../../share/pixmaps/bitcoin128.png` to `/usr/share/pixmaps`
 
-lamacoin-qt.protocol (KDE)
+litecoin-qt.protocol (KDE)
 

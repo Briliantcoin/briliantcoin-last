@@ -1,2 +1,2 @@
 # Linked code is Expat - only Debian packaging is GPL-2+
-lamacoin-qt: possible-gpl-code-linked-with-openssl
+litecoin-qt: possible-gpl-code-linked-with-openssl

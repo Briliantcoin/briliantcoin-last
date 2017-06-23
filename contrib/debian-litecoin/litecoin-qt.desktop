@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Lamacoin
-Comment=Lamacoin P2P Cryptocurrency
-Exec=lamacoin-qt %u
+Name=Litecoin
+Comment=Litecoin P2P Cryptocurrency
+Exec=litecoin-qt %u
 Terminal=false
 Type=Application
 Icon=bitcoin128
-MimeType=x-scheme-handler/lamacoin;
+MimeType=x-scheme-handler/litecoin;
 Categories=Office;Finance;
-Name[en_US]=lamacoin-qt.desktop
+Name[en_US]=litecoin-qt.desktop

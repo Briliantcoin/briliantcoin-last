@@ -7,7 +7,7 @@ architectures:
 packages:
 - "libc6:i386"
 - "faketime"
-reference_datetime: "2016-06-16 00:00:00"
+reference_datetime: "2017-06-16 00:00:00"
 remotes: []
 files:
 - "briliantcoin-osx-unsigned.tar.gz"

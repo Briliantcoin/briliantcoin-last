@@ -520,7 +520,7 @@ Address: %4
     </message>
     <message>
         <source>Welcome to the Briliantcoin RPC console.</source>
-        <translation>به کنسول آر.پی.سی. LITECOIN خوش آمدید</translation>
+        <translation>به کنسول آر.پی.سی. BRILIANTCOIN خوش آمدید</translation>
     </message>
     </context>
 <context>

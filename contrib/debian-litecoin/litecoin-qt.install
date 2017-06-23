@@ -1,6 +1,6 @@
-usr/local/bin/lamacoin-qt usr/bin
+usr/local/bin/litecoin-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/lamacoin-qt.desktop usr/share/applications
-debian/lamacoin-qt.protocol usr/share/kde4/services/
+debian/litecoin-qt.desktop usr/share/applications
+debian/litecoin-qt.protocol usr/share/kde4/services/
