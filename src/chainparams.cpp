@@ -58,11 +58,14 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
         ( 1000, uint256("0xa62de049949277496487a7cf2d1f2fe8d21acb5e007051ffc5d05015d8abfffa"))
         ( 32000, uint256("0xb5cd6e6b08cddca51593d2f15a4578efbbe4c6ae2d472010a961fe8c2ad7ea64"))
         ( 64000, uint256("0xd444affd0bca745bcb28bffea34f9521a9f4225b202aaccdd7e85c220021992f"))
+        ( 68886, uint256("0x09cb7123227f99b175fe40bee596191045bdb78591094de518bc57034c5160ef"))
+        ( 68911, uint256("0x3484b1975ce95f8e8ec75b95767d947435855c61a0cfb75197d47141f51d9c05"))
+        ( 68912, uint256("0xc1e07231530f16428ae3daad97901d9ad430ec50e2678527cb176331c014abf6"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1497520266, // * UNIX timestamp of last checkpoint block d77cb63a40042d73a83142383c7872c123cda7253db1d9c0effc8a029ca857b2
-        64455,   // * total number of transactions between genesis and last checkpoint
+        1498297779, // * UNIX timestamp of last checkpoint block d77cb63a40042d73a83142383c7872c123cda7253db1d9c0effc8a029ca857b2
+        69385,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         1152.0     // * estimated number of transactions per day after checkpoint
     };
@@ -70,11 +73,15 @@ static const Checkpoints::CCheckpointData data = {
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
         ( 0, uint256("0x04578e13aa752f24c4396823febf8a6762416d6e088010a320e95771c5aa0c42"))		
+        ( 1000, uint256("0xa62de049949277496487a7cf2d1f2fe8d21acb5e007051ffc5d05015d8abfffa"))
+        ( 32000, uint256("0xb5cd6e6b08cddca51593d2f15a4578efbbe4c6ae2d472010a961fe8c2ad7ea64"))
+        ( 64000, uint256("0xd444affd0bca745bcb28bffea34f9521a9f4225b202aaccdd7e85c220021992f"))
+        ( 68885, uint256("0x3b818d0f9313b3400c8b79365f692733bf3996264b1d593acfd307e08838889f"))
         ;
 static const Checkpoints::CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
-        1487116800, // 06022017
-        0,
+        1498286764, // block 64000 - 1497520266,  68885 - 1498286764
+        69358,  // 64455 , 69358
         630
     };
 
