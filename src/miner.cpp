@@ -91,13 +91,13 @@ void UpdateTime(CBlockHeader* pblock, const CBlockIndex* pindexPrev)
 		//LogPrintf("Testing 0 in BriliantcoinMiner : Nowback: %s NowCent: %s\n", nNowBack, nNowCent);
 			
 		if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing() + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 600 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 180 , GetAdjustedTime());
 		    //LogPrintf("Testing 1 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 30);
 		}else if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing() - nNowBack) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 360 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 60 , GetAdjustedTime());
 		    //LogPrintf("Testing 2 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real -Back time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 10);
 		}else if((pindexPrev->GetBlockTime() + 1 + Params().TargetSpacing()) < GetAdjustedTime()){
-			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 50 , GetAdjustedTime());
+			pblock->nTime = std::min(pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5 , GetAdjustedTime());
 		    //LogPrintf("Testing 3 in BriliantcoinMiner : Min Central time: %s over limit: (%s), Real time create new block ! wait...\n", GetAdjustedTime(), pindexPrev->GetBlockTime()+ 1 + Params().TargetSpacing() + 5);
 		}else{
 			pblock->nTime = std::max(pindexPrev->GetMedianTimePast()+1, GetAdjustedTime());	
@@ -491,6 +491,7 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//return;
 						MilliSleep(105000);
 				    }
@@ -499,11 +500,13 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance: %s It is not alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//return;
 							MilliSleep(105000);
 						}
 						else
 						{	
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance > : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							MilliSleep(100000);
 						}
 						
@@ -517,6 +520,7 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//return;
 						MilliSleep(105000);
 				    }
@@ -525,11 +529,13 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance: %s It is not alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//return;
 							MilliSleep(105000);
 						}
 						else
 						{	
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance > : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							MilliSleep(100000);
 						}
 						
@@ -543,6 +549,7 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//return;
 						MilliSleep(120000);
 				    }
@@ -551,11 +558,13 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance: %s It is not alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//return;
 							MilliSleep(120000);
 						}
 						else
 						{	
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance > : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 					        MilliSleep(110000);
 						}
 						
@@ -569,6 +578,7 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//return;
 						MilliSleep(130000);
 				    }
@@ -577,11 +587,13 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance: %s It is not alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//return;
 							MilliSleep(130000);
 						}
 						else
 						{	
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance > : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 					        MilliSleep(120000);
 						}
 						
@@ -595,6 +607,7 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//return;
 						MilliSleep(140000);
 				    }
@@ -603,11 +616,13 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance: %s It is not alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//return;
 							MilliSleep(140000);
 						}
 						else
 						{	
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance > : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 					        MilliSleep(130000);
 						}
 						
@@ -621,6 +636,7 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//return;
 						MilliSleep(145000);
 				    }
@@ -629,11 +645,13 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance: %s It is not alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//return;
 							MilliSleep(145000);
 						}
 						else
 						{	
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance > : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 					        MilliSleep(135000);
 						}
 						
@@ -648,6 +666,7 @@ void static BitcoinMiner(CWallet *pwallet)
 					CAmount nValue = pwallet->GetBalance();
                     if (nValue <= 0)
 					{
+						LogPrintf("Warn in BriliantcoinMiner : Invalid zero amount on balance - unable for fast mining!\n");						
 						//return;
 						MilliSleep(155000);
 				    }
@@ -656,11 +675,13 @@ void static BitcoinMiner(CWallet *pwallet)
 						CAmount nSubsidyMin = GetProofOfWorkRewardBalance(chainActive.Height()+1); // Allowed balance or not ?
 						if (nValue <= nSubsidyMin)
 						{
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance: %s It is not alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 							//return;
 							MilliSleep(155000);
 						}
 						else
 						{	
+							LogPrintf("BriliantcoinMiner : Alowed balance: %s Your balance > : %s It is alowed fast mining!\n", FormatMoney(nSubsidyMin), FormatMoney(nValue));
 					        MilliSleep(145000);
 						}
 						

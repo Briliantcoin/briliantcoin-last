@@ -1274,12 +1274,20 @@ CAmount GetProofOfWorkReward(unsigned int nHeight)
 			nSubsidy = 10 * COIN; // 200000 coins
 		else if (nHeight < 68911)
 			nSubsidy = 21000000 * COIN; // 200000 coins
-		else if (nHeight < 69001)
+		else if (nHeight < 80001)
 			nSubsidy = 10 * COIN; // 200000 coins
-		else if (nHeight < 70001)
-			nSubsidy = 10 * COIN; // 200000 coins
-		else if (nHeight > 80000)
-			nSubsidy = 10 * COIN; // 10 coins per block
+		else if (nHeight < 105001)
+			nSubsidy = 10 * COIN; // 250000 coins
+		else if (nHeight < 210001)
+			nSubsidy = 10 * COIN; // 1050000 coins
+		else if (nHeight < 420001)
+			nSubsidy = 10 * COIN; // 1050000 (5) coins
+		else if (nHeight < 630001)
+			nSubsidy = 10 * COIN; // 525000 (2.5) coins
+		else if (nHeight < 840001)
+			nSubsidy = 10 * COIN; // 262500 (1.25) coins
+		else if (nHeight > 840000)
+			nSubsidy = 10 * COIN; // (0.625) coins per block
 
     	return nSubsidy;
 }
